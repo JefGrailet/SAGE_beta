@@ -1,6 +1,6 @@
-# SAGE (Subnet AGgrEgation), a subnet-based tool to discover network graphs
+# SAGE (Subnet AGgrEgation)
 
-*By Jean-François Grailet (last edited: May 20, 2018)*
+*By Jean-François Grailet (last updated: May 20, 2018)*
 
 ## Overview
 
@@ -9,7 +9,7 @@
 In the process, `SAGE` uses active probing in order to perform alias resolution on router interfaces discovered by `traceroute` when it discovers these interfaces are topologically close to each other. By only using a small part of the collected routes and performing alias resolution to discover routing convergence points, `SAGE` avoids many of the issues one can encounter while interpreting `traceroute` data. `SAGE` is also able to infer which subnet implements a point-to-point link between two neighborhoods that are one hop away from each other, and therefore provides a very 
 complete picture of the topology of a network.
 
-To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeNET` and `ExploreNET` and re-uses as well the alias resolution methodology of `TreeNET` both for the graph building and the discovery of routers among the neighborhoods found in the final graph. As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4 as a 32-bit application written in C/C++.
+To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeNET` and `ExploreNET` and re-uses as well the alias resolution methodology of `TreeNET` to discover routers among the neighborhoods found in the final graph. As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4 as a 32-bit application written in C/C++.
 
 ## Content of this repository
 
@@ -17,9 +17,11 @@ To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeN
 
 This repository consists of the following content:
 
-* **v1/** provides all the source files of `SAGE` v1.0, along some instructions to build and use it.
+* **Dataset/** provides complete datasets for various Autonomous Systems (or ASes) we measured with `SAGE` from the PlanetLab testbed. Additionnal sub-folders provide Python scripts to have a better look at the data and validate a specific measurement methodology we used to measure large and/or highly responsive ASes.
+
 * **Motivations/** provides some datasets collected with `TreeNET` in September 2017 along some Python scripts used to investigate the early intuitions behind the design of `SAGE`.
-* **Measurements/** provides complete datasets for various Autonomous Systems (or ASes) we measured with `SAGE` from the PlanetLab testbed. Additionnal sub-folders provide Python scripts to have a better look at the data and validate a specific measurement methodology we used to measure large and/or highly responsive ASes.
+
+* **v1/** provides all the source files of `SAGE` v1.0, along some instructions to build and use it.
 
 ## Disclaimer
 
