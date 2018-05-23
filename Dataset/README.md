@@ -57,7 +57,7 @@ A few remarks about these lists:
   
   http://as-rank.caida.org/
 
-## Composition of the dataset
+## Composition of each dataset
 
 For each AS, you will the list of IPv4 prefixes retrieved with the BGP toolkit from Hurricane 
 Electric along with sub-folders matching the year and date of measurement. Each unique dataset
@@ -92,6 +92,20 @@ AS) along *VP_X.txt* files which give the PlanetLab node used to get each indivi
 Note that the date of measurement is only the date at which the measurement was started. As the 
 total time to completely discover an AS can exceed 24 hours, the date at which the measurement was 
 completed can be different than the date at which the measurement began.
+
+## Sub-folders
+
+In addition to the sub-folder dedicated to each measured AS, you can also find these sub-folders:
+
+* **MultipleNodes/** contains specific datasets used to compare the measurement of an AS with a 
+  single PlanetLab node (whole list of prefixes) or multiple PlanetLab nodes (disjoint lists of 
+  prefixes, each node having a single list), in order to confirm the key features of the 
+  resulting graphs remain similar (as large ASes could only be measured by involving several 
+  PlanetLab nodes in the measurement).
+
+* **Scripts/** contains various Python scripts to analyze our datasets and plot figures describing 
+  their key features (largest connected component, largest clusters, neighborhood degree 
+  distribution, etc.).
 
 ## Contact
 
