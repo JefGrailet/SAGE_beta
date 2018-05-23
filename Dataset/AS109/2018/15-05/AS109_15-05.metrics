@@ -1,0 +1,59 @@
+Graph
+-----
+Maximum in degree: 2 (N4, N5, N8, N11, N16, N19, N20, N21, N24, N31, N33, N34, N36, N39, N42, N63, N79, N89, N97, N99, N102, N116, N118, N119, N120, N129, N132, N133, N139, N145, N148, N161, N175, N179, N184, N192, N200, N215, N216, N248, N249, N250, N256, N259, N260, N263, N267, N270, N273, N296, N327, N367, N368, N369, N371, N375, N377, N382, N385, N386, N397, N414, N420, N421, N427, N434, N435, N438, N448, N452, N453, N457, N458, N490, N493, N494, N498, N510, N513, N517, N519, N521, N523, N538, N540, N542, N543, N586)
+Maximum out degree: 15 (N554)
+Minimum total degree (in + out): 0 (10 nodes)
+Maximum total degree (in + out): 16 (N554)
+Average in/out degree: 1.10194
+Graph density: 0.00178308
+
+Subnets
+-------
+Accurate subnets: 1285 (67.1018%)
+Odd subnets: 331 (17.2846%)
+Shadow subnets: 299 (15.6136%)
+Credible subnets: 1458 (76.1358%)
+Covered IPs: 69546 (5.9667% w.r.t. targets)
+Covered IPs (credible subnets): 30974 (2.65742% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (351 nodes)
+Maximum amount of subnets per neighborhood: 311 (N597)
+Average amount of subnets per neighborhood: 3.09871
+
+Aliases
+-------
+Fully aliased neighborhoods: 450 (72.8155%)
+Maximum size of an alias: 48
+Maximum amount of aliases: 168 (N597)
+Average amount of aliases: 1.32524
+
+Links
+-----
+Direct links: 389 (57.1219%)
+Indirect links: 220 (32.3054%)
+Remote links: 72 (10.5727%)
+Links with a medium: 583 (85.6094%)
+
+Connected components
+--------------------
+Via gate N1: 57 (9.2233%)
+Via gate N58: 18 (2.91262%)
+Via gate N76: 165 (26.699%)
+Via gate N241: 52 (8.41424%)
+Via gate N293: 31 (5.01618%)
+Via gate N324: 13 (2.10356%)
+Via gate N337: 18 (2.91262%)
+Via gates N355, N487: 140 (22.6537%)
+Via gate N399: 10 (1.61812%)
+Via gate N409: 15 (2.42718%)
+Via gate N424: 63 (10.1942%)
+Via gate N583: 13 (2.10356%)
+Via gate N596: 10 (1.61812%)
+Via gate N606: 3 (0.485437%)
+Amount of islets: 10 (1.61812%)
+Detailed list: N609, N610, N611, N612, N613, N614, N615, N616, N617, N618
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 1
+There are only super nodes.
+Super node list: N597

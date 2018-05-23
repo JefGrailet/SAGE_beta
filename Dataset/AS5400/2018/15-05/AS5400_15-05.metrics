@@ -1,0 +1,62 @@
+Graph
+-----
+Maximum in degree: 2 (N28, N128, N189, N392, N393, N394)
+Maximum out degree: 53 (N8)
+Minimum total degree (in + out): 0 (88 nodes)
+Maximum total degree (in + out): 54 (N8)
+Average in/out degree: 0.822018
+Graph density: 0.00150829
+
+Subnets
+-------
+Accurate subnets: 1218 (75.0925%)
+Odd subnets: 223 (13.7485%)
+Shadow subnets: 181 (11.1591%)
+Credible subnets: 1292 (79.6547%)
+Covered IPs: 158190 (17.0888% w.r.t. targets)
+Covered IPs (credible subnets): 52912 (5.71592% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (377 nodes)
+Maximum amount of subnets per neighborhood: 82 (N8)
+Average amount of subnets per neighborhood: 2.97615
+
+Aliases
+-------
+Fully aliased neighborhoods: 216 (39.633%)
+Maximum size of an alias: 88
+Maximum amount of aliases: 5 (N33, N148)
+Average amount of aliases: 1.3156
+
+Links
+-----
+Direct links: 252 (56.25%)
+Indirect links: 143 (31.9196%)
+Remote links: 53 (11.8304%)
+Links with a medium: 337 (75.2232%)
+
+Connected components
+--------------------
+Via gate N1: 2 (0.366972%)
+Via gate N3: 2 (0.366972%)
+Via gate N5: 423 (77.6147%)
+Via gate N428: 2 (0.366972%)
+Via gate N430: 2 (0.366972%)
+Via gate N432: 2 (0.366972%)
+Via gate N434: 2 (0.366972%)
+Via gate N436: 2 (0.366972%)
+Via gate N438: 2 (0.366972%)
+Via gate N440: 2 (0.366972%)
+Via gate N442: 7 (1.2844%)
+Via gate N449: 2 (0.366972%)
+Via gate N451: 2 (0.366972%)
+Via gate N453: 3 (0.550459%)
+Via gate N456: 2 (0.366972%)
+Amount of islets: 88 (16.1468%)
+Detailed list: N458, N459, N460, N461, N462, N463, N464, N465, N466, N467, 
+N468, N469, N470, N471, N472, N473, N474, N475, N476, N477, 
+N478, N479, N480, N481, N482, N483, N484, N485, N486, N487, 
+N488, N489, N490, N491, N492, N493, N494, N495, N496, N497, 
+N498, N499, N500, N501, N502, N503, N504, N505, N506, N507, 
+N508, N509, N510, N511, N512, N513, N514, N515, N516, N517, 
+N518, N519, N520, N521, N522, N523, N524, N525, N526, N527, 
+N528, N529, N530, N531, N532, N533, N534, N535, N536, N537, 
+N538, N539, N540, N541, N542, N543, N544, N545

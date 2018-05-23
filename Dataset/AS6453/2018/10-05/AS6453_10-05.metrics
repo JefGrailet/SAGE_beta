@@ -1,0 +1,61 @@
+Graph
+-----
+Maximum in degree: 2 (N3, N6, N13, N27, N29, N30, N35, N63, N85, N90, N119, N120, N148, N162, N190, N191, N196, N211, N263, N313, N442, N546, N552, N593, N624, N629, N651, N657, N661, N664, N717)
+Maximum out degree: 26 (N162)
+Minimum total degree (in + out): 0 (55 nodes)
+Maximum total degree (in + out): 28 (N162)
+Average in/out degree: 0.956679
+Graph density: 0.00115124
+
+Subnets
+-------
+Accurate subnets: 5257 (77.9046%)
+Odd subnets: 934 (13.8411%)
+Shadow subnets: 557 (8.2543%)
+Credible subnets: 5495 (81.4315%)
+Covered IPs: 156914 (28.0524% w.r.t. targets)
+Covered IPs (credible subnets): 95510 (17.0749% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (455 nodes)
+Maximum amount of subnets per neighborhood: 1047 (N329)
+Average amount of subnets per neighborhood: 8.12034
+
+Aliases
+-------
+Fully aliased neighborhoods: 453 (54.5126%)
+Maximum size of an alias: 117
+Maximum amount of aliases: 644 (N329)
+Average amount of aliases: 2.88929
+
+Links
+-----
+Direct links: 495 (62.2642%)
+Indirect links: 247 (31.0692%)
+Remote links: 53 (6.66667%)
+Links with a medium: 694 (87.2956%)
+
+Connected components
+--------------------
+Via gates N1, N154: 741 (89.1697%)
+Via gate N742: 2 (0.240674%)
+Via gate N744: 5 (0.601685%)
+Via gate N749: 2 (0.240674%)
+Via gate N751: 3 (0.361011%)
+Via gate N754: 5 (0.601685%)
+Via gate N759: 3 (0.361011%)
+Via gate N762: 5 (0.601685%)
+Via gate N767: 6 (0.722022%)
+Via gate N773: 2 (0.240674%)
+Via gate N775: 2 (0.240674%)
+Amount of islets: 55 (6.61853%)
+Detailed list: N777, N778, N779, N780, N781, N782, N783, N784, N785, N786, 
+N787, N788, N789, N790, N791, N792, N793, N794, N795, N796, 
+N797, N798, N799, N800, N801, N802, N803, N804, N805, N806, 
+N807, N808, N809, N810, N811, N812, N813, N814, N815, N816, 
+N817, N818, N819, N820, N821, N822, N823, N824, N825, N826, 
+N827, N828, N829, N830, N831
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 4
+There are only super nodes.
+Super node list: N329, N651, N657, N661

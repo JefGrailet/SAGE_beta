@@ -1,0 +1,29 @@
+--- Start of input files parsing ---
+--- End of input files parsing (04-05-2018 08:40:15) ---
+Elapsed time: 3 seconds
+
+Final set of subnets has been written in a new output file AS8220_02-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS8220_02-05_graph.
+
+--- End of graph building (04-05-2018 09:16:42) ---
+Elapsed time: 36 minutes 26 seconds
+Total amount of probes (alias resolution): 1284
+Total amount of successful probes: 46 (3.58255%)
+
+Discovered neighborhoods have been written in a new output file AS8220_02-05.neighborhoods.
+The graph has been written in a new output file AS8220_02-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS8220_02-05_alias_resolution.
+
+--- End of alias resolution (04-05-2018 23:10:12) ---
+Elapsed time: 13 hours 53 minutes 30 seconds
+Total amount of probes: 214165
+Total amount of successful probes: 166257 (77.6303%)
+
+Discovered aliases have been written in a new output file AS8220_02-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS8220_02-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS8220_02-05.ips.
+Metrics on the graph have been written in a new output file AS8220_02-05.metrics.

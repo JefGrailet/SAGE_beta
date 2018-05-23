@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 02-05-2018 12:11:34
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS8422_7_02-05_pre-scanning.
+
+--- End of network pre-scanning (02-05-2018 12:34:11) ---
+Elapsed time: 22 minutes 36 seconds
+Total amount of probes: 92524
+Total amount of successful probes: 17437 (18.8459%)
+Total amount of discovered responsive IPs: 10987
+
+--- Start of network scanning (02-05-2018 12:34:13) ---
+Log of current phase is being written in Log_AS8422_7_02-05_scanning.
+
+--- End of network scanning (05-05-2018 13:55:44) ---
+Elapsed time: 1 hour 21 minutes 27 seconds
+Total amount of probes: 2137165
+Total amount of successful probes: 2115168 (98.9707%)
+Total amount of discovered subnets: 956
+
+Inferred subnets have been saved in an output file AS8422_7_02-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS8422_7_02-05_traceroute.
+
+--- End of traceroute (05-05-2018 14:03:30) ---
+Elapsed time: 7 minutes 46 seconds
+Total amount of probes: 11870
+Total amount of successful probes: 10480 (88.2898%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS8422_7_02-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS8422_7_02-05_graph.
+
+--- End of graph building (05-05-2018 14:09:07) ---
+Elapsed time: 5 minutes 37 seconds
+Total amount of probes (alias resolution): 742
+Total amount of successful probes: 508 (68.4636%)
+
+Discovered neighborhoods have been written in a new output file AS8422_7_02-05.neighborhoods.
+The graph has been written in a new output file AS8422_7_02-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS8422_7_02-05_alias_resolution.
+
+--- End of alias resolution (05-05-2018 14:35:09) ---
+Elapsed time: 26 minutes 1 second
+Total amount of probes: 6462
+Total amount of successful probes: 5101 (78.9384%)
+
+Discovered aliases have been written in a new output file AS8422_7_02-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS8422_7_02-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS8422_7_02-05.ips.
+Metrics on the graph have been written in a new output file AS8422_7_02-05.metrics.

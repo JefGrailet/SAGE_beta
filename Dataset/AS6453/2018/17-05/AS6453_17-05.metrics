@@ -1,0 +1,60 @@
+Graph
+-----
+Maximum in degree: 3 (N94)
+Maximum out degree: 28 (N246)
+Minimum total degree (in + out): 0 (50 nodes)
+Maximum total degree (in + out): 30 (N246)
+Average in/out degree: 0.979098
+Graph density: 0.00107712
+
+Subnets
+-------
+Accurate subnets: 5241 (75.8466%)
+Odd subnets: 937 (13.5601%)
+Shadow subnets: 732 (10.5933%)
+Credible subnets: 5473 (79.2041%)
+Covered IPs: 163782 (29.2802% w.r.t. targets)
+Covered IPs (credible subnets): 85952 (15.3661% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (497 nodes)
+Maximum amount of subnets per neighborhood: 1067 (N440)
+Average amount of subnets per neighborhood: 7.60176
+
+Aliases
+-------
+Fully aliased neighborhoods: 454 (49.945%)
+Maximum size of an alias: 107
+Maximum amount of aliases: 667 (N440)
+Average amount of aliases: 2.72827
+
+Links
+-----
+Direct links: 468 (52.5843%)
+Indirect links: 358 (40.2247%)
+Remote links: 64 (7.19101%)
+Links with a medium: 725 (81.4607%)
+
+Connected components
+--------------------
+Via gates N1, N238, N826: 827 (90.9791%)
+Via gate N828: 7 (0.770077%)
+Via gate N835: 5 (0.550055%)
+Via gate N840: 2 (0.220022%)
+Via gate N842: 3 (0.330033%)
+Via gate N845: 5 (0.550055%)
+Via gate N850: 6 (0.660066%)
+Via gate N856: 2 (0.220022%)
+Via gate N858: 2 (0.220022%)
+Amount of islets: 50 (5.50055%)
+Detailed list: N860, N861, N862, N863, N864, N865, N866, N867, N868, N869, 
+N870, N871, N872, N873, N874, N875, N876, N877, N878, N879, 
+N880, N881, N882, N883, N884, N885, N886, N887, N888, N889, 
+N890, N891, N892, N893, N894, N895, N896, N897, N898, N899, 
+N900, N901, N902, N903, N904, N905, N906, N907, N908, N909
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 5
+Super nodes: 4 (80%)
+Super clusters: 1 (20%)
+Super node list: N440, N734, N740, N746
+Super cluster list: N452

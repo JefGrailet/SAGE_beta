@@ -1,0 +1,29 @@
+--- Start of input files parsing ---
+--- End of input files parsing (20-04-2018 10:38:12) ---
+Elapsed time: 1 second
+
+Final set of subnets has been written in a new output file AS1241_17-04.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS1241_17-04_graph.
+
+--- End of graph building (20-04-2018 10:51:59) ---
+Elapsed time: 13 minutes 47 seconds
+Total amount of probes (alias resolution): 1848
+Total amount of successful probes: 1234 (66.7749%)
+
+Discovered neighborhoods have been written in a new output file AS1241_17-04.neighborhoods.
+The graph has been written in a new output file AS1241_17-04.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS1241_17-04_alias_resolution.
+
+--- End of alias resolution (20-04-2018 11:53:58) ---
+Elapsed time: 1 hour 1 minute 59 seconds
+Total amount of probes: 19963
+Total amount of successful probes: 14477 (72.5192%)
+
+Discovered aliases have been written in a new output file AS1241_17-04.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS1241_17-04.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS1241_17-04.ips.
+Metrics on the graph have been written in a new output file AS1241_17-04.metrics.

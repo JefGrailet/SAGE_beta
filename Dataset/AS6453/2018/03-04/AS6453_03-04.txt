@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 03-04-2018 09:23:43
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS6453_03-04_pre-scanning.
+
+--- End of network pre-scanning (03-04-2018 13:55:53) ---
+Elapsed time: 4 hours 32 minutes 8 seconds
+Total amount of probes: 1044491
+Total amount of successful probes: 106045 (10.1528%)
+Total amount of discovered responsive IPs: 74350
+
+--- Start of network scanning (03-04-2018 13:56:03) ---
+Log of current phase is being written in Log_AS6453_03-04_scanning.
+
+--- End of network scanning (03-04-2018 19:56:06) ---
+Elapsed time: 6 hours 3 seconds
+Total amount of probes: 1021766
+Total amount of successful probes: 986507 (96.5492%)
+Total amount of discovered subnets: 6780
+
+Inferred subnets have been saved in an output file AS6453_03-04.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS6453_03-04_traceroute.
+
+--- End of traceroute (03-04-2018 20:36:08) ---
+Elapsed time: 40 minutes 2 seconds
+Total amount of probes: 123106
+Total amount of successful probes: 109636 (89.0582%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS6453_03-04.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS6453_03-04_graph.
+
+--- End of graph building (03-04-2018 20:48:50) ---
+Elapsed time: 12 minutes 42 seconds
+Total amount of probes (alias resolution): 1434
+Total amount of successful probes: 951 (66.318%)
+
+Discovered neighborhoods have been written in a new output file AS6453_03-04.neighborhoods.
+The graph has been written in a new output file AS6453_03-04.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS6453_03-04_alias_resolution.
+
+--- End of alias resolution (03-04-2018 23:30:47) ---
+Elapsed time: 2 hours 41 minutes 57 seconds
+Total amount of probes: 48245
+Total amount of successful probes: 37524 (77.778%)
+
+Discovered aliases have been written in a new output file AS6453_03-04.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS6453_03-04.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS6453_03-04.ips.
+Metrics on the graph have been written in a new output file AS6453_03-04.metrics.

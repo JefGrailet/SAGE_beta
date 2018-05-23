@@ -1,0 +1,62 @@
+Graph
+-----
+Maximum in degree: 2 (N115, N162, N177, N368, N369, N370)
+Maximum out degree: 57 (N8)
+Minimum total degree (in + out): 0 (82 nodes)
+Maximum total degree (in + out): 58 (N8)
+Average in/out degree: 0.823985
+Graph density: 0.00159378
+
+Subnets
+-------
+Accurate subnets: 1201 (75.3923%)
+Odd subnets: 210 (13.1827%)
+Shadow subnets: 182 (11.425%)
+Credible subnets: 1277 (80.1632%)
+Covered IPs: 167772 (18.1239% w.r.t. targets)
+Covered IPs (credible subnets): 54810 (5.92095% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (350 nodes)
+Maximum amount of subnets per neighborhood: 86 (N8)
+Average amount of subnets per neighborhood: 3.08124
+
+Aliases
+-------
+Fully aliased neighborhoods: 213 (41.1992%)
+Maximum size of an alias: 88
+Maximum amount of aliases: 5 (N2, N28, N135)
+Average amount of aliases: 1.32882
+
+Links
+-----
+Direct links: 242 (56.8075%)
+Indirect links: 127 (29.8122%)
+Remote links: 57 (13.3803%)
+Links with a medium: 312 (73.2394%)
+
+Connected components
+--------------------
+Via gate N1: 2 (0.386847%)
+Via gate N3: 2 (0.386847%)
+Via gate N5: 400 (77.3694%)
+Via gate N405: 2 (0.386847%)
+Via gate N407: 2 (0.386847%)
+Via gate N409: 2 (0.386847%)
+Via gate N411: 2 (0.386847%)
+Via gate N413: 2 (0.386847%)
+Via gate N415: 2 (0.386847%)
+Via gate N417: 2 (0.386847%)
+Via gate N419: 8 (1.54739%)
+Via gate N427: 2 (0.386847%)
+Via gate N429: 2 (0.386847%)
+Via gate N431: 3 (0.580271%)
+Via gate N434: 2 (0.386847%)
+Amount of islets: 82 (15.8607%)
+Detailed list: N436, N437, N438, N439, N440, N441, N442, N443, N444, N445, 
+N446, N447, N448, N449, N450, N451, N452, N453, N454, N455, 
+N456, N457, N458, N459, N460, N461, N462, N463, N464, N465, 
+N466, N467, N468, N469, N470, N471, N472, N473, N474, N475, 
+N476, N477, N478, N479, N480, N481, N482, N483, N484, N485, 
+N486, N487, N488, N489, N490, N491, N492, N493, N494, N495, 
+N496, N497, N498, N499, N500, N501, N502, N503, N504, N505, 
+N506, N507, N508, N509, N510, N511, N512, N513, N514, N515, 
+N516, N517

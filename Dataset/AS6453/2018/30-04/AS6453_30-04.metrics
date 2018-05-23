@@ -1,0 +1,59 @@
+Graph
+-----
+Maximum in degree: 2 (N3, N8, N15, N31, N33, N34, N40, N61, N68, N90, N95, N120, N124, N151, N152, N195, N223, N229, N243, N302, N343, N360, N496, N596, N634, N638, N660, N666, N669, N671, N721)
+Maximum out degree: 24 (N120)
+Minimum total degree (in + out): 0 (58 nodes)
+Maximum total degree (in + out): 26 (N120)
+Average in/out degree: 0.955314
+Graph density: 0.00115376
+
+Subnets
+-------
+Accurate subnets: 5234 (78.3064%)
+Odd subnets: 905 (13.5398%)
+Shadow subnets: 545 (8.1538%)
+Credible subnets: 5465 (81.7624%)
+Covered IPs: 172376 (30.8166% w.r.t. targets)
+Covered IPs (credible subnets): 102910 (18.3978% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (453 nodes)
+Maximum amount of subnets per neighborhood: 1022 (N359)
+Average amount of subnets per neighborhood: 8.07246
+
+Aliases
+-------
+Fully aliased neighborhoods: 470 (56.7633%)
+Maximum size of an alias: 113
+Maximum amount of aliases: 641 (N359)
+Average amount of aliases: 2.73551
+
+Links
+-----
+Direct links: 483 (61.0619%)
+Indirect links: 243 (30.7206%)
+Remote links: 65 (8.21745%)
+Links with a medium: 684 (86.4728%)
+
+Connected components
+--------------------
+Via gates N1, N187: 746 (90.0966%)
+Via gate N747: 2 (0.241546%)
+Via gate N749: 5 (0.603865%)
+Via gate N754: 2 (0.241546%)
+Via gate N756: 2 (0.241546%)
+Via gate N758: 3 (0.362319%)
+Via gate N761: 6 (0.724638%)
+Via gate N767: 2 (0.241546%)
+Via gate N769: 2 (0.241546%)
+Amount of islets: 58 (7.00483%)
+Detailed list: N771, N772, N773, N774, N775, N776, N777, N778, N779, N780, 
+N781, N782, N783, N784, N785, N786, N787, N788, N789, N790, 
+N791, N792, N793, N794, N795, N796, N797, N798, N799, N800, 
+N801, N802, N803, N804, N805, N806, N807, N808, N809, N810, 
+N811, N812, N813, N814, N815, N816, N817, N818, N819, N820, 
+N821, N822, N823, N824, N825, N826, N827, N828
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 4
+There are only super nodes.
+Super node list: N359, N660, N666, N671

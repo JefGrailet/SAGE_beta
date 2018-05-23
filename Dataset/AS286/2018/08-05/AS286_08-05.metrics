@@ -1,0 +1,41 @@
+Graph
+-----
+Maximum in degree: 2 (N6, N45, N60, N74, N117)
+Maximum out degree: 24 (N5)
+Minimum total degree (in + out): 0 (6 nodes)
+Maximum total degree (in + out): 25 (N5)
+Average in/out degree: 0.984293
+Graph density: 0.00515337
+
+Subnets
+-------
+Accurate subnets: 744 (82.9431%)
+Odd subnets: 68 (7.58082%)
+Shadow subnets: 85 (9.47603%)
+Credible subnets: 767 (85.5072%)
+Covered IPs: 47972 (19.0825% w.r.t. targets)
+Covered IPs (credible subnets): 12710 (5.05585% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (88 nodes)
+Maximum amount of subnets per neighborhood: 56 (N5)
+Average amount of subnets per neighborhood: 4.69634
+
+Aliases
+-------
+Fully aliased neighborhoods: 120 (62.8272%)
+Maximum size of an alias: 54
+Maximum amount of aliases: 5 (N10)
+Average amount of aliases: 1.30366
+
+Links
+-----
+Direct links: 157 (83.5106%)
+Indirect links: 15 (7.97872%)
+Remote links: 16 (8.51064%)
+Links with a medium: 164 (87.234%)
+
+Connected components
+--------------------
+Via gate N1: 2 (1.04712%)
+Via gate N3: 183 (95.8115%)
+Amount of islets: 6 (3.14136%)
+Detailed list: N186, N187, N188, N189, N190, N191

@@ -1,10 +1,10 @@
 # SAGE motivations
 
-*By Jean-François Grailet (last updated: May 20, 2018)*
+*By Jean-François Grailet (last updated: May 23, 2018)*
 
 This repository contains subnet data collected with `TreeNET` on September 1st, 2017 along some Python scripts we used to investigate the early ideas of `SAGE` but also evaluate the extent of `traceroute` issues which makes the interpration of `TreeNET` tree-like view of a network more difficult.
 
-# About the scripts
+## About the scripts
 
 Two Python scripts are provided here:
 
@@ -21,7 +21,7 @@ python TracerouteIllnesses.py 2017 01-09 ASesList
 
 where *ASesList* is a text file listing the measured ASes along their type.
 
-# About the subnet data
+## About the subnet data
 
 In this repository, we only provide the *.subnets* file obtained for each of the 10 following ASes on September 1st, 2017:
 

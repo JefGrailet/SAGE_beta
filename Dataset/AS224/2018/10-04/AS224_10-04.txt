@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 10-04-2018 08:50:54
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS224_10-04_pre-scanning.
+
+--- End of network pre-scanning (10-04-2018 19:41:32) ---
+Elapsed time: 10 hours 50 minutes 30 seconds
+Total amount of probes: 2136577
+Total amount of successful probes: 125770 (5.88652%)
+Total amount of discovered responsive IPs: 98332
+
+--- Start of network scanning (10-04-2018 19:42:02) ---
+Log of current phase is being written in Log_AS224_10-04_scanning.
+
+--- End of network scanning (11-04-2018 17:04:07) ---
+Elapsed time: 21 hours 22 minutes 49 seconds
+Total amount of probes: 899409
+Total amount of successful probes: 734239 (81.6357%)
+Total amount of discovered subnets: 2990
+
+Inferred subnets have been saved in an output file AS224_10-04.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS224_10-04_traceroute.
+
+--- End of traceroute (11-04-2018 17:27:33) ---
+Elapsed time: 23 minutes 26 seconds
+Total amount of probes: 41754
+Total amount of successful probes: 39814 (95.3537%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS224_10-04.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS224_10-04_graph.
+
+--- End of graph building (11-04-2018 17:28:36) ---
+Elapsed time: 1 minute 3 seconds
+Total amount of probes (alias resolution): 56
+Total amount of successful probes: 16 (28.5714%)
+
+Discovered neighborhoods have been written in a new output file AS224_10-04.neighborhoods.
+The graph has been written in a new output file AS224_10-04.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS224_10-04_alias_resolution.
+
+--- End of alias resolution (11-04-2018 18:44:30) ---
+Elapsed time: 1 hour 15 minutes 54 seconds
+Total amount of probes: 21889
+Total amount of successful probes: 16987 (77.6052%)
+
+Discovered aliases have been written in a new output file AS224_10-04.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS224_10-04.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS224_10-04.ips.
+Metrics on the graph have been written in a new output file AS224_10-04.metrics.

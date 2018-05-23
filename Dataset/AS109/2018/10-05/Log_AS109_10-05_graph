@@ -1,0 +1,5056 @@
+Aggregate for [128.107.224.118]:
+173.37.54.64/27
+TTLs for 128.107.224.118: 10
+Found one peer for [128.107.224.118]: 128.107.233.102.
+
+Aggregate for [128.107.224.150]:
+128.107.80.128/30
+128.107.232.132/30
+128.107.241.108/30
+TTLs for 128.107.224.150: 8, 13
+Found one peer for [128.107.224.150]: 128.107.239.5.
+
+Aggregate for [128.107.224.154]:
+128.107.80.56/30
+128.107.80.132/30
+TTLs for 128.107.224.154: 8
+Found one peer for [128.107.224.154]: 128.107.239.89.
+
+Aggregate for [128.107.224.170]:
+128.107.74.188/30
+128.107.80.28/30
+128.107.80.48/30
+128.107.80.80/30
+128.107.80.88/30
+128.107.80.136/30
+128.107.80.148/30
+128.107.86.204/30
+128.107.86.224/30
+128.107.225.18/31
+128.107.239.92/30
+128.107.240.248/29
+128.107.250.84/30
+TTLs for 128.107.224.170: 8
+Found one peer for [128.107.224.170]: 128.107.239.5.
+
+Aggregate for [128.107.224.174]:
+128.107.81.84/30
+128.107.86.200/30
+128.107.233.100/30
+128.107.240.32/27
+128.107.240.168/29
+173.36.246.48/30
+173.36.246.56/30
+TTLs for 128.107.224.174: 8
+Found one peer for [128.107.224.174]: 128.107.239.89.
+
+Aggregate for [128.107.224.70]:
+128.107.236.128/29
+128.107.241.64/29
+128.107.241.96/29
+TTLs for 128.107.224.70: 8
+Found one peer for [128.107.224.70]: 128.107.239.5.
+
+Aggregate for [128.107.224.74]:
+128.107.74.0/27
+TTLs for 128.107.224.74: 8
+Found one peer for [128.107.224.74]: 128.107.239.89.
+
+Aggregate for [128.107.224.78]:
+128.107.224.160/29
+128.107.234.192/29
+TTLs for 128.107.224.78: 8
+Found one peer for [128.107.224.78]: 128.107.239.89.
+
+Aggregate for [128.107.226.93]:
+128.107.226.64/26
+TTLs for 128.107.226.93: 11
+Found one peer for [128.107.226.93]: [Offset=2] 128.107.80.50.
+
+Aggregate for [128.107.229.134]:
+128.107.85.2/31
+TTLs for 128.107.229.134: 9
+Found one peer for [128.107.229.134]: 128.107.239.182.
+
+Aggregate for [128.107.232.134]:
+128.107.241.232/30
+TTLs for 128.107.232.134: 9
+Found one peer for [128.107.232.134]: 128.107.224.150.
+
+Aggregate for [128.107.232.138]:
+128.107.233.124/30
+204.69.200.128/29
+TTLs for 128.107.232.138: 9
+Found one peer for [128.107.232.138]: 128.107.239.182.
+
+Aggregate for [128.107.232.166]:
+128.107.233.224/29
+128.107.233.232/29
+TTLs for 128.107.232.166: 10
+Found one peer for [128.107.232.166]: 173.36.246.58.
+
+Aggregate for [128.107.233.102, 2]:
+173.36.197.192/26
+173.36.218.40/29
+TTLs for 128.107.233.102: 9
+Found one peer for [128.107.233.102, 2]: 128.107.224.170.
+
+Aggregate for [128.107.233.102]:
+128.107.224.116/30
+128.107.240.188/30
+173.36.208.72/30
+173.36.208.120/30
+173.36.212.104/30
+173.36.212.108/30
+173.36.212.216/30
+173.36.218.60/30
+173.36.240.132/30
+173.37.56.0/27
+TTLs for 128.107.233.102: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.233.102]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [128.107.233.122]:
+128.107.232.0/28
+TTLs for 128.107.233.122: 15
+Found one peer for [128.107.233.122]: 128.107.80.58.
+
+Aggregate for [128.107.233.132]:
+128.107.233.128/27
+TTLs for 128.107.233.132: 11
+Found one peer for [128.107.233.132]: [Offset=2] 128.107.232.138.
+
+Aggregate for [128.107.233.42]:
+128.107.237.80/28
+TTLs for 128.107.233.42: 10
+Found one peer for [128.107.233.42]: [Offset=2] 128.107.224.154.
+
+Aggregate for [128.107.233.98]:
+128.107.237.96/29
+TTLs for 128.107.233.98: 10
+Found one peer for [128.107.233.98]: 128.107.80.50.
+
+Aggregate for [128.107.234.142]:
+128.107.241.128/29
+TTLs for 128.107.234.142: 10
+Found one peer for [128.107.234.142]: 128.107.80.50.
+
+Aggregate for [128.107.234.4]:
+128.107.234.0/28
+128.107.234.16/30
+TTLs for 128.107.234.4: 10
+Found one peer for [128.107.234.4]: 128.107.80.154.
+
+Aggregate for [128.107.235.142]:
+128.107.233.168/29
+TTLs for 128.107.235.142: 10
+Found one peer for [128.107.235.142]: 173.36.246.50.
+
+Aggregate for [128.107.235.34]:
+128.107.231.0/27
+TTLs for 128.107.235.34: 10
+Found one peer for [128.107.235.34]: 128.107.80.154.
+
+Aggregate for [128.107.235.42]:
+128.107.78.128/25
+TTLs for 128.107.235.42: 10
+Found one peer for [128.107.235.42]: 128.107.80.14.
+
+Aggregate for [128.107.235.6]:
+128.107.235.192/28
+TTLs for 128.107.235.6: 10
+Found one peer for [128.107.235.6]: 128.107.80.58.
+
+Aggregate for [128.107.236.142]:
+173.36.212.128/27
+TTLs for 128.107.236.142: 10
+Found one peer for [128.107.236.142]: 173.36.246.62.
+
+Aggregate for [128.107.236.34, 2]:
+128.107.236.56/29
+TTLs for 128.107.236.34: 11
+Found one peer for [128.107.236.34, 2]: 128.107.237.34.
+
+Aggregate for [128.107.236.34]:
+128.107.236.48/29
+TTLs for 128.107.236.34: 11
+Found one peer for [128.107.236.34]: 128.107.237.10.
+
+Aggregate for [128.107.237.10]:
+128.107.226.208/28
+128.107.226.240/29
+TTLs for 128.107.237.10: 10
+Found one peer for [128.107.237.10]: 128.107.237.134.
+
+Aggregate for [128.107.237.130]:
+128.107.233.112/30
+TTLs for 128.107.237.130: 10
+Found one peer for [128.107.237.130]: 128.107.80.58.
+
+Aggregate for [128.107.237.134]:
+128.107.233.64/30
+128.107.237.8/30
+128.107.240.20/30
+128.107.253.52/30
+TTLs for 128.107.237.134: 9
+Conducting alias resolution on 2 junction IPs128.107.239.182, 128.107.239.186...Done.
+IP entries:
+128.107.239.182 - 8: 255 - ECHO,sjc12-dmznet-gw1-te4-3.cisco.com
+128.107.239.186 - 8: 255 - ECHO,sjc12-dmznet-gw1-te4-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.237.134]:
+128.107.239.182
+128.107.239.186
+
+Aggregate for [128.107.237.138]:
+128.107.237.160/28
+TTLs for 128.107.237.138: 10
+Found one peer for [128.107.237.138]: 128.107.80.6.
+
+Aggregate for [128.107.237.142]:
+128.107.233.160/29
+TTLs for 128.107.237.142: 10
+Found one peer for [128.107.237.142]: 173.36.246.62.
+
+Aggregate for [128.107.237.34]:
+128.107.226.192/28
+128.107.226.224/28
+128.107.236.32/29
+TTLs for 128.107.237.34: 10
+Found one peer for [128.107.237.34]: 128.107.80.6.
+
+Aggregate for [128.107.237.46]:
+128.107.232.64/29
+128.107.232.72/29
+TTLs for 128.107.237.46: 15
+Conducting alias resolution on 2 junction IPs173.36.246.58, 173.36.246.62...Done.
+IP entries:
+173.36.246.58 - 9: 255 - ECHO,sjc12-dmzvaas-gw1-gig0-1.cisco.com
+173.36.246.62 - 9: 255 - ECHO,sjc12-dmzvaas-gw1-gig0-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.237.46]:
+173.36.246.58
+173.36.246.62
+
+Aggregate for [128.107.239.10]:
+173.36.198.128/28
+TTLs for 128.107.239.10: 9
+Found one peer for [128.107.239.10]: 128.107.239.38.
+
+Aggregate for [128.107.239.166]:
+128.107.80.228/30
+TTLs for 128.107.239.166: 8
+Found one peer for [128.107.239.166]: 128.107.239.5.
+
+Aggregate for [128.107.239.170]:
+128.107.80.0/30
+128.107.80.4/30
+128.107.80.12/30
+128.107.80.92/30
+128.107.80.152/29
+128.107.80.224/30
+TTLs for 128.107.239.170: 8
+Found one peer for [128.107.239.170]: 128.107.239.89.
+
+Aggregate for [128.107.239.182]:
+128.107.237.132/30
+128.107.250.96/27
+173.36.246.52/30
+TTLs for 128.107.239.182: 8
+Found one peer for [128.107.239.182]: 128.107.239.5.
+
+Aggregate for [128.107.239.186]:
+128.107.86.232/30
+128.107.232.136/30
+128.107.253.8/30
+128.107.253.80/30
+173.36.246.60/30
+173.36.246.64/28
+TTLs for 128.107.239.186: 8, 13
+Found one peer for [128.107.239.186]: 128.107.239.89.
+
+Aggregate for [128.107.239.214]:
+173.36.240.152/30
+TTLs for 128.107.239.214: 9
+Found one peer for [128.107.239.214]: 128.107.239.34.
+
+Aggregate for [128.107.239.34]:
+128.107.80.32/30
+128.107.80.36/30
+128.107.80.40/30
+128.107.80.60/30
+128.107.86.244/30
+128.107.239.52/30
+128.107.239.212/30
+128.107.253.88/30
+TTLs for 128.107.239.34: 8
+Found one peer for [128.107.239.34]: 128.107.239.5.
+
+Aggregate for [128.107.239.38]:
+128.107.239.8/30
+128.107.239.208/30
+128.107.240.192/27
+TTLs for 128.107.239.38: 8
+Found one peer for [128.107.239.38]: 128.107.239.89.
+
+Aggregate for [128.107.239.5, 4]:
+171.70.192.80/29
+TTLs for 128.107.239.5: 7
+Found one peer for [128.107.239.5, 4]: 152.179.99.154.
+
+Aggregate for [128.107.239.54]:
+173.36.240.148/30
+TTLs for 128.107.239.54: 9
+Found one peer for [128.107.239.54]: 128.107.239.34.
+
+Aggregate for [128.107.239.5]:
+128.107.224.64/30
+128.107.224.68/30
+128.107.224.148/30
+128.107.224.168/30
+128.107.224.252/30
+128.107.225.204/31
+128.107.228.0/23
+128.107.239.12/30
+128.107.239.32/30
+128.107.239.76/30
+128.107.239.164/30
+128.107.239.180/30
+173.36.246.0/30
+173.36.246.12/30
+173.36.246.120/30
+173.36.246.124/30
+204.69.192.0/21
+TTLs for 128.107.239.5: 7
+Found one peer for [128.107.239.5]: 152.179.99.154.
+
+Aggregate for [128.107.239.89, 4]:
+171.70.192.88/31
+TTLs for 128.107.239.89: 7
+Found one peer for [128.107.239.89, 4]: 152.179.99.154.
+
+Aggregate for [128.107.239.89]:
+128.107.224.72/30
+128.107.224.76/30
+128.107.224.152/30
+128.107.224.172/30
+128.107.224.248/30
+128.107.233.104/29
+128.107.239.36/30
+128.107.239.64/30
+128.107.239.168/30
+128.107.239.184/30
+128.107.240.24/29
+171.69.0.0/20
+173.36.246.4/30
+173.36.246.8/30
+173.36.246.116/30
+173.36.246.128/30
+TTLs for 128.107.239.89: 7
+Found one peer for [128.107.239.89]: 152.179.99.154.
+
+Aggregate for [128.107.240.214]:
+128.107.250.160/27
+TTLs for 128.107.240.214: 10
+Found one peer for [128.107.240.214]: 128.107.80.6.
+
+Aggregate for [128.107.240.22]:
+128.107.237.192/28
+128.107.237.224/29
+128.107.237.240/28
+TTLs for 128.107.240.22: 10
+Found one peer for [128.107.240.22]: 128.107.237.134.
+
+Aggregate for [128.107.240.66]:
+128.107.237.216/30
+TTLs for 128.107.240.66: 10
+Found one peer for [128.107.240.66]: 128.107.80.6.
+
+Aggregate for [128.107.241.110]:
+173.36.255.212/30
+TTLs for 128.107.241.110: 9
+Found one peer for [128.107.241.110]: 128.107.224.150.
+
+Aggregate for [128.107.241.230]:
+128.107.252.128/26
+128.107.253.32/29
+TTLs for 128.107.241.230: 10
+Found one peer for [128.107.241.230]: 128.107.80.154.
+
+Aggregate for [128.107.241.234]:
+128.107.232.224/27
+128.107.248.224/27
+173.36.254.128/26
+TTLs for 128.107.241.234: 10, 15
+Found one peer for [128.107.241.234]: 128.107.232.134.
+
+Aggregate for [128.107.243.214]:
+128.107.250.224/28
+TTLs for 128.107.243.214: 10
+Found one peer for [128.107.243.214]: 173.36.246.58.
+
+Aggregate for [128.107.248.222, 1]:
+173.37.50.192/28
+TTLs for 128.107.248.222: 10
+Found one peer for [128.107.248.222, 1]: 128.107.80.50.
+
+Aggregate for [128.107.248.222]:
+128.107.236.160/28
+TTLs for 128.107.248.222: 10
+Found one peer for [128.107.248.222]: 128.107.80.50.
+
+Aggregate for [128.107.250.106, 1]:
+128.107.226.0/28
+TTLs for 128.107.250.106: 9
+Found one peer for [128.107.250.106, 1]: 128.107.239.186.
+
+Aggregate for [128.107.250.106]:
+128.107.250.80/30
+TTLs for 128.107.250.106: 9
+Found one peer for [128.107.250.106]: 128.107.239.186.
+
+Aggregate for [128.107.250.210]:
+173.36.199.64/26
+173.36.255.128/27
+173.37.50.32/28
+TTLs for 128.107.250.210: 10
+Found one peer for [128.107.250.210]: 128.107.80.30.
+
+Aggregate for [128.107.250.86]:
+173.36.222.0/23
+TTLs for 128.107.250.86: 9
+Found one peer for [128.107.250.86]: 128.107.224.170.
+
+Aggregate for [128.107.252.82]:
+128.107.225.208/28
+128.107.235.16/28
+TTLs for 128.107.252.82: 10
+Found one peer for [128.107.252.82]: 128.107.80.62.
+
+Aggregate for [128.107.253.14]:
+128.107.244.0/23
+128.107.246.0/23
+TTLs for 128.107.253.14: 10
+Conducting alias resolution on 2 junction IPs173.36.246.58, 173.36.246.62...Done.
+IP entries:
+173.36.246.58 - 9: 255 - ECHO,sjc12-dmzvaas-gw1-gig0-1.cisco.com
+173.36.246.62 - 9: 255 - ECHO,sjc12-dmzvaas-gw1-gig0-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.253.14]:
+173.36.246.58
+173.36.246.62
+
+Aggregate for [128.107.253.18]:
+128.107.238.0/28
+128.107.238.32/28
+TTLs for 128.107.253.18: 10
+Found one peer for [128.107.253.18]: 128.107.80.6.
+
+Aggregate for [128.107.253.50, 2]:
+128.107.90.248/30
+TTLs for 128.107.253.50: 10
+Found one peer for [128.107.253.50, 2]: 128.107.80.94.
+
+Aggregate for [128.107.253.50]:
+128.107.249.128/30
+TTLs for 128.107.253.50: 10
+Found one peer for [128.107.253.50]: 128.107.80.94.
+
+Aggregate for [128.107.253.54]:
+128.107.223.80/29
+TTLs for 128.107.253.54: 10
+Found one peer for [128.107.253.54]: 128.107.237.134.
+
+Aggregate for [128.107.74.170, 1]:
+173.36.202.0/23
+173.37.48.0/24
+173.37.49.0/25
+173.37.49.192/29
+TTLs for 128.107.74.170: 10
+Conducting alias resolution on 2 junction IPs173.36.246.50, 173.36.246.54...Done.
+IP entries:
+173.36.246.50 - 9: 255 - ECHO,sjc05-dmzvaas-gw1-gig0-1.cisco.com
+173.36.246.54 - 9: 255 - ECHO,sjc05-dmzvaas-gw1-gig0-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.74.170, 1]:
+173.36.246.50
+173.36.246.54
+
+Aggregate for [128.107.74.170]:
+173.37.57.0/24
+TTLs for 128.107.74.170: 10
+Found one peer for [128.107.74.170]: 173.36.246.50.
+
+Aggregate for [128.107.74.174, 1]:
+173.37.49.128/26
+TTLs for 128.107.74.174: 10
+Found one peer for [128.107.74.174, 1]: 173.36.246.62.
+
+Aggregate for [128.107.74.178, 1]:
+173.37.55.0/24
+TTLs for 128.107.74.178: 10
+Found one peer for [128.107.74.178, 1]: 173.36.246.50.
+
+Aggregate for [128.107.74.178, 2]:
+173.37.60.0/23
+TTLs for 128.107.74.178: 10
+Found one peer for [128.107.74.178, 2]: 173.36.246.50.
+
+Aggregate for [128.107.74.178]:
+173.37.54.0/26
+TTLs for 128.107.74.178: 10
+Found one peer for [128.107.74.178]: 173.36.246.50.
+
+Aggregate for [128.107.74.18]:
+173.36.208.128/25
+TTLs for 128.107.74.18: 10
+Found one peer for [128.107.74.18]: 173.36.246.50.
+
+Aggregate for [128.107.74.190]:
+128.107.74.192/30
+173.36.248.156/30
+TTLs for 128.107.74.190: 9
+Found one peer for [128.107.74.190]: 128.107.224.170.
+
+Aggregate for [128.107.74.194, 2]:
+173.37.53.0/24
+TTLs for 128.107.74.194: 10
+Found one peer for [128.107.74.194, 2]: 128.107.74.190.
+
+Aggregate for [128.107.74.194]:
+128.107.75.0/26
+128.107.79.0/24
+173.36.252.0/24
+173.37.52.0/24
+TTLs for 128.107.74.194: 10
+Found one peer for [128.107.74.194]: 128.107.74.190.
+
+Aggregate for [128.107.74.202]:
+173.37.58.8/29
+TTLs for 128.107.74.202: 10
+Found one peer for [128.107.74.202]: 173.36.246.50.
+
+Aggregate for [128.107.74.206]:
+173.37.58.0/29
+TTLs for 128.107.74.206: 10
+Found one peer for [128.107.74.206]: 173.36.246.62.
+
+Aggregate for [128.107.75.190]:
+173.36.196.128/29
+TTLs for 128.107.75.190: 10
+Found one peer for [128.107.75.190]: 128.107.80.30.
+
+Aggregate for [128.107.78.2]:
+128.107.78.32/27
+TTLs for 128.107.78.2: 12
+Found one peer for [128.107.78.2]: [Offset=4] 128.107.239.166.
+
+Aggregate for [128.107.80.134]:
+128.107.80.20/30
+128.107.85.52/30
+173.36.243.0/30
+173.36.255.216/30
+173.36.255.228/30
+173.36.255.240/30
+TTLs for 128.107.80.134: 9
+Conducting alias resolution on 2 junction IPs128.107.224.150, 128.107.224.154...Done.
+IP entries:
+128.107.224.150 - 8: 255 - ECHO,sjc20-dmznet-gw1-gig5-1.cisco.com
+128.107.224.154 - 8: 255 - ECHO,sjc20-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.134]:
+128.107.224.150
+128.107.224.154
+
+Aggregate for [128.107.80.138]:
+128.107.80.140/30
+TTLs for 128.107.80.138: 9
+Found one peer for [128.107.80.138]: 128.107.224.170.
+
+Aggregate for [128.107.80.14, 1]:
+128.107.84.128/27
+TTLs for 128.107.80.14: 9
+Found one peer for [128.107.80.14, 1]: 128.107.239.166.
+
+Aggregate for [128.107.80.14, 2]:
+128.107.84.0/25
+TTLs for 128.107.80.14: 9
+Found one peer for [128.107.80.14, 2]: 128.107.239.166.
+
+Aggregate for [128.107.80.142]:
+128.107.80.160/29
+173.36.198.64/26
+TTLs for 128.107.80.142: 10
+Found one peer for [128.107.80.142]: 128.107.80.138.
+
+Aggregate for [128.107.80.14]:
+128.107.235.40/30
+128.107.250.144/30
+173.36.218.36/30
+173.36.243.100/30
+TTLs for 128.107.80.14: 9
+Conducting alias resolution on 2 junction IPs128.107.239.166, 128.107.239.170...Done.
+IP entries:
+128.107.239.166 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-1.cisco.com
+128.107.239.170 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.14]:
+128.107.239.166
+128.107.239.170
+
+Aggregate for [128.107.80.154]:
+128.107.231.64/26
+128.107.234.24/29
+128.107.235.32/30
+128.107.241.228/30
+TTLs for 128.107.80.154: 9
+Conducting alias resolution on 2 junction IPs128.107.239.166, 128.107.239.170...Done.
+IP entries:
+128.107.239.166 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-1.cisco.com
+128.107.239.170 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.154]:
+128.107.239.166
+128.107.239.170
+
+Aggregate for [128.107.80.226]:
+128.107.81.80/30
+173.36.204.0/22
+173.36.240.156/30
+173.36.248.152/30
+TTLs for 128.107.80.226: 9
+Conducting alias resolution on 2 junction IPs128.107.239.166, 128.107.239.170...Done.
+IP entries:
+128.107.239.166 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-1.cisco.com
+128.107.239.170 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.226]:
+128.107.239.166
+128.107.239.170
+
+Aggregate for [128.107.80.22]:
+173.36.248.192/26
+TTLs for 128.107.80.22: 10
+Found one peer for [128.107.80.22]: 128.107.80.134.
+
+Aggregate for [128.107.80.230, 1]:
+128.107.78.0/28
+TTLs for 128.107.80.230: 9
+Found one peer for [128.107.80.230, 1]: 128.107.239.166.
+
+Aggregate for [128.107.80.242]:
+128.107.86.32/28
+TTLs for 128.107.80.242: 10
+Found one peer for [128.107.80.242]: 128.107.80.58.
+
+Aggregate for [128.107.80.2]:
+173.36.212.204/30
+TTLs for 128.107.80.2: 9
+Found one peer for [128.107.80.2]: 128.107.239.166.
+
+Aggregate for [128.107.80.30]:
+128.107.75.188/30
+128.107.250.208/30
+TTLs for 128.107.80.30: 9
+Found one peer for [128.107.80.30]: 128.107.224.174.
+
+Aggregate for [128.107.80.34]:
+128.107.80.144/30
+128.107.81.88/30
+173.36.208.68/30
+TTLs for 128.107.80.34: 9
+Found one peer for [128.107.80.34]: 128.107.239.34.
+
+Aggregate for [128.107.80.50]:
+128.107.85.48/30
+128.107.233.96/30
+128.107.234.140/30
+128.107.248.220/30
+TTLs for 128.107.80.50: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.50]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [128.107.80.58]:
+128.107.80.240/30
+128.107.233.120/30
+128.107.234.136/30
+128.107.235.4/30
+128.107.237.128/30
+128.107.240.80/30
+173.36.208.64/30
+173.36.212.100/30
+173.36.212.192/30
+173.36.246.184/30
+173.36.254.0/30
+TTLs for 128.107.80.58: 9
+Conducting alias resolution on 2 junction IPs128.107.224.150, 128.107.224.154...Done.
+IP entries:
+128.107.224.150 - 8: 255 - ECHO,sjc20-dmznet-gw1-gig5-1.cisco.com
+128.107.224.154 - 8: 255 - ECHO,sjc20-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.58]:
+128.107.224.150
+128.107.224.154
+
+Aggregate for [128.107.80.62]:
+128.107.252.80/30
+TTLs for 128.107.80.62: 9
+Found one peer for [128.107.80.62]: 128.107.239.34.
+
+Aggregate for [128.107.80.6]:
+128.107.235.0/30
+128.107.237.32/30
+128.107.237.136/30
+128.107.240.64/30
+128.107.250.148/30
+128.107.253.16/30
+173.36.197.140/30
+TTLs for 128.107.80.6: 9
+Conducting alias resolution on 2 junction IPs128.107.239.166, 128.107.239.170...Done.
+IP entries:
+128.107.239.166 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-1.cisco.com
+128.107.239.170 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.6]:
+128.107.239.166
+128.107.239.170
+
+Aggregate for [128.107.80.82]:
+128.107.81.0/26
+128.107.81.128/28
+128.107.81.144/28
+128.107.81.160/27
+128.107.81.192/28
+128.107.85.160/27
+128.107.85.200/29
+128.107.85.224/28
+128.107.85.240/28
+128.107.241.112/28
+TTLs for 128.107.80.82: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.82]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [128.107.80.94]:
+128.107.74.184/30
+128.107.192.0/20
+128.107.253.48/30
+173.36.197.156/30
+TTLs for 128.107.80.94: 9
+Conducting alias resolution on 2 junction IPs128.107.239.166, 128.107.239.170...Done.
+IP entries:
+128.107.239.166 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-1.cisco.com
+128.107.239.170 - 8: 255 - ECHO,sjc17-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.80.94]:
+128.107.239.166
+128.107.239.170
+
+Aggregate for [128.107.81.194]:
+128.107.85.128/30
+TTLs for 128.107.81.194: 10
+Found one peer for [128.107.81.194]: 128.107.80.82.
+
+Aggregate for [128.107.81.82]:
+128.107.81.64/29
+TTLs for 128.107.81.82: 10
+Found one peer for [128.107.81.82]: 128.107.80.226.
+
+Aggregate for [128.107.82.70]:
+128.107.225.224/27
+TTLs for 128.107.82.70: 10
+Found one peer for [128.107.82.70]: 128.107.80.6.
+
+Aggregate for [128.107.85.50]:
+128.107.85.32/29
+128.107.85.40/30
+TTLs for 128.107.85.50: 10
+Found one peer for [128.107.85.50]: 128.107.80.50.
+
+Aggregate for [128.107.85.54]:
+128.107.86.128/28
+TTLs for 128.107.85.54: 10
+Found one peer for [128.107.85.54]: 128.107.80.134.
+
+Aggregate for [128.107.86.202]:
+128.107.251.64/26
+128.107.253.4/30
+TTLs for 128.107.86.202: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.86.202]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [128.107.86.206]:
+128.107.254.0/23
+173.36.196.64/26
+173.36.197.152/30
+173.36.208.124/30
+173.36.212.96/30
+173.36.212.120/30
+TTLs for 128.107.86.206: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.86.206]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [128.107.86.226]:
+128.107.82.0/23
+128.107.233.0/26
+TTLs for 128.107.86.226: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [128.107.86.226]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [134.222.93.54]:
+173.38.208.8/30
+173.38.208.28/30
+173.38.209.32/29
+TTLs for 134.222.93.54: 10
+This aggregate should be a gate.
+
+Aggregate for [144.254.51.242]:
+144.254.51.192/29
+144.254.51.200/29
+144.254.51.226/31
+144.254.51.228/30
+TTLs for 144.254.51.242: 14
+Conducting alias resolution on 2 junction IPs173.38.209.186, 173.38.209.190...Done.
+IP entries:
+173.38.209.186 - 13: 255 - ECHO,aer01-mda1-dmzvlab-gw1-gig0-0-0.cisco.com
+173.38.209.190 - 13: 255 - ECHO,aer01-mda1-dmzvlab-gw1-gig0-1-0.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [144.254.51.242]:
+173.38.209.186
+173.38.209.190
+
+Aggregate for [152.179.122.46]:
+173.39.209.242/31
+173.39.209.244/30
+TTLs for 152.179.122.46: 7
+This aggregate should be a gate.
+
+Aggregate for [152.179.149.86]:
+198.135.0.16/30
+198.135.0.20/30
+198.135.0.24/30
+198.135.0.28/30
+198.135.0.224/27
+TTLs for 152.179.149.86: 6
+This aggregate should be a gate.
+
+Aggregate for [152.179.99.154]:
+128.107.239.4/30
+128.107.239.88/30
+173.36.246.144/28
+TTLs for 152.179.99.154: 6
+This aggregate should be a gate.
+
+Aggregate for [173.243.5.57, 1]:
+173.39.232.0/24
+173.39.240.0/28
+TTLs for 173.243.5.57: 12
+This aggregate should be a gate.
+
+Aggregate for [173.36.104.129]:
+173.36.104.128/27
+TTLs for 173.36.104.129: 14
+Found one peer for [173.36.104.129]: [Offset=2] 173.36.112.130.
+
+Aggregate for [173.36.104.161]:
+173.36.104.160/27
+TTLs for 173.36.104.161: 14
+Found one peer for [173.36.104.161]: [Offset=2] 173.36.112.134.
+
+Aggregate for [173.36.104.65]:
+173.36.104.64/27
+TTLs for 173.36.104.65: 14
+Found one peer for [173.36.104.65]: [Offset=2] 173.36.112.130.
+
+Aggregate for [173.36.104.97]:
+173.36.104.96/27
+TTLs for 173.36.104.97: 14
+Found one peer for [173.36.104.97]: 173.36.113.218.
+
+Aggregate for [173.36.104.9]:
+173.36.104.8/29
+TTLs for 173.36.104.9: 14
+Found one peer for [173.36.104.9]: [Offset=2] 173.36.112.154.
+
+Aggregate for [173.36.105.1]:
+173.36.105.0/24
+TTLs for 173.36.105.1: 14
+Found one peer for [173.36.105.1]: [Offset=2] 173.36.112.154.
+
+Aggregate for [173.36.106.1]:
+173.36.106.0/26
+TTLs for 173.36.106.1: 14
+Found one peer for [173.36.106.1]: [Offset=2] 173.36.112.154.
+
+Aggregate for [173.36.107.1]:
+173.36.107.0/25
+TTLs for 173.36.107.1: 14
+Found one peer for [173.36.107.1]: [Offset=2] 173.36.112.130.
+
+Aggregate for [173.36.112.114]:
+173.36.112.108/30
+173.36.112.116/30
+173.36.112.120/29
+173.36.112.128/30
+173.36.112.132/30
+173.36.112.192/27
+173.36.113.240/30
+173.36.113.252/30
+TTLs for 173.36.112.114: 11
+Found one peer for [173.36.112.114]: 216.66.79.74.
+
+Aggregate for [173.36.112.118]:
+173.36.113.56/30
+TTLs for 173.36.112.118: 12
+Found one peer for [173.36.112.118]: 173.36.112.114.
+
+Aggregate for [173.36.112.122]:
+173.36.112.64/29
+TTLs for 173.36.112.122: 12
+Found one peer for [173.36.112.122]: 173.36.112.114.
+
+Aggregate for [173.36.112.130]:
+173.36.112.168/30
+173.36.112.172/30
+173.36.113.16/30
+173.36.113.156/30
+TTLs for 173.36.112.130: 12
+Found one peer for [173.36.112.130]: 173.36.112.114.
+
+Aggregate for [173.36.112.134]:
+173.36.112.164/30
+173.36.113.4/30
+173.36.113.20/30
+173.36.113.224/30
+173.36.113.228/30
+173.37.149.144/28
+TTLs for 173.36.112.134: 12
+Found one peer for [173.36.112.134]: 173.36.112.114.
+
+Aggregate for [173.36.112.142]:
+173.36.112.0/27
+173.36.112.80/29
+173.36.112.136/30
+173.36.112.144/30
+173.36.112.148/30
+173.36.112.152/30
+173.36.112.156/30
+173.36.113.244/30
+173.36.113.248/30
+TTLs for 173.36.112.142: 11
+Found one peer for [173.36.112.142]: 216.66.79.74.
+
+Aggregate for [173.36.112.146]:
+173.36.113.60/30
+TTLs for 173.36.112.146: 12
+Found one peer for [173.36.112.146]: 173.36.112.142.
+
+Aggregate for [173.36.112.150]:
+173.36.113.64/28
+TTLs for 173.36.112.150: 12
+Found one peer for [173.36.112.150]: 173.36.112.142.
+
+Aggregate for [173.36.112.154]:
+173.36.112.248/30
+173.36.112.252/30
+173.36.113.12/30
+173.36.113.148/30
+173.36.113.216/30
+173.36.113.220/30
+173.36.125.128/25
+TTLs for 173.36.112.154: 12
+Found one peer for [173.36.112.154]: 173.36.112.142.
+
+Aggregate for [173.36.112.158]:
+173.36.112.160/30
+173.36.113.0/30
+173.36.113.152/30
+173.36.125.64/26
+TTLs for 173.36.112.158: 12
+Found one peer for [173.36.112.158]: 173.36.112.142.
+
+Aggregate for [173.36.113.14]:
+173.37.144.64/29
+173.37.144.104/29
+173.37.144.112/28
+173.37.144.224/28
+173.37.145.208/28
+173.37.145.224/28
+173.37.147.224/27
+173.37.148.208/29
+173.37.148.224/28
+173.37.149.64/28
+173.37.149.224/29
+173.37.151.0/29
+173.37.151.16/28
+TTLs for 173.36.113.14: 13
+Conducting alias resolution on 2 junction IPs173.36.112.130, 173.36.112.154...Done.
+IP entries:
+173.36.112.130 - 12: 255 - ECHO,alln01-mda1-dmzdcc-gw1-por1.cisco.com
+173.36.112.154 - 12: 255 - ECHO,alln01-mda1-dmzdcc-gw1-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.14]:
+173.36.112.130
+173.36.112.154
+
+Aggregate for [173.36.113.162]:
+173.36.113.160/29
+TTLs for 173.36.113.162: 13
+Found one peer for [173.36.113.162]: 173.36.112.158.
+
+Aggregate for [173.36.113.170, 1]:
+173.36.113.176/29
+TTLs for 173.36.113.170: 14
+Found one peer for [173.36.113.170, 1]: 173.36.113.66.
+
+Aggregate for [173.36.113.18]:
+173.37.144.0/27
+173.37.144.96/29
+173.37.144.176/29
+173.37.145.144/29
+173.37.145.192/29
+173.37.146.0/27
+173.37.146.32/28
+173.37.147.0/27
+173.37.147.176/29
+173.37.148.0/27
+173.37.148.96/28
+173.37.148.176/28
+173.37.148.192/28
+173.37.148.216/29
+173.37.149.0/29
+173.37.149.32/29
+173.37.149.96/27
+173.37.149.176/28
+173.37.149.192/27
+173.37.151.32/29
+192.135.250.0/28
+TTLs for 173.36.113.18: 13
+Conducting alias resolution on 2 junction IPs173.36.112.130, 173.36.112.154...Done.
+IP entries:
+173.36.112.130 - 12: 255 - ECHO,alln01-mda1-dmzdcc-gw1-por1.cisco.com
+173.36.112.154 - 12: 255 - ECHO,alln01-mda1-dmzdcc-gw1-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.18]:
+173.36.112.130
+173.36.112.154
+
+Aggregate for [173.36.113.210]:
+173.36.119.144/28
+TTLs for 173.36.113.210: 14
+Found one peer for [173.36.113.210]: 173.36.113.58.
+
+Aggregate for [173.36.113.218]:
+173.36.124.0/28
+TTLs for 173.36.113.218: 13
+Found one peer for [173.36.113.218]: 173.36.112.130.
+
+Aggregate for [173.36.113.22]:
+173.37.144.192/27
+173.37.145.0/28
+173.37.145.128/29
+173.37.146.128/27
+173.37.148.144/28
+173.37.149.80/29
+173.37.150.0/26
+TTLs for 173.36.113.22: 13
+Conducting alias resolution on 2 junction IPs173.36.112.134, 173.36.112.158...Done.
+IP entries:
+173.36.112.134 - 12: 255 - ECHO,alln01-mda2-dmzdcc-gw2-por1.cisco.com
+173.36.112.158 - 12: 255 - ECHO,alln01-mda2-dmzdcc-gw2-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.22]:
+173.36.112.134
+173.36.112.158
+
+Aggregate for [173.36.113.26]:
+173.36.113.24/29
+173.37.144.128/27
+173.37.144.160/28
+173.37.144.240/29
+173.37.145.64/26
+173.37.145.160/29
+173.37.146.48/28
+173.37.146.64/27
+173.37.147.128/28
+173.37.147.160/29
+173.37.147.208/29
+173.37.148.64/28
+173.37.148.136/29
+173.37.148.160/28
+173.37.149.48/28
+173.37.149.128/29
+173.37.149.160/28
+173.37.149.240/29
+173.37.151.48/28
+TTLs for 173.36.113.26: 13
+Conducting alias resolution on 2 junction IPs173.36.112.134, 173.36.112.158...Done.
+IP entries:
+173.36.112.134 - 12: 255 - ECHO,alln01-mda2-dmzdcc-gw2-por1.cisco.com
+173.36.112.158 - 12: 255 - ECHO,alln01-mda2-dmzdcc-gw2-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.26]:
+173.36.112.134
+173.36.112.158
+
+Aggregate for [173.36.113.2]:
+173.36.125.0/30
+173.36.127.0/25
+TTLs for 173.36.113.2: 13
+Found one peer for [173.36.113.2]: 173.36.112.134.
+
+Aggregate for [173.36.113.58]:
+173.36.113.208/30
+173.36.116.80/30
+173.36.116.88/30
+173.36.117.128/30
+TTLs for 173.36.113.58: 13
+Conducting alias resolution on 2 junction IPs173.36.112.118, 173.36.112.146...Done.
+IP entries:
+173.36.112.118 - 12: 255 - ECHO,alln01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.36.112.146 - 12: 255 - ECHO,alln01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.58]:
+173.36.112.118
+173.36.112.146
+
+Aggregate for [173.36.113.62]:
+173.36.116.92/30
+173.36.117.132/30
+TTLs for 173.36.113.62: 13
+Conducting alias resolution on 2 junction IPs173.36.112.118, 173.36.112.146...Done.
+IP entries:
+173.36.112.118 - 12: 255 - ECHO,alln01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.36.112.146 - 12: 255 - ECHO,alln01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.62]:
+173.36.112.118
+173.36.112.146
+
+Aggregate for [173.36.113.66]:
+173.36.116.0/30
+173.36.120.16/30
+TTLs for 173.36.113.66: 13
+Conducting alias resolution on 2 junction IPs173.36.112.122, 173.36.112.150...Done.
+IP entries:
+173.36.112.122 - 12: 255 - ECHO,alln01-mda2-dmznet-gw2-ten1-1.cisco.com
+173.36.112.150 - 12: 255 - ECHO,alln01-mda2-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.66]:
+173.36.112.122
+173.36.112.150
+
+Aggregate for [173.36.113.6]:
+173.36.113.8/30
+TTLs for 173.36.113.6: 13
+Found one peer for [173.36.113.6]: 173.36.112.134.
+
+Aggregate for [173.36.113.70]:
+173.36.116.4/30
+173.36.116.84/30
+173.36.120.20/30
+TTLs for 173.36.113.70: 13
+Conducting alias resolution on 2 junction IPs173.36.112.122, 173.36.112.150...Done.
+IP entries:
+173.36.112.122 - 12: 255 - ECHO,alln01-mda2-dmznet-gw2-ten1-1.cisco.com
+173.36.112.150 - 12: 255 - ECHO,alln01-mda2-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.113.70]:
+173.36.112.122
+173.36.112.150
+
+Aggregate for [173.36.116.100]:
+173.36.116.96/28
+173.36.116.112/28
+TTLs for 173.36.116.100: 15
+Found one peer for [173.36.116.100]: [Offset=2] 173.36.113.66.
+
+Aggregate for [173.36.116.2]:
+173.36.116.24/29
+TTLs for 173.36.116.2: 14
+Found one peer for [173.36.116.2]: 173.36.113.58.
+
+Aggregate for [173.36.116.6]:
+173.36.116.16/29
+TTLs for 173.36.116.6: 14
+Found one peer for [173.36.116.6]: 173.36.113.62.
+
+Aggregate for [173.36.116.90]:
+66.187.208.0/20
+TTLs for 173.36.116.90: 14
+Found one peer for [173.36.116.90]: 173.36.113.66.
+
+Aggregate for [173.36.117.130]:
+173.36.118.0/27
+173.36.118.32/29
+173.36.118.60/30
+TTLs for 173.36.117.130: 14
+Found one peer for [173.36.117.130]: 173.36.113.58.
+
+Aggregate for [173.36.118.37]:
+173.36.118.64/26
+TTLs for 173.36.118.37: 15
+Found one peer for [173.36.118.37]: 173.36.117.130.
+
+Aggregate for [173.36.124.1]:
+173.36.124.16/28
+173.36.124.32/27
+TTLs for 173.36.124.1: 14
+Conducting alias resolution on 2 IPs containing junction IP 173.36.113.218...Done.
+IP entries:
+173.36.113.218 - 13: 64 - 209;61412,149268,212;61421,129378,213;61426,149307,216;61449,alln01-mda1-fab1-sw3811-dmzdcc1uplink.cisco.com
+173.36.113.226 - 13: 64 - 210;1676,129198,211;1679,149271,214;1698,129156,215;1716,alln01-mda1-fab1-sw3811-dmzdcc2uplink.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [173.36.124.1]: 173.36.113.218.
+
+Aggregate for [173.36.126.1]:
+173.36.126.0/27
+TTLs for 173.36.126.1: 14
+Found one peer for [173.36.126.1]: 173.36.113.218.
+
+Aggregate for [173.36.197.158, 2]:
+173.36.220.0/23
+TTLs for 173.36.197.158: 10
+Found one peer for [173.36.197.158, 2]: 128.107.80.94.
+
+Aggregate for [173.36.197.158]:
+173.36.245.192/26
+TTLs for 173.36.197.158: 10
+Found one peer for [173.36.197.158]: 128.107.80.94.
+
+Aggregate for [173.36.197.78, 3]:
+173.36.197.104/31
+TTLs for 173.36.197.78: 11
+Found one peer for [173.36.197.78, 3]: [Offset=2] 128.107.80.134.
+
+Aggregate for [173.36.197.78, 4]:
+173.36.197.114/31
+TTLs for 173.36.197.78: 11
+Found one peer for [173.36.197.78, 4]: [Offset=2] 128.107.80.134.
+
+Aggregate for [173.36.208.122]:
+173.37.58.32/28
+TTLs for 173.36.208.122: 10
+Found one peer for [173.36.208.122]: 128.107.233.102.
+
+Aggregate for [173.36.208.126]:
+173.36.213.8/30
+TTLs for 173.36.208.126: 10
+Found one peer for [173.36.208.126]: 128.107.86.206.
+
+Aggregate for [173.36.208.74]:
+173.36.216.0/25
+TTLs for 173.36.208.74: 10
+Found one peer for [173.36.208.74]: 128.107.233.102.
+
+Aggregate for [173.36.212.102]:
+128.107.86.176/28
+128.107.86.208/30
+TTLs for 173.36.212.102: 10
+Found one peer for [173.36.212.102]: 128.107.80.58.
+
+Aggregate for [173.36.212.106]:
+128.107.74.64/30
+TTLs for 173.36.212.106: 10
+Found one peer for [173.36.212.106]: 128.107.233.102.
+
+Aggregate for [173.36.212.122]:
+173.36.253.0/24
+TTLs for 173.36.212.122: 10
+Found one peer for [173.36.212.122]: 128.107.86.206.
+
+Aggregate for [173.36.212.194]:
+173.36.209.0/26
+173.36.209.128/30
+173.36.209.192/30
+173.36.212.160/27
+TTLs for 173.36.212.194: 10
+Found one peer for [173.36.212.194]: 128.107.80.58.
+
+Aggregate for [173.36.212.202]:
+173.36.240.0/29
+TTLs for 173.36.212.202: 10
+Found one peer for [173.36.212.202]: [Offset=2] 128.107.239.170.
+
+Aggregate for [173.36.212.206]:
+173.36.215.0/24
+173.36.219.0/25
+TTLs for 173.36.212.206: 10
+Found one peer for [173.36.212.206]: 128.107.80.2.
+
+Aggregate for [173.36.212.218]:
+128.107.80.64/28
+TTLs for 173.36.212.218: 10
+Found one peer for [173.36.212.218]: 128.107.233.102.
+
+Aggregate for [173.36.218.165]:
+173.36.218.176/29
+TTLs for 173.36.218.165: 11
+Found one peer for [173.36.218.165]: [Offset=2] 128.107.80.134.
+
+Aggregate for [173.36.218.38]:
+173.36.210.0/25
+173.36.210.192/26
+TTLs for 173.36.218.38: 10
+Found one peer for [173.36.218.38]: 128.107.80.14.
+
+Aggregate for [173.36.218.62]:
+173.37.56.64/30
+TTLs for 173.36.218.62: 10
+Found one peer for [173.36.218.62]: 128.107.233.102.
+
+Aggregate for [173.36.229.2]:
+173.36.228.64/26
+TTLs for 173.36.229.2: 10
+Found one peer for [173.36.229.2]: [Offset=2] 173.36.246.2.
+
+Aggregate for [173.36.240.134]:
+173.36.241.0/24
+TTLs for 173.36.240.134: 10
+Found one peer for [173.36.240.134]: 128.107.233.102.
+
+Aggregate for [173.36.240.150]:
+173.36.198.144/30
+173.36.198.148/30
+173.36.198.160/29
+TTLs for 173.36.240.150: 10
+Conducting alias resolution on 2 IPs containing junction IP 128.107.239.54...Done.
+IP entries:
+128.107.239.10 - 9: 255 - ECHO,sjcp-cd1-dmzaas-gw1-ten1-1.cisco.com
+128.107.239.54 - 9: 255 - ECHO,sjcp-cd1-dmzaas-gw1-ten1-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [173.36.240.150]: 128.107.239.54.
+
+Aggregate for [173.36.243.102]:
+173.36.218.64/26
+TTLs for 173.36.243.102: 10
+Found one peer for [173.36.243.102]: 128.107.80.14.
+
+Aggregate for [173.36.246.106]:
+173.36.232.64/29
+TTLs for 173.36.246.106: 9
+Found one peer for [173.36.246.106]: 173.36.246.6.
+
+Aggregate for [173.36.246.10]:
+173.36.246.40/30
+173.36.246.96/30
+TTLs for 173.36.246.10: 8
+Found one peer for [173.36.246.10]: 128.107.239.89.
+
+Aggregate for [173.36.246.118]:
+173.36.212.112/29
+TTLs for 173.36.246.118: 8
+Found one peer for [173.36.246.118]: 128.107.239.89.
+
+Aggregate for [173.36.246.14]:
+173.36.224.112/28
+173.36.246.16/30
+173.36.246.28/30
+173.36.246.88/30
+173.36.246.100/30
+173.36.246.188/30
+TTLs for 173.36.246.14: 8
+Found one peer for [173.36.246.14]: 128.107.239.5.
+
+Aggregate for [173.36.246.186]:
+128.107.250.32/27
+173.36.246.224/27
+TTLs for 173.36.246.186: 10
+Found one peer for [173.36.246.186]: 128.107.80.58.
+
+Aggregate for [173.36.246.26]:
+173.36.224.40/29
+173.36.224.48/29
+173.36.224.104/29
+TTLs for 173.36.246.26: 9
+Found one peer for [173.36.246.26]: 173.36.246.10.
+
+Aggregate for [173.36.246.2]:
+173.36.224.32/29
+173.36.228.0/26
+173.36.246.20/30
+173.36.246.24/30
+173.36.246.44/30
+173.36.246.92/30
+173.36.247.0/29
+TTLs for 173.36.246.2: 8
+Found one peer for [173.36.246.2]: 128.107.239.5.
+
+Aggregate for [173.36.246.30]:
+173.36.225.16/29
+TTLs for 173.36.246.30: 9
+Found one peer for [173.36.246.30]: 173.36.246.6.
+
+Aggregate for [173.36.246.34]:
+173.36.224.64/27
+173.36.224.96/29
+173.36.225.32/29
+TTLs for 173.36.246.34: 9
+Conducting alias resolution on 2 junction IPs173.36.246.6, 173.36.246.14...Done.
+IP entries:
+173.36.246.6 - 8: 255 - ECHO,mtv5-mda2-dmzdcc-gw2-eth2-1.cisco.com
+173.36.246.14 - 8: 255 - ECHO,mtv5-mda2-dmzdcc-gw2-eth3-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.246.34]:
+173.36.246.6
+173.36.246.14
+
+Aggregate for [173.36.246.50]:
+128.107.74.168/30
+128.107.74.176/30
+128.107.235.140/30
+128.107.237.40/30
+128.107.252.84/30
+TTLs for 173.36.246.50: 9
+Conducting alias resolution on 2 junction IPs128.107.224.170, 128.107.224.174...Done.
+IP entries:
+128.107.224.170 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-3.cisco.com
+128.107.224.174 - 8: 255 - ECHO,sjc5-dmznet-gw1-te9-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.246.50]:
+128.107.224.170
+128.107.224.174
+
+Aggregate for [173.36.246.54]:
+128.107.74.200/30
+128.107.232.160/30
+128.107.235.8/30
+128.107.236.136/30
+128.107.243.208/30
+173.36.248.4/30
+TTLs for 173.36.246.54: 9, 14
+Conducting alias resolution on 2 junction IPs128.107.239.182, 128.107.239.186...Done.
+IP entries:
+128.107.239.182 - 8: 255 - ECHO,sjc12-dmznet-gw1-te4-3.cisco.com
+128.107.239.186 - 8: 255 - ECHO,sjc12-dmznet-gw1-te4-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.246.54]:
+128.107.239.182
+128.107.239.186
+
+Aggregate for [173.36.246.58]:
+128.107.74.172/30
+128.107.232.164/30
+128.107.243.212/30
+TTLs for 173.36.246.58: 9, 14
+Found one peer for [173.36.246.58]: 128.107.224.174.
+
+Aggregate for [173.36.246.62]:
+128.107.74.180/30
+128.107.74.204/30
+128.107.236.140/30
+128.107.237.44/30
+128.107.237.140/30
+128.107.253.12/30
+173.36.255.204/30
+TTLs for 173.36.246.62: 9
+Conducting alias resolution on 2 junction IPs128.107.239.182, 128.107.239.186...Done.
+IP entries:
+128.107.239.182 - 8: 255 - ECHO,sjc12-dmznet-gw1-te4-3.cisco.com
+128.107.239.186 - 8: 255 - ECHO,sjc12-dmznet-gw1-te4-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.36.246.62]:
+128.107.239.182
+128.107.239.186
+
+Aggregate for [173.36.246.6]:
+173.36.225.0/28
+173.36.246.32/29
+173.36.246.104/30
+TTLs for 173.36.246.6: 8
+Found one peer for [173.36.246.6]: 128.107.239.89.
+
+Aggregate for [173.36.246.90]:
+173.36.229.0/26
+TTLs for 173.36.246.90: 9
+Found one peer for [173.36.246.90]: 173.36.246.14.
+
+Aggregate for [173.36.248.154]:
+173.36.217.192/30
+TTLs for 173.36.248.154: 10
+Found one peer for [173.36.248.154]: 128.107.80.226.
+
+Aggregate for [173.36.248.158]:
+173.36.254.192/29
+TTLs for 173.36.248.158: 10
+Found one peer for [173.36.248.158]: 128.107.74.190.
+
+Aggregate for [173.36.248.6]:
+173.37.56.192/29
+TTLs for 173.36.248.6: 10
+Found one peer for [173.36.248.6]: 173.36.246.50.
+
+Aggregate for [173.36.255.206]:
+173.37.56.200/29
+TTLs for 173.36.255.206: 10
+Found one peer for [173.36.255.206]: 173.36.246.62.
+
+Aggregate for [173.36.255.214, 1]:
+128.107.224.184/29
+128.107.237.48/28
+128.107.251.0/26
+173.36.196.32/27
+173.36.248.16/28
+173.36.248.32/28
+173.36.254.32/27
+173.36.255.160/29
+TTLs for 173.36.255.214: 10
+Found one peer for [173.36.255.214, 1]: 128.107.241.110.
+
+Aggregate for [173.36.255.214, 2]:
+128.107.250.216/29
+TTLs for 173.36.255.214: 10
+Found one peer for [173.36.255.214, 2]: 128.107.241.110.
+
+Aggregate for [173.36.255.214]:
+128.107.225.64/26
+128.107.253.192/26
+TTLs for 173.36.255.214: 10
+Found one peer for [173.36.255.214]: 128.107.241.110.
+
+Aggregate for [173.36.255.230, 1]:
+173.36.197.8/29
+173.36.197.48/30
+TTLs for 173.36.255.230: 10
+Found one peer for [173.36.255.230, 1]: 128.107.80.134.
+
+Aggregate for [173.36.255.230, 2]:
+173.36.197.120/29
+TTLs for 173.36.255.230: 10
+Found one peer for [173.36.255.230, 2]: 128.107.80.134.
+
+Aggregate for [173.36.255.230, 3]:
+173.36.197.88/29
+TTLs for 173.36.255.230: 10
+Found one peer for [173.36.255.230, 3]: 128.107.80.134.
+
+Aggregate for [173.36.255.230]:
+173.36.197.0/29
+173.36.197.16/28
+173.36.197.32/28
+173.36.197.56/30
+173.36.197.60/30
+173.36.197.64/29
+173.36.197.72/29
+173.36.197.80/29
+173.36.197.108/30
+173.36.197.116/30
+173.36.218.160/28
+173.36.218.184/29
+TTLs for 173.36.255.230: 10
+Found one peer for [173.36.255.230]: 128.107.80.134.
+
+Aggregate for [173.36.255.242]:
+173.36.209.64/28
+TTLs for 173.36.255.242: 10
+Found one peer for [173.36.255.242]: 128.107.80.134.
+
+Aggregate for [173.37.193.14]:
+173.37.193.4/30
+173.37.193.8/29
+TTLs for 173.37.193.14: 11
+Found one peer for [173.37.193.14]: [Offset=2] 72.163.1.26.
+
+Aggregate for [173.37.194.11]:
+173.37.195.0/30
+TTLs for 173.37.194.11: 11
+Found one peer for [173.37.194.11]: 72.163.1.30.
+
+Aggregate for [173.37.200.138]:
+173.37.212.0/27
+173.37.212.200/29
+173.37.212.240/28
+173.37.214.96/30
+TTLs for 173.37.200.138: 10
+Found one peer for [173.37.200.138]: 72.163.1.26.
+
+Aggregate for [173.37.200.142]:
+173.37.204.64/29
+173.37.204.96/27
+TTLs for 173.37.200.142: 10
+Found one peer for [173.37.200.142]: 72.163.1.26.
+
+Aggregate for [173.37.200.150]:
+173.37.213.0/28
+TTLs for 173.37.200.150: 10
+Found one peer for [173.37.200.150]: 72.163.0.174.
+
+Aggregate for [173.37.200.154]:
+173.37.213.32/27
+TTLs for 173.37.200.154: 10
+Found one peer for [173.37.200.154]: 72.163.1.26.
+
+Aggregate for [173.37.200.158]:
+173.37.213.64/29
+TTLs for 173.37.200.158: 10
+Found one peer for [173.37.200.158]: 72.163.1.26.
+
+Aggregate for [173.37.204.22]:
+173.37.206.0/24
+TTLs for 173.37.204.22: 10
+Found one peer for [173.37.204.22]: [Offset=2] 72.163.0.254.
+
+Aggregate for [173.37.213.22]:
+173.37.200.160/28
+TTLs for 173.37.213.22: 10
+Found one peer for [173.37.213.22]: 72.163.0.242.
+
+Aggregate for [173.37.213.30, 2]:
+173.37.214.128/25
+TTLs for 173.37.213.30: 10
+Found one peer for [173.37.213.30, 2]: 72.163.0.242.
+
+Aggregate for [173.37.216.129]:
+173.37.216.128/27
+TTLs for 173.37.216.129: 10
+Found one peer for [173.37.216.129]: [Offset=2] 72.163.0.186.
+
+Aggregate for [173.37.216.161]:
+173.37.216.160/27
+TTLs for 173.37.216.161: 10
+Found one peer for [173.37.216.161]: [Offset=2] 72.163.0.178.
+
+Aggregate for [173.37.216.65]:
+173.37.216.64/27
+TTLs for 173.37.216.65: 10
+Found one peer for [173.37.216.65]: [Offset=2] 72.163.0.186.
+
+Aggregate for [173.37.216.97]:
+173.37.216.96/27
+TTLs for 173.37.216.97: 10
+Found one peer for [173.37.216.97]: [Offset=2] 72.163.0.190.
+
+Aggregate for [173.37.216.9]:
+173.37.216.8/29
+TTLs for 173.37.216.9: 10
+Found one peer for [173.37.216.9]: [Offset=2] 72.163.0.178.
+
+Aggregate for [173.37.217.1]:
+173.37.217.0/26
+TTLs for 173.37.217.1: 10
+Found one peer for [173.37.217.1]: [Offset=2] 72.163.0.186.
+
+Aggregate for [173.37.218.1]:
+173.37.218.0/25
+TTLs for 173.37.218.1: 10
+Found one peer for [173.37.218.1]: [Offset=2] 72.163.0.182.
+
+Aggregate for [173.37.56.6]:
+173.37.56.160/27
+TTLs for 173.37.56.6: 10
+Found one peer for [173.37.56.6]: [Offset=2] 128.107.224.150.
+
+Aggregate for [173.37.58.35]:
+173.37.58.48/28
+TTLs for 173.37.58.35: 11
+Found one peer for [173.37.58.35]: 173.36.208.122.
+
+Aggregate for [173.38.116.14]:
+173.38.117.192/26
+TTLs for 173.38.116.14: 10
+Found one peer for [173.38.116.14]: 64.102.244.186.
+
+Aggregate for [173.38.116.54]:
+64.102.255.0/27
+TTLs for 173.38.116.54: 10
+Found one peer for [173.38.116.54]: 64.102.244.186.
+
+Aggregate for [173.38.116.6]:
+173.38.116.16/30
+173.38.116.32/29
+TTLs for 173.38.116.6: 10
+Conducting alias resolution on 2 junction IPs64.102.244.186, 64.102.244.190...Done.
+IP entries:
+64.102.244.186 - 9: 255 - ECHO,rtp10-cd-dmzaas-gw1-ten2-1.cisco.com
+64.102.244.190 - 9: 255 - ECHO,rtp10-cd-dmzaas-gw1-ten2-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.116.6]:
+64.102.244.186
+64.102.244.190
+
+Aggregate for [173.38.117.133]:
+64.102.254.180/30
+TTLs for 173.38.117.133: 8
+Found one peer for [173.38.117.133]: 64.102.254.198.
+
+Aggregate for [173.38.117.137]:
+64.102.254.164/30
+TTLs for 173.38.117.137: 8
+Found one peer for [173.38.117.137]: 64.102.254.198.
+
+Aggregate for [173.38.117.42]:
+173.38.118.0/27
+TTLs for 173.38.117.42: 9
+Found one peer for [173.38.117.42]: [Offset=2] 64.102.254.234.
+
+Aggregate for [173.38.117.46]:
+173.38.117.8/29
+TTLs for 173.38.117.46: 9
+Found one peer for [173.38.117.46]: [Offset=2] 64.102.254.234.
+
+Aggregate for [173.38.118.2]:
+64.101.37.0/26
+TTLs for 173.38.118.2: 10
+Found one peer for [173.38.118.2]: [Offset=3] 64.102.254.234.
+
+Aggregate for [173.38.120.129]:
+173.38.120.128/26
+TTLs for 173.38.120.129: 10
+Found one peer for [173.38.120.129]: [Offset=3] 64.102.254.234.
+
+Aggregate for [173.38.120.1]:
+173.38.120.0/26
+TTLs for 173.38.120.1: 10
+Found one peer for [173.38.120.1]: [Offset=2] 64.102.244.142.
+
+Aggregate for [173.38.121.1]:
+173.38.121.0/25
+TTLs for 173.38.121.1: 10
+Found one peer for [173.38.121.1]: [Offset=2] 64.102.244.142.
+
+Aggregate for [173.38.122.129]:
+173.38.122.128/27
+TTLs for 173.38.122.129: 10
+Found one peer for [173.38.122.129]: [Offset=3] 64.102.254.234.
+
+Aggregate for [173.38.122.33]:
+173.38.122.32/27
+TTLs for 173.38.122.33: 10
+Found one peer for [173.38.122.33]: [Offset=3] 64.102.254.234.
+
+Aggregate for [173.38.122.65]:
+173.38.122.64/27
+TTLs for 173.38.122.65: 10
+Found one peer for [173.38.122.65]: [Offset=3] 64.102.254.234.
+
+Aggregate for [173.38.122.97]:
+173.38.122.96/27
+TTLs for 173.38.122.97: 10
+Found one peer for [173.38.122.97]: [Offset=2] 64.102.244.142.
+
+Aggregate for [173.38.152.30]:
+173.38.221.0/26
+TTLs for 173.38.152.30: 14
+Found one peer for [173.38.152.30]: 173.38.209.190.
+
+Aggregate for [173.38.153.34]:
+173.38.153.32/27
+TTLs for 173.38.153.34: 15
+Found one peer for [173.38.153.34]: [Offset=2] 173.38.209.186.
+
+Aggregate for [173.38.156.2]:
+173.38.220.64/29
+173.38.220.72/29
+TTLs for 173.38.156.2: 14
+Conducting alias resolution on 2 junction IPs173.38.209.186, 173.38.209.190...Done.
+IP entries:
+173.38.209.186 - 13: 255 - ECHO,aer01-mda1-dmzvlab-gw1-gig0-0-0.cisco.com
+173.38.209.190 - 13: 255 - ECHO,aer01-mda1-dmzvlab-gw1-gig0-1-0.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.156.2]:
+173.38.209.186
+173.38.209.190
+
+Aggregate for [173.38.168.186]:
+173.38.170.224/29
+TTLs for 173.38.168.186: 14
+Found one peer for [173.38.168.186]: 173.38.209.190.
+
+Aggregate for [173.38.208.10]:
+173.38.208.4/30
+173.38.208.12/30
+173.38.208.16/30
+173.38.208.20/30
+173.38.208.128/25
+173.38.209.40/30
+173.38.209.44/30
+173.38.209.192/30
+173.38.220.152/30
+173.38.220.156/30
+TTLs for 173.38.208.10: 11
+Found one peer for [173.38.208.10]: 134.222.93.54.
+
+Aggregate for [173.38.208.14]:
+173.38.209.92/30
+173.38.209.100/30
+TTLs for 173.38.208.14: 12
+Found one peer for [173.38.208.14]: 173.38.208.10.
+
+Aggregate for [173.38.208.18]:
+64.103.36.16/29
+173.38.209.96/30
+TTLs for 173.38.208.18: 12
+Found one peer for [173.38.208.18]: 173.38.208.10.
+
+Aggregate for [173.38.208.194]:
+173.38.208.120/29
+173.38.212.0/28
+173.38.212.32/27
+173.38.213.0/29
+173.38.214.0/26
+TTLs for 173.38.208.194: 13
+Conducting alias resolution on 2 junction IPs173.38.209.42, 173.38.209.50...Done.
+IP entries:
+173.38.209.42 - 12: 255 - ECHO,aer01-mda1-dcc-gw1-por9.cisco.com
+173.38.209.50 - 12: 255 - ECHO,aer01-mda1-dcc-gw1-por10.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.208.194]:
+173.38.209.42
+173.38.209.50
+
+Aggregate for [173.38.208.198]:
+64.103.36.128/29
+173.38.212.104/29
+173.38.212.112/28
+173.38.212.128/27
+173.38.213.32/29
+TTLs for 173.38.208.198: 13
+Conducting alias resolution on 2 junction IPs173.38.209.46, 173.38.209.54...Done.
+IP entries:
+173.38.209.46 - 12: 255 - ECHO,aer01-mda2-dcc-gw2-por9.cisco.com
+173.38.209.54 - 12: 255 - ECHO,aer01-mda2-dcc-gw2-por10.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.208.198]:
+173.38.209.46
+173.38.209.54
+
+Aggregate for [173.38.208.202]:
+173.38.210.64/30
+TTLs for 173.38.208.202: 13
+Found one peer for [173.38.208.202]: 173.38.208.34.
+
+Aggregate for [173.38.208.206]:
+173.38.209.176/30
+173.38.210.68/30
+TTLs for 173.38.208.206: 13
+Conducting alias resolution on 2 junction IPs173.38.208.14, 173.38.208.34...Done.
+IP entries:
+173.38.208.14 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.38.208.34 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.208.206]:
+173.38.208.14
+173.38.208.34
+
+Aggregate for [173.38.208.210]:
+64.103.26.0/23
+64.103.39.220/30
+64.103.39.240/30
+173.38.209.132/30
+173.38.209.140/30
+173.38.209.212/30
+TTLs for 173.38.208.210: 13
+Conducting alias resolution on 2 junction IPs173.38.208.14, 173.38.208.34...Done.
+IP entries:
+173.38.208.14 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.38.208.34 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.208.210]:
+173.38.208.14
+173.38.208.34
+
+Aggregate for [173.38.208.214, 2]:
+64.103.25.224/27
+TTLs for 173.38.208.214: 13
+Found one peer for [173.38.208.214, 2]: 173.38.208.14.
+
+Aggregate for [173.38.208.214]:
+64.103.25.164/30
+64.103.25.184/30
+64.103.39.244/30
+173.38.209.136/30
+173.38.209.144/30
+TTLs for 173.38.208.214: 13
+Conducting alias resolution on 2 junction IPs173.38.208.14, 173.38.208.34...Done.
+IP entries:
+173.38.208.14 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.38.208.34 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.208.214]:
+173.38.208.14
+173.38.208.34
+
+Aggregate for [173.38.208.218]:
+173.38.209.200/30
+TTLs for 173.38.208.218: 13
+Found one peer for [173.38.208.218]: 173.38.208.18.
+
+Aggregate for [173.38.208.222]:
+173.38.209.204/30
+TTLs for 173.38.208.222: 13
+Found one peer for [173.38.208.222]: 173.38.208.38.
+
+Aggregate for [173.38.208.226]:
+64.103.25.160/30
+173.38.209.236/30
+TTLs for 173.38.208.226: 13
+Conducting alias resolution on 2 junction IPs173.38.208.18, 173.38.208.38...Done.
+IP entries:
+173.38.208.18 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten1-1.cisco.com
+173.38.208.38 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.208.226]:
+173.38.208.18
+173.38.208.38
+
+Aggregate for [173.38.208.230]:
+64.103.39.192/30
+173.38.209.240/30
+173.38.209.244/30
+TTLs for 173.38.208.230: 13
+Found one peer for [173.38.208.230]: 173.38.208.38.
+
+Aggregate for [173.38.208.30]:
+173.38.208.24/30
+173.38.208.32/30
+173.38.208.36/30
+173.38.209.48/30
+173.38.209.52/30
+173.38.209.196/30
+173.38.220.132/30
+173.38.220.160/30
+173.38.220.164/30
+TTLs for 173.38.208.30: 11
+Found one peer for [173.38.208.30]: 134.222.93.54.
+
+Aggregate for [173.38.208.34]:
+173.38.209.184/30
+TTLs for 173.38.208.34: 12
+Found one peer for [173.38.208.34]: 173.38.208.30.
+
+Aggregate for [173.38.208.38]:
+173.38.209.104/30
+173.38.209.188/30
+TTLs for 173.38.208.38: 12
+Found one peer for [173.38.208.38]: 173.38.208.30.
+
+Aggregate for [173.38.209.102]:
+173.38.209.120/30
+TTLs for 173.38.209.102: 13
+Found one peer for [173.38.209.102]: 173.38.208.34.
+
+Aggregate for [173.38.209.106]:
+173.38.209.112/30
+TTLs for 173.38.209.106: 13
+Found one peer for [173.38.209.106]: 173.38.208.18.
+
+Aggregate for [173.38.209.134]:
+64.103.37.8/29
+173.38.221.64/27
+TTLs for 173.38.209.134: 14
+Conducting alias resolution on 2 junction IPs173.38.208.210, 173.38.208.226...Done.
+IP entries:
+173.38.208.210 - 13: 255 - ECHO,aer01-mda1-dmzvaas-gw1-gig0-1.cisco.com
+173.38.208.226 - 13: 255 - ECHO,aer01-mda1-dmzvaas-gw1-gig0-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.134]:
+173.38.208.210
+173.38.208.226
+
+Aggregate for [173.38.209.138, 2]:
+64.103.37.24/29
+64.103.37.32/28
+TTLs for 173.38.209.138: 14
+Conducting alias resolution on 2 junction IPs173.38.208.214, 173.38.208.230...Done.
+IP entries:
+173.38.208.214 - 13: 255 - ECHO,aer01-mda2-dmzvaas-gw2-gig0-1.cisco.com
+173.38.208.230 - 13: 255 - ECHO,aer01-mda2-dmzvaas-gw2-gig0-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.138, 2]:
+173.38.208.214
+173.38.208.230
+
+Aggregate for [173.38.209.138, 3]:
+64.103.37.0/30
+TTLs for 173.38.209.138: 14
+Found one peer for [173.38.209.138, 3]: 173.38.208.230.
+
+Aggregate for [173.38.209.138]:
+64.103.37.4/30
+64.103.37.60/30
+173.38.223.60/30
+TTLs for 173.38.209.138: 14
+Conducting alias resolution on 2 junction IPs173.38.208.214, 173.38.208.230...Done.
+IP entries:
+173.38.208.214 - 13: 255 - ECHO,aer01-mda2-dmzvaas-gw2-gig0-1.cisco.com
+173.38.208.230 - 13: 255 - ECHO,aer01-mda2-dmzvaas-gw2-gig0-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.138]:
+173.38.208.214
+173.38.208.230
+
+Aggregate for [173.38.209.161]:
+173.38.212.192/26
+TTLs for 173.38.209.161: 13
+Found one peer for [173.38.209.161]: 173.38.209.46.
+
+Aggregate for [173.38.209.174]:
+173.38.210.0/26
+TTLs for 173.38.209.174: 14
+Found one peer for [173.38.209.174]: 173.38.208.218.
+
+Aggregate for [173.38.209.186, 1]:
+64.103.37.128/25
+64.103.38.64/26
+64.103.38.224/28
+64.103.38.240/30
+64.103.39.144/28
+144.254.51.0/25
+173.38.221.128/26
+TTLs for 173.38.209.186: 13
+Conducting alias resolution on 2 junction IPs173.38.208.14, 173.38.208.34...Done.
+IP entries:
+173.38.208.14 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.38.208.34 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.186, 1]:
+173.38.208.14
+173.38.208.34
+
+Aggregate for [173.38.209.186, 2]:
+64.103.25.16/29
+64.103.25.24/29
+64.103.25.32/27
+64.103.37.64/26
+173.38.168.160/28
+173.38.169.0/24
+TTLs for 173.38.209.186: 13
+Conducting alias resolution on 2 junction IPs173.38.208.14, 173.38.208.34...Done.
+IP entries:
+173.38.208.14 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.38.208.34 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.186, 2]:
+173.38.208.14
+173.38.208.34
+
+Aggregate for [173.38.209.186]:
+64.103.25.168/30
+144.254.51.240/30
+173.38.168.184/30
+173.38.168.188/30
+173.38.209.248/30
+TTLs for 173.38.209.186: 13
+Conducting alias resolution on 2 junction IPs173.38.208.14, 173.38.208.34...Done.
+IP entries:
+173.38.208.14 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten1-1.cisco.com
+173.38.208.34 - 12: 255 - ECHO,aer01-mda1-dmznet-gw1-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.186]:
+173.38.208.14
+173.38.208.34
+
+Aggregate for [173.38.209.190, 1]:
+64.103.25.192/28
+173.38.153.0/27
+173.38.170.0/25
+173.38.171.0/30
+TTLs for 173.38.209.190: 13
+Conducting alias resolution on 2 junction IPs173.38.208.18, 173.38.208.38...Done.
+IP entries:
+173.38.208.18 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten1-1.cisco.com
+173.38.208.38 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.190, 1]:
+173.38.208.18
+173.38.208.38
+
+Aggregate for [173.38.209.190, 2]:
+64.103.25.0/28
+173.38.155.0/24
+173.38.168.128/27
+TTLs for 173.38.209.190: 13
+Conducting alias resolution on 2 junction IPs173.38.208.18, 173.38.208.38...Done.
+IP entries:
+173.38.208.18 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten1-1.cisco.com
+173.38.208.38 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.190, 2]:
+173.38.208.18
+173.38.208.38
+
+Aggregate for [173.38.209.190]:
+64.103.38.24/30
+64.103.39.236/30
+173.38.152.0/26
+173.38.153.72/30
+173.38.154.0/24
+173.38.156.0/30
+TTLs for 173.38.209.190: 13
+Conducting alias resolution on 2 junction IPs173.38.208.18, 173.38.208.38...Done.
+IP entries:
+173.38.208.18 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten1-1.cisco.com
+173.38.208.38 - 12: 255 - ECHO,aer01-mda2-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.38.209.190]:
+173.38.208.18
+173.38.208.38
+
+Aggregate for [173.38.209.206]:
+64.103.39.96/27
+TTLs for 173.38.209.206: 14
+Found one peer for [173.38.209.206]: 173.38.208.222.
+
+Aggregate for [173.38.209.246]:
+173.38.219.96/27
+TTLs for 173.38.209.246: 14
+Found one peer for [173.38.209.246]: 173.38.208.214.
+
+Aggregate for [173.38.209.250, 2]:
+173.38.221.192/28
+173.38.221.224/27
+TTLs for 173.38.209.250: 14
+Found one peer for [173.38.209.250, 2]: 173.38.209.190.
+
+Aggregate for [173.38.209.42]:
+173.38.208.48/30
+173.38.208.52/30
+173.38.209.64/30
+173.38.209.156/30
+173.38.213.16/28
+TTLs for 173.38.209.42: 12
+Found one peer for [173.38.209.42]: 173.38.208.10.
+
+Aggregate for [173.38.209.46]:
+173.38.208.56/30
+173.38.208.60/30
+173.38.209.68/30
+173.38.209.152/30
+173.38.212.64/27
+173.38.213.8/29
+TTLs for 173.38.209.46: 12
+Found one peer for [173.38.209.46]: 173.38.208.10.
+
+Aggregate for [173.38.209.50]:
+173.38.209.56/30
+173.38.209.148/30
+173.38.213.48/28
+173.38.216.0/23
+TTLs for 173.38.209.50: 12
+Found one peer for [173.38.209.50]: 173.38.208.30.
+
+Aggregate for [173.38.209.54]:
+173.38.209.60/30
+173.38.209.72/29
+173.38.209.160/28
+173.38.212.96/29
+173.38.213.64/26
+TTLs for 173.38.209.54: 12
+Found one peer for [173.38.209.54]: 173.38.208.30.
+
+Aggregate for [173.38.209.66]:
+173.38.209.80/29
+TTLs for 173.38.209.66: 13
+Found one peer for [173.38.209.66]: 173.38.209.42.
+
+Aggregate for [173.38.209.94]:
+173.38.209.108/30
+TTLs for 173.38.209.94: 13
+Found one peer for [173.38.209.94]: 173.38.208.14.
+
+Aggregate for [173.38.209.98]:
+173.38.209.116/30
+TTLs for 173.38.209.98: 13
+Found one peer for [173.38.209.98]: 173.38.208.18.
+
+Aggregate for [173.38.220.154]:
+173.38.220.188/30
+TTLs for 173.38.220.154: 12
+Found one peer for [173.38.220.154]: 173.38.208.10.
+
+Aggregate for [173.39.112.18]:
+173.39.112.192/29
+173.39.112.208/29
+173.39.112.224/29
+TTLs for 173.39.112.18: 15
+Conducting alias resolution on 2 junction IPs173.39.120.202, 173.39.120.206...Done.
+IP entries:
+173.39.120.202 - 14: 255 - ECHO,sngdc01-mda2-dmzdcc-gw2-eth2-3.cisco.com
+173.39.120.206 - 14: 255 - ECHO,sngdc01-mda2-dmzdcc-gw2-eth3-3.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.39.112.18]:
+173.39.120.202
+173.39.120.206
+
+Aggregate for [173.39.112.22]:
+173.39.112.28/30
+TTLs for 173.39.112.22: 15
+Found one peer for [173.39.112.22]: 173.39.120.194.
+
+Aggregate for [173.39.112.2]:
+173.39.112.96/27
+TTLs for 173.39.112.2: 15
+Found one peer for [173.39.112.2]: 173.39.120.194.
+
+Aggregate for [173.39.112.34]:
+173.39.113.0/27
+TTLs for 173.39.112.34: 15
+Found one peer for [173.39.112.34]: 173.39.120.202.
+
+Aggregate for [173.39.112.6]:
+173.39.112.80/28
+TTLs for 173.39.112.6: 15
+Found one peer for [173.39.112.6]: 173.39.120.198.
+
+Aggregate for [173.39.117.98]:
+173.39.117.192/27
+TTLs for 173.39.117.98: 16
+Found one peer for [173.39.117.98]: [Offset=2] 173.39.120.50.
+
+Aggregate for [173.39.12.34]:
+173.39.12.0/25
+173.39.88.160/27
+TTLs for 173.39.12.34: 9
+Found one peer for [173.39.12.34]: 72.163.219.33.
+
+Aggregate for [173.39.120.106]:
+173.39.123.208/30
+TTLs for 173.39.120.106: 15
+Found one peer for [173.39.120.106]: 173.39.120.54.
+
+Aggregate for [173.39.120.114]:
+173.39.123.212/30
+173.39.125.68/30
+TTLs for 173.39.120.114: 15
+Found one peer for [173.39.120.114]: 173.39.120.54.
+
+Aggregate for [173.39.120.18]:
+173.39.120.4/30
+173.39.120.28/30
+173.39.120.36/30
+173.39.120.40/29
+173.39.120.52/30
+173.39.120.132/31
+173.39.120.196/30
+173.39.120.204/30
+TTLs for 173.39.120.18: 13
+Found one peer for [173.39.120.18]: 203.117.163.6.
+
+Aggregate for [173.39.120.194]:
+173.39.112.4/30
+173.39.112.20/30
+173.39.112.24/30
+TTLs for 173.39.120.194: 14
+Found one peer for [173.39.120.194]: 173.39.120.22.
+
+Aggregate for [173.39.120.198]:
+173.39.112.0/30
+173.39.112.64/29
+TTLs for 173.39.120.198: 14
+Found one peer for [173.39.120.198]: 173.39.120.18.
+
+Aggregate for [173.39.120.202]:
+173.39.112.36/30
+TTLs for 173.39.120.202: 14
+Found one peer for [173.39.120.202]: 173.39.120.22.
+
+Aggregate for [173.39.120.206]:
+173.39.112.8/29
+173.39.112.16/30
+173.39.112.32/30
+173.39.120.208/30
+TTLs for 173.39.120.206: 14
+Found one peer for [173.39.120.206]: 173.39.120.18.
+
+Aggregate for [173.39.120.214]:
+64.104.94.128/26
+173.39.120.240/30
+TTLs for 173.39.120.214: 15
+Found one peer for [173.39.120.214]: 173.39.120.50.
+
+Aggregate for [173.39.120.222]:
+173.39.120.224/30
+TTLs for 173.39.120.222: 15
+Found one peer for [173.39.120.222]: 173.39.120.50.
+
+Aggregate for [173.39.120.22]:
+173.39.120.0/30
+173.39.120.24/30
+173.39.120.32/30
+173.39.120.48/30
+173.39.120.172/31
+173.39.120.192/30
+173.39.120.200/30
+TTLs for 173.39.120.22: 13
+Found one peer for [173.39.120.22]: 203.117.163.6.
+
+Aggregate for [173.39.120.230]:
+173.39.123.0/25
+TTLs for 173.39.120.230: 15
+Found one peer for [173.39.120.230]: 173.39.120.46.
+
+Aggregate for [173.39.120.242]:
+64.104.94.32/28
+TTLs for 173.39.120.242: 16
+Found one peer for [173.39.120.242]: 173.39.120.214.
+
+Aggregate for [173.39.120.246]:
+64.104.94.48/30
+64.104.94.192/30
+TTLs for 173.39.120.246: 16
+Conducting alias resolution on 2 IPs containing junction IP 173.39.120.222...Done.
+IP entries:
+173.39.120.218 - 15: 255 - ECHO,sngdc01-mda2-dmzaas-gw2-ten2-1.cisco.com
+173.39.120.222 - 15: 255 - ECHO,sngdc01-mda2-dmzaas-gw2-ten2-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [173.39.120.246]: 173.39.120.222.
+
+Aggregate for [173.39.120.25]:
+173.39.120.108/30
+TTLs for 173.39.120.25: 14
+Found one peer for [173.39.120.25]: 173.39.120.22.
+
+Aggregate for [173.39.120.37]:
+173.39.120.100/30
+TTLs for 173.39.120.37: 14
+Found one peer for [173.39.120.37]: 173.39.120.18.
+
+Aggregate for [173.39.120.46]:
+173.39.120.76/30
+173.39.120.80/30
+173.39.120.84/30
+173.39.120.216/30
+173.39.120.228/30
+TTLs for 173.39.120.46: 14
+Found one peer for [173.39.120.46]: 173.39.120.22.
+
+Aggregate for [173.39.120.50]:
+173.39.120.88/30
+173.39.120.92/30
+173.39.120.104/30
+173.39.120.112/30
+173.39.120.212/30
+TTLs for 173.39.120.50: 14
+Found one peer for [173.39.120.50]: 173.39.120.22.
+
+Aggregate for [173.39.120.54]:
+173.39.120.220/30
+TTLs for 173.39.120.54: 14
+Found one peer for [173.39.120.54]: 173.39.120.18.
+
+Aggregate for [173.39.120.58]:
+64.104.94.80/30
+173.39.120.56/29
+173.39.120.72/30
+TTLs for 173.39.120.58: 14
+Found one peer for [173.39.120.58]: 173.39.120.18.
+
+Aggregate for [173.39.120.74, 1]:
+173.39.117.64/26
+TTLs for 173.39.120.74: 15
+Found one peer for [173.39.120.74, 1]: 173.39.120.58.
+
+Aggregate for [173.39.120.74]:
+173.39.123.192/30
+TTLs for 173.39.120.74: 15
+Found one peer for [173.39.120.74]: 173.39.120.46.
+
+Aggregate for [173.39.120.82]:
+173.39.121.112/30
+TTLs for 173.39.120.82: 15
+Found one peer for [173.39.120.82]: 173.39.120.58.
+
+Aggregate for [173.39.120.86]:
+173.39.121.116/30
+TTLs for 173.39.120.86: 15
+Found one peer for [173.39.120.86]: 173.39.120.58.
+
+Aggregate for [173.39.120.90, 2]:
+64.104.95.0/24
+TTLs for 173.39.120.90: 15
+Found one peer for [173.39.120.90, 2]: 173.39.120.50.
+
+Aggregate for [173.39.123.194]:
+173.39.117.128/30
+TTLs for 173.39.123.194: 16
+Found one peer for [173.39.123.194]: [Offset=2] 173.39.120.50.
+
+Aggregate for [173.39.125.70]:
+173.39.125.96/27
+TTLs for 173.39.125.70: 16
+Found one peer for [173.39.125.70]: 173.39.120.86.
+
+Aggregate for [173.39.13.146, 2]:
+173.39.80.96/28
+TTLs for 173.39.13.146: 9
+Found one peer for [173.39.13.146, 2]: 72.163.216.110.
+
+Aggregate for [173.39.13.146]:
+173.39.13.128/28
+173.39.89.0/26
+TTLs for 173.39.13.146: 9
+Found one peer for [173.39.13.146]: 72.163.216.110.
+
+Aggregate for [173.39.13.154]:
+173.39.14.224/28
+173.39.15.96/28
+TTLs for 173.39.13.154: 9
+Conducting alias resolution on 2 junction IPs72.163.216.110, 72.163.216.142...Done.
+IP entries:
+72.163.216.110 - 8: 255 - ECHO,bgl17-dmzvlab-gw1-gig0-1.cisco.com
+72.163.216.142 - 8: 255 - ECHO,bgl17-dmzvlab-gw1-gig0-0.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [173.39.13.154]:
+72.163.216.110
+72.163.216.142
+
+Aggregate for [173.39.13.158]:
+173.39.15.0/27
+TTLs for 173.39.13.158: 9
+Found one peer for [173.39.13.158]: [Offset=2] 72.163.216.70.
+
+Aggregate for [173.39.14.10]:
+173.39.13.0/27
+173.39.13.192/28
+TTLs for 173.39.14.10: 9
+Found one peer for [173.39.14.10]: 72.163.216.110.
+
+Aggregate for [173.39.145.138]:
+173.39.152.0/24
+TTLs for 173.39.145.138: 12
+Found one peer for [173.39.145.138]: 64.104.127.222.
+
+Aggregate for [173.39.15.126]:
+173.39.89.224/27
+TTLs for 173.39.15.126: 9
+Found one peer for [173.39.15.126]: [Offset=2] 72.163.216.46.
+
+Aggregate for [173.39.15.222]:
+173.39.13.80/29
+TTLs for 173.39.15.222: 9
+Found one peer for [173.39.15.222]: 72.163.216.94.
+
+Aggregate for [173.39.15.38]:
+173.39.15.64/29
+TTLs for 173.39.15.38: 9
+Found one peer for [173.39.15.38]: 72.163.219.33.
+
+Aggregate for [173.39.15.75]:
+173.39.15.80/29
+TTLs for 173.39.15.75: 10
+Found one peer for [173.39.15.75]: 173.39.15.38.
+
+Aggregate for [173.39.80.50]:
+173.39.80.64/29
+TTLs for 173.39.80.50: 9
+Found one peer for [173.39.80.50]: 72.163.216.142.
+
+Aggregate for [173.39.88.14]:
+173.39.88.64/29
+TTLs for 173.39.88.14: 9
+Found one peer for [173.39.88.14]: 72.163.216.110.
+
+Aggregate for [173.39.88.154]:
+173.39.89.64/26
+TTLs for 173.39.88.154: 9
+Found one peer for [173.39.88.154]: 72.163.216.110.
+
+Aggregate for [173.39.88.50]:
+173.39.88.96/27
+TTLs for 173.39.88.50: 9
+Found one peer for [173.39.88.50]: 72.163.216.110.
+
+Aggregate for [173.39.88.54]:
+173.39.88.136/30
+TTLs for 173.39.88.54: 9
+Found one peer for [173.39.88.54]: 72.163.216.142.
+
+Aggregate for [173.39.90.206]:
+173.39.90.128/26
+TTLs for 173.39.90.206: 9
+Found one peer for [173.39.90.206]: 72.163.216.142.
+
+Aggregate for [173.39.90.214]:
+173.39.90.224/27
+TTLs for 173.39.90.214: 9
+Found one peer for [173.39.90.214]: [Offset=2] 72.163.216.66.
+
+Aggregate for [173.39.90.218]:
+173.39.91.64/26
+TTLs for 173.39.90.218: 9
+Found one peer for [173.39.90.218]: 72.163.216.126.
+
+Aggregate for [173.39.90.222]:
+173.39.91.32/29
+TTLs for 173.39.90.222: 9
+Found one peer for [173.39.90.222]: 72.163.216.142.
+
+Aggregate for [173.39.90.225]:
+173.39.91.0/29
+TTLs for 173.39.90.225: 10
+Found one peer for [173.39.90.225]: 173.39.90.214.
+
+Aggregate for [192.118.76.110, 2]:
+192.118.77.192/27
+192.118.77.224/30
+192.118.77.228/30
+TTLs for 192.118.76.110: 12, 14
+Conducting alias resolution on 2 junction IPs192.118.76.26, 192.118.76.30...Done.
+IP entries:
+192.118.76.26 - 11: 255 - ECHO
+192.118.76.30 - 11: 255 - ECHO
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [192.118.76.110, 2]:
+192.118.76.26
+192.118.76.30
+
+Aggregate for [192.118.76.118]:
+192.118.76.34/31
+TTLs for 192.118.76.118: 15
+Found one peer for [192.118.76.118]: 192.118.76.30.
+
+Aggregate for [192.118.76.26, 1]:
+192.118.77.0/27
+TTLs for 192.118.76.26: 13
+Found one peer for [192.118.76.26, 1]: [Offset=2] 192.118.78.78.
+
+Aggregate for [192.118.76.26]:
+192.118.76.168/29
+192.118.76.186/31
+192.118.76.192/29
+TTLs for 192.118.76.26: 13, 14
+Conducting alias resolution on 2 junction IPs192.118.78.70, 192.118.78.78...Done.
+IP entries:
+192.118.78.70 - 9: 255 - ECHO
+192.118.78.78 - 9: 255 - ECHO
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [192.118.76.26]:
+[Offset=2] 192.118.78.70
+[Offset=2] 192.118.78.78
+
+Aggregate for [192.118.76.30, 3]:
+192.118.76.0/28
+TTLs for 192.118.76.30: 11
+Found one peer for [192.118.76.30, 3]: 192.118.78.90.
+
+Aggregate for [192.118.76.30]:
+192.118.76.104/30
+192.118.76.108/30
+192.118.76.128/28
+192.118.76.144/29
+192.118.76.236/30
+192.118.77.32/27
+192.118.77.128/26
+TTLs for 192.118.76.30: 12, 14, 13
+Conducting alias resolution on 2 IPs containing junction IP 192.118.78.90...Done.
+IP entries:
+192.118.78.90 - 10: 255 - ECHO
+192.118.78.98 - 12: 255 - ECHO
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [192.118.76.30]: 192.118.78.90.
+
+Aggregate for [192.118.78.70]:
+192.118.78.84/30
+192.118.78.88/30
+192.118.79.140/30
+192.118.79.168/30
+TTLs for 192.118.78.70: 10, 11
+Found one peer for [192.118.78.70]: 31.168.6.98.
+
+Aggregate for [192.118.78.78]:
+192.118.76.24/29
+192.118.78.92/30
+192.118.78.96/30
+192.118.79.184/30
+TTLs for 192.118.78.78: 11, 12
+Found one peer for [192.118.78.78]: 31.168.6.98.
+
+Aggregate for [192.118.78.90]:
+192.118.79.130/31
+TTLs for 192.118.78.90: 11
+Found one peer for [192.118.78.90]: 192.118.78.70.
+
+Aggregate for [192.118.78.98]:
+192.118.76.112/28
+TTLs for 192.118.78.98: 12
+Found one peer for [192.118.78.98]: 192.118.78.78.
+
+Aggregate for [192.118.79.138]:
+192.118.78.240/29
+TTLs for 192.118.79.138: 11
+Found one peer for [192.118.79.138]: 192.118.78.78.
+
+Aggregate for [192.118.79.142]:
+192.118.78.116/30
+TTLs for 192.118.79.142: 11
+Found one peer for [192.118.79.142]: 192.118.78.70.
+
+Aggregate for [192.118.79.170]:
+192.118.78.112/30
+TTLs for 192.118.79.170: 13
+Found one peer for [192.118.79.170]: 192.118.78.70.
+
+Aggregate for [192.118.79.186, 4]:
+192.118.78.104/29
+TTLs for 192.118.79.186: 12
+Found one peer for [192.118.79.186, 4]: 192.118.78.78.
+
+Aggregate for [192.133.195.254]:
+192.133.196.0/24
+TTLs for 192.133.195.254: 10
+Found one peer for [192.133.195.254]: 64.100.8.54.
+
+Aggregate for [192.133.195.26]:
+192.133.195.224/29
+TTLs for 192.133.195.26: 10
+Found one peer for [192.133.195.26]: 64.100.8.54.
+
+Aggregate for [192.133.232.34]:
+192.133.232.24/30
+TTLs for 192.133.232.34: 11
+Found one peer for [192.133.232.34]: 64.102.244.122.
+
+Aggregate for [198.135.0.114]:
+198.135.2.0/30
+198.135.2.8/30
+TTLs for 198.135.0.114: 9
+Found one peer for [198.135.0.114]: 198.135.0.50.
+
+Aggregate for [198.135.0.118]:
+198.135.3.12/30
+TTLs for 198.135.0.118: 9
+Found one peer for [198.135.0.118]: 198.135.0.54.
+
+Aggregate for [198.135.0.18]:
+198.135.0.4/30
+198.135.0.32/27
+TTLs for 198.135.0.18: 7
+Found one peer for [198.135.0.18]: 152.179.149.86.
+
+Aggregate for [198.135.0.22]:
+198.135.0.0/30
+TTLs for 198.135.0.22: 7
+Found one peer for [198.135.0.22]: 152.179.149.86.
+
+Aggregate for [198.135.0.26]:
+198.135.0.12/30
+TTLs for 198.135.0.26: 7
+Found one peer for [198.135.0.26]: 152.179.149.86.
+
+Aggregate for [198.135.0.30]:
+198.135.0.8/30
+198.135.0.218/31
+TTLs for 198.135.0.30: 7
+Found one peer for [198.135.0.30]: 152.179.149.86.
+
+Aggregate for [198.135.0.50]:
+198.135.0.64/30
+TTLs for 198.135.0.50: 8
+Found one peer for [198.135.0.50]: 198.135.0.22.
+
+Aggregate for [198.135.0.54]:
+198.135.0.84/30
+198.135.0.92/30
+TTLs for 198.135.0.54: 8
+Found one peer for [198.135.0.54]: 198.135.0.22.
+
+Aggregate for [198.135.0.58]:
+198.135.0.80/30
+TTLs for 198.135.0.58: 8
+Found one peer for [198.135.0.58]: 198.135.0.18.
+
+Aggregate for [198.135.0.62]:
+198.135.0.68/30
+198.135.0.76/30
+198.135.0.96/27
+TTLs for 198.135.0.62: 8
+Found one peer for [198.135.0.62]: 198.135.0.18.
+
+Aggregate for [198.135.0.66]:
+198.135.2.16/30
+TTLs for 198.135.0.66: 9
+Found one peer for [198.135.0.66]: 198.135.0.62.
+
+Aggregate for [198.135.0.86]:
+198.135.2.52/30
+TTLs for 198.135.0.86: 9
+Found one peer for [198.135.0.86]: 198.135.0.58.
+
+Aggregate for [198.135.2.10]:
+198.135.3.136/29
+TTLs for 198.135.2.10: 10
+Found one peer for [198.135.2.10]: 198.135.0.114.
+
+Aggregate for [198.135.2.18]:
+198.135.3.64/29
+TTLs for 198.135.2.18: 10
+Found one peer for [198.135.2.18]: [Offset=2] 198.135.0.58.
+
+Aggregate for [198.135.2.22]:
+198.135.1.0/24
+TTLs for 198.135.2.22: 10
+Found one peer for [198.135.2.22]: 198.135.0.66.
+
+Aggregate for [198.135.2.2]:
+198.135.2.64/27
+198.135.2.96/27
+198.135.3.96/27
+TTLs for 198.135.2.2: 10
+Conducting alias resolution on 2 junction IPs198.135.0.114, 198.135.0.118...Done.
+IP entries:
+198.135.0.114 - 9: 255 - ECHO,bxb25-dmzlab-gw1-ten1-1-1.cisco.com
+198.135.0.118 - 9: 255 - ECHO,bxb25-dmzlab-gw1-ten1-1-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [198.135.2.2]:
+198.135.0.114
+198.135.0.118
+
+Aggregate for [198.135.2.54]:
+198.135.4.0/26
+198.135.4.128/25
+TTLs for 198.135.2.54: 10
+Conducting alias resolution on 2 IPs containing junction IP 198.135.0.86...Done.
+IP entries:
+198.135.0.70 - 9: 255 - ECHO,bxb23-dmzlab-gw1-ten1-1-2.cisco.com
+198.135.0.86 - 9: 255 - ECHO,bxb23-dmzlab-gw1-ten1-1-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [198.135.2.54]: 198.135.0.86.
+
+Aggregate for [198.135.3.71]:
+198.135.3.72/30
+198.135.3.80/28
+TTLs for 198.135.3.71: 11
+Found one peer for [198.135.3.71]: 198.135.2.18.
+
+Aggregate for [202.56.248.34]:
+72.163.216.144/30
+72.163.216.148/30
+72.163.216.192/26
+72.163.220.0/26
+TTLs for 202.56.248.34: 11
+This aggregate should be a gate.
+
+Aggregate for [203.117.163.6]:
+173.39.120.16/30
+173.39.120.20/30
+173.39.120.176/28
+TTLs for 203.117.163.6: 12
+This aggregate should be a gate.
+
+Aggregate for [203.131.254.42]:
+64.104.125.128/28
+64.104.127.32/30
+64.104.127.216/30
+TTLs for 203.131.254.42: 9
+This aggregate should be a gate.
+
+Aggregate for [203.194.44.126]:
+64.104.248.0/24
+TTLs for 203.194.44.126: 15
+This aggregate should be a gate.
+
+Aggregate for [213.248.103.51]:
+173.39.248.0/21
+TTLs for 213.248.103.51: 9
+This aggregate should be a gate.
+
+Aggregate for [216.66.79.74]:
+173.36.112.112/30
+173.36.112.140/30
+173.36.113.80/29
+TTLs for 216.66.79.74: 10
+This aggregate should be a gate.
+
+Aggregate for [222.73.128.198]:
+72.163.248.0/24
+TTLs for 222.73.128.198: 10
+This aggregate should be a gate.
+
+Aggregate for [31.168.6.98]:
+192.118.78.64/28
+192.118.78.80/30
+192.118.78.172/30
+192.118.79.136/30
+TTLs for 31.168.6.98: 9, 10
+This aggregate should be a gate.
+
+Aggregate for [4.59.34.66]:
+72.163.0.4/30
+72.163.0.20/30
+72.163.3.144/28
+173.37.200.128/29
+TTLs for 4.59.34.66: 6
+This aggregate should be a gate.
+
+Aggregate for [4.71.162.2]:
+64.102.246.24/29
+64.102.254.196/30
+64.102.254.232/30
+TTLs for 4.71.162.2: 6
+This aggregate should be a gate.
+
+Aggregate for [61.120.145.30]:
+64.104.46.0/30
+64.104.46.4/30
+TTLs for 61.120.145.30: 11
+This aggregate should be a gate.
+
+Aggregate for [62.40.98.116, 2]:
+144.254.240.0/20
+TTLs for 62.40.98.116: 4
+This aggregate should be a gate.
+
+Aggregate for [64.100.248.114]:
+64.100.216.160/27
+TTLs for 64.100.248.114: 10
+Found one peer for [64.100.248.114]: 64.100.8.54.
+
+Aggregate for [64.100.248.118]:
+64.102.242.0/27
+TTLs for 64.100.248.118: 10
+Found one peer for [64.100.248.118]: 64.100.8.54.
+
+Aggregate for [64.100.248.18]:
+64.100.250.192/27
+TTLs for 64.100.248.18: 10
+Found one peer for [64.100.248.18]: 64.102.244.210.
+
+Aggregate for [64.100.250.130, 2]:
+64.100.250.56/29
+64.100.251.128/25
+TTLs for 64.100.250.130: 10
+Found one peer for [64.100.250.130, 2]: [Offset=2] 64.102.254.245.
+
+Aggregate for [64.100.250.130]:
+64.100.250.48/29
+TTLs for 64.100.250.130: 10
+Found one peer for [64.100.250.130]: [Offset=2] 64.102.254.209.
+
+Aggregate for [64.100.250.154, 2]:
+64.100.252.0/25
+TTLs for 64.100.250.154: 10
+Found one peer for [64.100.250.154, 2]: 64.100.8.54.
+
+Aggregate for [64.100.251.46]:
+64.100.251.40/30
+64.100.251.44/30
+64.100.251.48/28
+TTLs for 64.100.251.46: 11
+Found one peer for [64.100.251.46]: 64.102.242.146.
+
+Aggregate for [64.100.255.154]:
+64.100.9.0/26
+64.100.250.64/26
+TTLs for 64.100.255.154: 10
+Found one peer for [64.100.255.154]: [Offset=2] 64.102.254.238.
+
+Aggregate for [64.100.4.13]:
+64.100.4.0/30
+TTLs for 64.100.4.13: 10
+Found one peer for [64.100.4.13]: 64.102.254.130.
+
+Aggregate for [64.100.4.4]:
+64.100.4.4/31
+TTLs for 64.100.4.4: 10
+Found one peer for [64.100.4.4]: 64.102.254.130.
+
+Aggregate for [64.100.8.102]:
+64.100.58.128/25
+64.100.59.0/27
+TTLs for 64.100.8.102: 10
+Found one peer for [64.100.8.102]: 64.100.8.54.
+
+Aggregate for [64.100.8.10]:
+64.100.8.120/30
+TTLs for 64.100.8.10: 9
+Found one peer for [64.100.8.10]: 64.102.254.242.
+
+Aggregate for [64.100.8.122]:
+64.102.248.16/29
+TTLs for 64.100.8.122: 10
+Found one peer for [64.100.8.122]: 64.100.8.10.
+
+Aggregate for [64.100.8.22]:
+64.100.8.64/30
+TTLs for 64.100.8.22: 9
+Found one peer for [64.100.8.22]: 64.102.254.209.
+
+Aggregate for [64.100.8.30]:
+64.100.9.128/26
+64.102.241.228/30
+TTLs for 64.100.8.30: 9
+Found one peer for [64.100.8.30]: 64.102.254.245.
+
+Aggregate for [64.100.8.50]:
+64.100.8.208/28
+64.102.254.144/28
+TTLs for 64.100.8.50: 10
+Found one peer for [64.100.8.50]: 64.100.8.30.
+
+Aggregate for [64.100.8.54, 1]:
+64.100.58.0/25
+64.100.248.64/27
+192.133.240.0/22
+TTLs for 64.100.8.54: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.100.8.54, 1]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.100.8.54, 2]:
+64.100.14.0/24
+64.100.248.96/28
+64.100.255.192/26
+64.102.249.80/28
+64.102.249.160/27
+64.102.252.96/28
+TTLs for 64.100.8.54: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.100.8.54, 2]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.100.8.54]:
+64.100.8.68/30
+64.100.8.84/30
+64.100.8.88/30
+64.100.8.100/30
+64.100.248.112/30
+64.100.248.116/30
+64.102.242.104/30
+64.102.242.236/30
+64.102.244.112/30
+192.133.195.24/30
+192.133.195.252/30
+TTLs for 64.100.8.54: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.100.8.54]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.100.8.66]:
+64.100.8.144/28
+64.100.8.192/28
+TTLs for 64.100.8.66: 10
+Found one peer for [64.100.8.66]: 64.100.8.22.
+
+Aggregate for [64.100.8.6]:
+64.100.57.0/24
+64.102.240.196/30
+64.102.240.236/30
+64.102.251.0/25
+TTLs for 64.100.8.6: 9
+Conducting alias resolution on 2 junction IPs64.102.254.238, 64.102.254.242...Done.
+IP entries:
+64.102.254.238 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten1-1.cisco.com
+64.102.254.242 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.100.8.6]:
+64.102.254.238
+64.102.254.242
+
+Aggregate for [64.100.8.90]:
+64.102.241.96/30
+TTLs for 64.100.8.90: 10
+Found one peer for [64.100.8.90]: 64.100.8.54.
+
+Aggregate for [64.102.220.1]:
+64.102.220.0/28
+TTLs for 64.102.220.1: 10
+Found one peer for [64.102.220.1]: [Offset=3] 64.102.254.234.
+
+Aggregate for [64.102.240.194]:
+64.102.240.128/29
+TTLs for 64.102.240.194: 10
+Found one peer for [64.102.240.194]: 64.102.246.50.
+
+Aggregate for [64.102.240.198]:
+64.102.240.32/28
+64.102.240.48/28
+64.102.245.0/28
+TTLs for 64.102.240.198: 10
+Conducting alias resolution on 2 IPs containing junction IP 64.100.8.6...Done.
+IP entries:
+64.100.8.6 - 9: 255 - ECHO,rtp8-dmzlab-gw1-gig1-0-52.cisco.com
+64.102.254.178 - 9: 255 - ECHO,rtp8-dmzlab-gw1-gig1-0-51.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [64.102.240.198]: 64.100.8.6.
+
+Aggregate for [64.102.242.106]:
+64.102.241.192/29
+TTLs for 64.102.242.106: 10
+Found one peer for [64.102.242.106]: 64.100.8.54.
+
+Aggregate for [64.102.242.146]:
+64.100.251.32/29
+64.102.242.128/29
+TTLs for 64.102.242.146: 10
+Found one peer for [64.102.242.146]: [Offset=2] 64.102.254.245.
+
+Aggregate for [64.102.242.230]:
+64.102.242.32/30
+TTLs for 64.102.242.230: 10
+Found one peer for [64.102.242.230]: 64.102.244.186.
+
+Aggregate for [64.102.242.238]:
+64.102.245.64/26
+TTLs for 64.102.242.238: 10
+Found one peer for [64.102.242.238]: 64.100.8.54.
+
+Aggregate for [64.102.242.98]:
+64.102.242.64/30
+TTLs for 64.102.242.98: 10
+Found one peer for [64.102.242.98]: [Offset=2] 64.102.254.209.
+
+Aggregate for [64.102.243.14]:
+64.102.243.12/30
+TTLs for 64.102.243.14: 10
+Found one peer for [64.102.243.14]: 64.102.244.210.
+
+Aggregate for [64.102.244.114]:
+64.102.242.80/28
+TTLs for 64.102.244.114: 10
+Found one peer for [64.102.244.114]: 64.100.8.54.
+
+Aggregate for [64.102.244.118]:
+192.133.232.0/29
+192.133.232.20/30
+TTLs for 64.102.244.118: 10
+Found one peer for [64.102.244.118]: 64.102.244.178.
+
+Aggregate for [64.102.244.122]:
+192.133.232.16/30
+192.133.232.28/30
+192.133.232.32/30
+TTLs for 64.102.244.122: 10
+Conducting alias resolution on 2 junction IPs64.102.244.186, 64.102.244.190...Done.
+IP entries:
+64.102.244.186 - 9: 255 - ECHO,rtp10-cd-dmzaas-gw1-ten2-1.cisco.com
+64.102.244.190 - 9: 255 - ECHO,rtp10-cd-dmzaas-gw1-ten2-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.244.122]:
+64.102.244.186
+64.102.244.190
+
+Aggregate for [64.102.244.142, 1]:
+64.101.32.32/28
+64.101.32.128/27
+64.101.32.192/29
+64.101.37.112/29
+64.102.249.144/29
+173.38.112.64/30
+173.38.116.192/27
+173.38.124.48/28
+173.38.124.192/27
+173.38.125.128/28
+173.38.125.160/27
+173.38.127.128/27
+TTLs for 64.102.244.142: 8
+Found one peer for [64.102.244.142, 1]: 64.102.254.198.
+
+Aggregate for [64.102.244.142, 2]:
+173.38.124.224/29
+173.38.124.232/29
+173.38.127.160/28
+TTLs for 64.102.244.142: 8
+Found one peer for [64.102.244.142, 2]: 64.102.254.198.
+
+Aggregate for [64.102.244.142]:
+173.38.112.192/27
+173.38.117.32/27
+173.38.126.32/29
+TTLs for 64.102.244.142: 8
+Found one peer for [64.102.244.142]: 64.102.254.198.
+
+Aggregate for [64.102.244.146, 1]:
+64.101.32.160/30
+64.101.32.240/30
+64.102.221.0/28
+173.38.112.0/30
+173.38.113.0/30
+173.38.126.48/28
+173.38.127.16/28
+173.38.127.112/28
+173.38.127.224/27
+TTLs for 64.102.244.146: 8
+Found one peer for [64.102.244.146, 1]: 64.102.254.234.
+
+Aggregate for [64.102.244.146, 2]:
+173.38.122.0/27
+173.38.126.0/27
+173.38.127.192/28
+TTLs for 64.102.244.146: 8
+Found one peer for [64.102.244.146, 2]: 64.102.254.234.
+
+Aggregate for [64.102.244.146]:
+173.38.112.128/26
+173.38.127.64/30
+TTLs for 64.102.244.146: 8
+Found one peer for [64.102.244.146]: 64.102.254.234.
+
+Aggregate for [64.102.244.150, 1]:
+64.101.32.48/28
+64.101.32.64/27
+64.101.32.208/28
+64.101.37.64/28
+64.102.246.0/29
+64.102.254.32/29
+64.102.255.32/27
+173.38.124.32/28
+173.38.124.240/30
+173.38.125.208/28
+173.38.126.40/30
+173.38.127.32/28
+173.38.127.96/28
+TTLs for 64.102.244.150: 8
+Found one peer for [64.102.244.150, 1]: 64.102.254.198.
+
+Aggregate for [64.102.244.150, 2]:
+173.38.126.96/27
+173.38.127.208/28
+TTLs for 64.102.244.150: 8
+Found one peer for [64.102.244.150, 2]: 64.102.254.198.
+
+Aggregate for [64.102.244.150]:
+64.102.249.128/28
+173.38.127.0/28
+192.135.250.64/26
+TTLs for 64.102.244.150: 8, 15
+Found 2 peers for [64.102.244.150]:
+64.102.254.198
+[Offset=4] 173.36.112.142
+
+Aggregate for [64.102.244.154, 1]:
+64.101.32.0/28
+64.101.32.16/29
+64.101.32.224/28
+64.101.37.80/29
+64.102.247.0/27
+173.38.112.224/30
+173.38.113.128/28
+173.38.124.0/27
+173.38.124.64/26
+173.38.125.0/26
+173.38.125.144/28
+173.38.125.192/28
+173.38.126.64/27
+173.38.127.176/28
+TTLs for 64.102.244.154: 8
+Found one peer for [64.102.244.154, 1]: 64.102.254.234.
+
+Aggregate for [64.102.244.154, 2]:
+173.38.124.248/29
+173.38.126.128/25
+TTLs for 64.102.244.154: 8
+Found one peer for [64.102.244.154, 2]: 64.102.254.234.
+
+Aggregate for [64.102.244.154, 3]:
+173.38.124.244/30
+TTLs for 64.102.244.154: 8
+Found one peer for [64.102.244.154, 3]: 64.102.254.234.
+
+Aggregate for [64.102.244.154]:
+173.38.112.96/27
+173.38.112.240/30
+173.38.124.128/26
+173.38.125.224/27
+TTLs for 64.102.244.154: 8
+Found one peer for [64.102.244.154]: 64.102.254.234.
+
+Aggregate for [64.102.244.178]:
+64.102.244.192/30
+64.102.249.100/30
+173.38.116.8/30
+173.38.116.48/30
+173.38.117.96/30
+173.38.117.100/30
+173.38.117.120/30
+TTLs for 64.102.244.178: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.244.178]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.102.244.182]:
+64.102.246.88/30
+173.38.116.0/30
+173.38.117.148/30
+TTLs for 64.102.244.182: 9
+Conducting alias resolution on 2 junction IPs64.102.254.238, 64.102.254.242...Done.
+IP entries:
+64.102.254.238 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten1-1.cisco.com
+64.102.254.242 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.244.182]:
+64.102.254.238
+64.102.254.242
+
+Aggregate for [64.102.244.186]:
+64.100.255.160/27
+64.102.242.228/30
+64.102.244.196/30
+173.38.116.4/30
+173.38.116.12/30
+173.38.117.104/30
+173.38.117.108/30
+173.38.117.124/30
+TTLs for 64.102.244.186: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.244.186]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.102.244.190]:
+64.102.246.92/30
+173.38.116.52/30
+173.38.117.144/30
+TTLs for 64.102.244.190: 9
+Found one peer for [64.102.244.190]: 64.102.254.238.
+
+Aggregate for [64.102.244.194]:
+64.100.12.32/30
+64.100.12.36/31
+64.100.12.244/30
+TTLs for 64.102.244.194: 10
+Conducting alias resolution on 2 junction IPs64.102.244.178, 64.102.244.182...Done.
+IP entries:
+64.102.244.178 - 9: 255 - ECHO,rtp5-dmzaas-gw1-ten2-1.cisco.com
+64.102.244.182 - 9: 255 - ECHO,rtp5-dmzaas-gw1-ten2-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.244.194]:
+64.102.244.178
+64.102.244.182
+
+Aggregate for [64.102.244.206]:
+64.100.248.120/30
+TTLs for 64.102.244.206: 9
+Found one peer for [64.102.244.206]: 64.102.254.209.
+
+Aggregate for [64.102.244.210]:
+64.100.248.16/30
+TTLs for 64.102.244.210: 9
+Found one peer for [64.102.244.210]: 64.102.254.242.
+
+Aggregate for [64.102.244.218]:
+64.100.248.124/30
+TTLs for 64.102.244.218: 9
+Found one peer for [64.102.244.218]: 64.102.254.238.
+
+Aggregate for [64.102.246.22]:
+64.100.15.192/26
+TTLs for 64.102.246.22: 10
+Found one peer for [64.102.246.22]: 64.102.246.58.
+
+Aggregate for [64.102.246.50, 1]:
+64.102.241.232/30
+TTLs for 64.102.246.50: 9
+Found one peer for [64.102.246.50, 1]: 64.102.254.238.
+
+Aggregate for [64.102.246.50, 2]:
+64.102.241.236/30
+TTLs for 64.102.246.50: 9
+Found one peer for [64.102.246.50, 2]: 64.102.254.242.
+
+Aggregate for [64.102.246.50]:
+64.100.15.8/30
+64.100.250.128/26
+64.100.251.80/30
+64.100.254.0/24
+64.102.240.192/30
+64.102.242.96/30
+64.102.242.144/30
+TTLs for 64.102.246.50: 9
+Conducting alias resolution on 2 junction IPs64.102.254.238, 64.102.254.242...Done.
+IP entries:
+64.102.254.238 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten1-1.cisco.com
+64.102.254.242 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.246.50]:
+64.102.254.238
+64.102.254.242
+
+Aggregate for [64.102.246.58, 1]:
+64.100.248.144/30
+64.100.248.160/27
+TTLs for 64.102.246.58: 9
+Conducting alias resolution on 2 junction IPs64.102.254.238, 64.102.254.242...Done.
+IP entries:
+64.102.254.238 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten1-1.cisco.com
+64.102.254.242 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.246.58, 1]:
+64.102.254.238
+64.102.254.242
+
+Aggregate for [64.102.246.58]:
+64.102.244.48/30
+64.102.245.144/28
+64.102.246.20/30
+TTLs for 64.102.246.58: 9
+Conducting alias resolution on 2 junction IPs64.102.254.238, 64.102.254.242...Done.
+IP entries:
+64.102.254.238 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten1-1.cisco.com
+64.102.254.242 - 8: 255 - ECHO,rtp10-cd-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.246.58]:
+64.102.254.238
+64.102.254.242
+
+Aggregate for [64.102.252.250]:
+64.102.251.128/29
+TTLs for 64.102.252.250: 10
+Found one peer for [64.102.252.250]: 64.102.254.190.
+
+Aggregate for [64.102.254.130]:
+64.100.0.0/23
+64.100.2.0/26
+64.102.244.0/30
+TTLs for 64.102.254.130: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.254.130]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.102.254.186]:
+64.102.247.76/30
+TTLs for 64.102.254.186: 9
+Found one peer for [64.102.254.186]: 64.102.254.245.
+
+Aggregate for [64.102.254.190, 1]:
+64.100.248.192/30
+TTLs for 64.102.254.190: 9
+Found one peer for [64.102.254.190, 1]: 64.102.254.245.
+
+Aggregate for [64.102.254.190]:
+64.100.248.128/28
+64.102.244.56/30
+64.102.252.248/30
+TTLs for 64.102.254.190: 9
+Conducting alias resolution on 2 junction IPs64.102.254.209, 64.102.254.245...Done.
+IP entries:
+64.102.254.209 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten1-1.cisco.com
+64.102.254.245 - 8: 255 - ECHO,rtp5-dmznet-gw1-ten5-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.102.254.190]:
+64.102.254.209
+64.102.254.245
+
+Aggregate for [64.102.254.198]:
+64.100.15.20/30
+64.102.241.128/26
+64.102.244.140/30
+64.102.244.148/30
+64.102.245.136/30
+64.102.254.192/30
+64.102.254.208/30
+64.102.254.212/30
+64.102.254.240/30
+173.38.117.132/30
+173.38.117.136/30
+TTLs for 64.102.254.198: 7
+Found one peer for [64.102.254.198]: 4.71.162.2.
+
+Aggregate for [64.102.254.202]:
+64.100.255.152/30
+TTLs for 64.102.254.202: 9
+Found one peer for [64.102.254.202]: 64.102.254.209.
+
+Aggregate for [64.102.254.209]:
+64.100.8.20/30
+64.100.8.24/30
+64.100.8.28/30
+64.100.8.52/30
+64.102.244.204/30
+64.102.244.212/30
+64.102.254.8/30
+64.102.254.176/30
+64.102.254.188/30
+64.102.254.204/30
+TTLs for 64.102.254.209: 8
+Found one peer for [64.102.254.209]: 64.102.254.198.
+
+Aggregate for [64.102.254.234]:
+64.100.15.12/30
+64.100.15.16/30
+64.102.244.144/30
+64.102.244.152/30
+64.102.244.172/31
+64.102.254.160/30
+64.102.254.168/30
+64.102.254.228/30
+64.102.254.236/30
+64.102.254.244/30
+173.38.117.128/30
+173.38.117.140/30
+TTLs for 64.102.254.234: 7
+Found one peer for [64.102.254.234]: 4.71.162.2.
+
+Aggregate for [64.102.254.238]:
+64.100.8.72/30
+64.100.8.80/30
+64.102.244.136/30
+64.102.254.40/30
+64.102.254.60/30
+TTLs for 64.102.254.238: 8
+Found one peer for [64.102.254.238]: 64.102.254.234.
+
+Aggregate for [64.102.254.242]:
+64.100.8.0/30
+64.100.8.4/30
+64.100.8.8/30
+64.102.244.180/30
+64.102.244.188/30
+64.102.244.208/30
+64.102.244.216/30
+64.102.244.252/30
+64.102.246.48/30
+64.102.246.52/30
+64.102.246.56/30
+64.102.254.0/30
+64.102.254.4/30
+64.102.254.44/30
+64.102.254.56/30
+TTLs for 64.102.254.242: 8
+Found one peer for [64.102.254.242]: 64.102.254.198.
+
+Aggregate for [64.102.254.245]:
+64.100.8.12/30
+64.100.8.16/30
+64.100.8.76/30
+64.102.240.208/30
+64.102.242.224/30
+64.102.244.176/30
+64.102.244.184/30
+64.102.254.128/28
+64.102.254.172/30
+64.102.254.184/30
+64.102.254.200/30
+173.38.117.0/30
+TTLs for 64.102.254.245: 8
+Found one peer for [64.102.254.245]: 64.102.254.234.
+
+Aggregate for [64.102.254.46]:
+64.102.244.4/30
+TTLs for 64.102.254.46: 9
+Found one peer for [64.102.254.46]: 64.102.254.242.
+
+Aggregate for [64.102.254.58]:
+64.100.2.64/26
+64.100.4.8/29
+TTLs for 64.102.254.58: 9
+Found one peer for [64.102.254.58]: 64.102.254.238.
+
+Aggregate for [64.102.254.62]:
+64.100.8.48/30
+TTLs for 64.102.254.62: 9
+Found one peer for [64.102.254.62]: 64.102.254.238.
+
+Aggregate for [64.103.25.166]:
+64.103.38.32/27
+TTLs for 64.103.25.166: 14
+Found one peer for [64.103.25.166]: 173.38.208.230.
+
+Aggregate for [64.103.25.170]:
+64.103.25.128/27
+TTLs for 64.103.25.170: 14
+Found one peer for [64.103.25.170]: 173.38.209.190.
+
+Aggregate for [64.103.38.130]:
+64.103.38.128/27
+TTLs for 64.103.38.130: 15
+Found one peer for [64.103.38.130]: [Offset=2] 173.38.209.186.
+
+Aggregate for [64.103.38.26]:
+64.103.36.192/27
+TTLs for 64.103.38.26: 14
+Found one peer for [64.103.38.26]: 173.38.209.190.
+
+Aggregate for [64.103.39.238]:
+64.103.39.188/30
+TTLs for 64.103.39.238: 14
+Found one peer for [64.103.39.238]: 173.38.209.186.
+
+Aggregate for [64.103.39.242]:
+64.103.38.192/27
+TTLs for 64.103.39.242: 14
+Found one peer for [64.103.39.242]: 173.38.208.210.
+
+Aggregate for [64.104.125.154]:
+64.104.127.116/30
+TTLs for 64.104.125.154: 11
+Found one peer for [64.104.125.154]: 64.104.127.217.
+
+Aggregate for [64.104.125.158]:
+64.104.127.112/30
+64.104.127.120/30
+TTLs for 64.104.125.158: 11
+Found one peer for [64.104.125.158]: 64.104.127.217.
+
+Aggregate for [64.104.126.246, 1]:
+64.104.126.48/29
+TTLs for 64.104.126.246: 13
+Found one peer for [64.104.126.246, 1]: 64.104.127.222.
+
+Aggregate for [64.104.127.217]:
+64.104.125.152/30
+64.104.125.156/30
+64.104.127.0/30
+64.104.127.36/30
+64.104.127.224/27
+TTLs for 64.104.127.217: 10
+Found one peer for [64.104.127.217]: 203.131.254.42.
+
+Aggregate for [64.104.127.222, 1]:
+64.104.126.0/27
+64.104.126.64/26
+173.39.145.0/27
+173.39.145.32/27
+173.39.153.160/29
+173.39.153.168/29
+173.39.153.184/30
+TTLs for 64.104.127.222: 12, 14
+Conducting alias resolution on 2 IPs containing junction IP 64.104.127.37...Done.
+IP entries:
+64.104.127.37 - 10: 255 - ECHO,hkidc-dmznet-gw1-gig1-1.cisco.com
+64.104.127.41 - 10: 255 - ECHO,hkidc-dmznet-gw1-gig1-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found one peer for [64.104.127.222, 1]: 64.104.127.37.
+
+Aggregate for [64.104.127.222, 2]:
+64.104.127.128/27
+173.39.153.0/25
+173.39.153.176/31
+173.39.153.178/31
+173.39.153.180/30
+TTLs for 64.104.127.222: 11, 12, 14
+Conducting alias resolution on 2 IPs containing junction IP 64.104.127.37...Done.
+IP entries:
+64.104.127.37 - 10: 255 - ECHO,hkidc-dmznet-gw1-gig1-1.cisco.com
+64.104.127.41 - 10: 255 - ECHO,hkidc-dmznet-gw1-gig1-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.104.127.222, 2]:
+64.104.127.37
+[Offset=2] 64.104.127.34
+
+Aggregate for [64.104.127.222]:
+64.104.126.244/30
+173.39.145.136/30
+TTLs for 64.104.127.222: 12, 14
+Found one peer for [64.104.127.222]: [Offset=2] 64.104.127.34.
+
+Aggregate for [64.104.127.34]:
+64.104.125.160/30
+64.104.125.164/30
+64.104.127.4/30
+64.104.127.8/30
+64.104.127.40/30
+64.104.127.182/31
+TTLs for 64.104.127.34: 10
+Found one peer for [64.104.127.34]: 203.131.254.42.
+
+Aggregate for [64.104.127.37]:
+64.104.127.52/30
+64.104.127.56/29
+64.104.127.220/30
+173.39.145.144/28
+TTLs for 64.104.127.37: 11, 13
+Found one peer for [64.104.127.37]: 64.104.127.217.
+
+Aggregate for [64.104.127.41]:
+173.39.146.0/23
+TTLs for 64.104.127.41: 13
+This aggregate should be a gate.
+
+Aggregate for [64.104.127.54]:
+64.104.127.64/30
+TTLs for 64.104.127.54: 12
+Found one peer for [64.104.127.54]: 64.104.127.37.
+
+Aggregate for [64.104.127.66]:
+64.104.127.80/29
+TTLs for 64.104.127.66: 13
+Found one peer for [64.104.127.66]: 64.104.127.54.
+
+Aggregate for [64.104.248.38]:
+64.104.252.0/30
+64.104.252.64/30
+64.104.252.68/30
+64.104.252.152/30
+TTLs for 64.104.248.38: 17
+Found one peer for [64.104.248.38]: [Offset=2] 203.194.44.126.
+
+Aggregate for [64.104.248.42]:
+64.104.252.72/30
+64.104.252.76/30
+64.104.252.96/29
+64.104.252.156/30
+TTLs for 64.104.248.42: 17
+Found one peer for [64.104.248.42]: [Offset=2] 203.194.44.126.
+
+Aggregate for [64.104.248.46]:
+64.104.252.144/30
+64.104.252.148/30
+64.104.252.224/28
+TTLs for 64.104.248.46: 17
+Found one peer for [64.104.248.46]: [Offset=2] 203.194.44.126.
+
+Aggregate for [64.104.248.50]:
+64.104.249.160/27
+64.104.252.4/30
+64.104.252.240/28
+TTLs for 64.104.248.50: 17
+Found one peer for [64.104.248.50]: [Offset=2] 203.194.44.126.
+
+Aggregate for [64.104.249.50]:
+64.104.249.64/29
+TTLs for 64.104.249.50: 19
+Found one peer for [64.104.249.50]: 64.104.252.154.
+
+Aggregate for [64.104.250.34]:
+64.104.250.0/27
+TTLs for 64.104.250.34: 19
+Found one peer for [64.104.250.34]: 64.104.252.158.
+
+Aggregate for [64.104.252.154]:
+64.104.249.48/30
+64.104.252.92/30
+TTLs for 64.104.252.154: 18
+Found one peer for [64.104.252.154]: 64.104.248.38.
+
+Aggregate for [64.104.252.158, 2]:
+64.104.249.56/29
+64.104.249.128/27
+TTLs for 64.104.252.158: 18
+Found one peer for [64.104.252.158, 2]: 64.104.248.42.
+
+Aggregate for [64.104.252.158]:
+64.104.250.32/30
+TTLs for 64.104.252.158: 18
+Found one peer for [64.104.252.158]: 64.104.248.42.
+
+Aggregate for [64.104.252.230]:
+64.104.254.0/28
+64.104.254.16/30
+64.104.254.24/29
+64.104.254.112/28
+TTLs for 64.104.252.230: 19
+Conducting alias resolution on 2 junction IPs64.104.252.154, 64.104.252.158...Done.
+IP entries:
+64.104.252.154 - 18: 255 - ECHO,stld1-dmzvlab-gw1-gig0-1.cisco.com
+64.104.252.158 - 18: 255 - ECHO,stld1-dmzvlab-gw1-gig0-0.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.104.252.230]:
+64.104.252.154
+64.104.252.158
+
+Aggregate for [64.104.252.238]:
+64.104.249.0/29
+TTLs for 64.104.252.238: 18
+Found one peer for [64.104.252.238]: 64.104.248.42.
+
+Aggregate for [64.104.252.78]:
+64.104.252.80/30
+TTLs for 64.104.252.78: 18
+Found one peer for [64.104.252.78]: 64.104.248.42.
+
+Aggregate for [64.104.252.94]:
+64.104.249.192/27
+TTLs for 64.104.252.94: 19
+Found one peer for [64.104.252.94]: 64.104.252.154.
+
+Aggregate for [64.104.254.138]:
+64.104.255.2/31
+64.104.255.4/31
+TTLs for 64.104.254.138: 19
+Conducting alias resolution on 2 junction IPs64.104.252.154, 64.104.252.158...Done.
+IP entries:
+64.104.252.154 - 18: 255 - ECHO,stld1-dmzvlab-gw1-gig0-1.cisco.com
+64.104.252.158 - 18: 255 - ECHO,stld1-dmzvlab-gw1-gig0-0.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.104.254.138]:
+64.104.252.154
+64.104.252.158
+
+Aggregate for [64.104.255.5, 1]:
+64.104.255.6/31
+64.104.255.10/31
+TTLs for 64.104.255.5: 20
+Found one peer for [64.104.255.5, 1]: 64.104.254.138.
+
+Aggregate for [64.104.255.5, 2]:
+64.104.255.8/31
+TTLs for 64.104.255.5: 20
+Found one peer for [64.104.255.5, 2]: 64.104.254.138.
+
+Aggregate for [64.104.46.110, 1]:
+64.104.44.224/27
+TTLs for 64.104.46.110: 14
+Found one peer for [64.104.46.110, 1]: 64.104.46.70.
+
+Aggregate for [64.104.46.110]:
+64.104.44.40/30
+TTLs for 64.104.46.110: 14
+Found one peer for [64.104.46.110]: 64.104.46.46.
+
+Aggregate for [64.104.46.142, 1]:
+64.104.47.192/29
+64.104.62.0/27
+TTLs for 64.104.46.142: 14
+Conducting alias resolution on 2 junction IPs64.104.46.50, 64.104.46.66...Done.
+IP entries:
+64.104.46.50 - 13: 255 - ECHO,tyoidc5-dmznet-gw2-ten3-1.cisco.com
+64.104.46.66 - 13: 255 - ECHO,tyoidc5-dmznet-gw2-ten1-4.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [64.104.46.142, 1]:
+64.104.46.50
+64.104.46.66
+
+Aggregate for [64.104.46.170]:
+64.104.46.128/30
+TTLs for 64.104.46.170: 13
+Found one peer for [64.104.46.170]: 64.104.46.6.
+
+Aggregate for [64.104.46.186]:
+64.104.46.112/30
+64.104.46.144/30
+TTLs for 64.104.46.186: 13
+Found one peer for [64.104.46.186]: 64.104.46.6.
+
+Aggregate for [64.104.46.2]:
+64.104.46.20/30
+64.104.46.40/30
+64.104.46.44/30
+64.104.46.48/30
+64.104.46.156/30
+64.104.46.164/30
+TTLs for 64.104.46.2: 12
+Found one peer for [64.104.46.2]: 61.120.145.30.
+
+Aggregate for [64.104.46.46]:
+64.104.46.88/30
+TTLs for 64.104.46.46: 13
+Found one peer for [64.104.46.46]: 64.104.46.2.
+
+Aggregate for [64.104.46.50]:
+64.104.46.116/30
+64.104.46.120/30
+TTLs for 64.104.46.50: 13
+Found one peer for [64.104.46.50]: 64.104.46.2.
+
+Aggregate for [64.104.46.66]:
+64.104.46.140/30
+TTLs for 64.104.46.66: 13
+Found one peer for [64.104.46.66]: 64.104.46.6.
+
+Aggregate for [64.104.46.6]:
+64.104.46.16/30
+64.104.46.64/30
+64.104.46.68/30
+64.104.46.168/30
+64.104.46.184/30
+64.104.46.212/30
+64.104.46.224/27
+TTLs for 64.104.46.6: 12
+Found one peer for [64.104.46.6]: 61.120.145.30.
+
+Aggregate for [64.104.46.70]:
+64.104.44.32/29
+64.104.44.128/26
+64.104.46.92/30
+64.104.46.108/30
+TTLs for 64.104.46.70: 13
+Found one peer for [64.104.46.70]: 64.104.46.6.
+
+Aggregate for [64.104.47.210]:
+64.104.47.210/31
+TTLs for 64.104.47.210: 16
+Found one peer for [64.104.47.210]: [Offset=3] 64.104.46.50.
+
+Aggregate for [64.104.62.18]:
+64.104.62.32/29
+TTLs for 64.104.62.18: 15
+Found one peer for [64.104.62.18]: [Offset=2] 64.104.46.66.
+
+Aggregate for [64.68.114.133]:
+173.39.224.0/23
+173.39.226.0/23
+173.39.228.0/23
+173.39.241.0/30
+TTLs for 64.68.114.133: 14
+This aggregate should be a gate.
+
+Aggregate for [64.68.115.69]:
+173.39.233.0/24
+TTLs for 64.68.115.69: 14
+This aggregate should be a gate.
+
+Aggregate for [64.68.116.145, 2]:
+173.39.234.0/28
+TTLs for 64.68.116.145: 13
+This aggregate should be a gate.
+
+Aggregate for [64.68.116.197]:
+173.39.242.0/26
+TTLs for 64.68.116.197: 15
+This aggregate should be a gate.
+
+Aggregate for [64.71.176.50, 1]:
+192.133.197.0/27
+TTLs for 64.71.176.50: 10
+This aggregate should be a gate.
+
+Aggregate for [64.71.176.50]:
+192.133.197.128/27
+192.133.197.192/26
+TTLs for 64.71.176.50: 10
+This aggregate should be a gate.
+
+Aggregate for [66.163.37.37]:
+173.39.230.0/27
+TTLs for 66.163.37.37: 14
+This aggregate should be a gate.
+
+Aggregate for [72.163.0.13]:
+72.163.0.36/30
+72.163.2.40/30
+TTLs for 72.163.0.13: 8
+Found one peer for [72.163.0.13]: 72.163.0.5.
+
+Aggregate for [72.163.0.174]:
+173.37.200.148/30
+TTLs for 72.163.0.174: 9
+Found one peer for [72.163.0.174]: 72.163.0.17.
+
+Aggregate for [72.163.0.178]:
+72.163.0.128/27
+72.163.2.100/30
+72.163.2.200/30
+72.163.2.204/30
+72.163.3.20/30
+72.163.5.224/28
+72.163.9.32/27
+72.163.9.64/27
+TTLs for 72.163.0.178: 8
+Found one peer for [72.163.0.178]: 72.163.0.5.
+
+Aggregate for [72.163.0.17]:
+72.163.0.172/30
+72.163.2.208/29
+TTLs for 72.163.0.17: 8
+Found one peer for [72.163.0.17]: 72.163.0.5.
+
+Aggregate for [72.163.0.182]:
+72.163.0.164/30
+72.163.2.104/30
+72.163.3.0/30
+72.163.3.192/30
+72.163.7.72/29
+72.163.7.240/29
+72.163.8.128/28
+72.163.9.192/26
+72.163.11.48/28
+TTLs for 72.163.0.182: 8
+Found one peer for [72.163.0.182]: 72.163.0.5.
+
+Aggregate for [72.163.0.186]:
+72.163.2.96/30
+72.163.3.128/30
+72.163.3.132/30
+TTLs for 72.163.0.186: 8
+Found one peer for [72.163.0.186]: 72.163.0.21.
+
+Aggregate for [72.163.0.190]:
+72.163.0.160/30
+72.163.0.224/29
+72.163.2.108/30
+72.163.3.4/30
+72.163.3.8/29
+72.163.3.16/30
+72.163.3.24/30
+72.163.3.196/30
+72.163.7.224/28
+72.163.11.96/28
+TTLs for 72.163.0.190: 8
+Found one peer for [72.163.0.190]: 72.163.0.21.
+
+Aggregate for [72.163.0.21]:
+72.163.0.24/30
+72.163.0.28/30
+72.163.0.32/30
+72.163.0.64/27
+72.163.0.184/30
+72.163.0.188/30
+72.163.0.252/30
+72.163.2.132/30
+72.163.2.136/30
+72.163.2.164/31
+72.163.2.196/30
+TTLs for 72.163.0.21: 7
+Found one peer for [72.163.0.21]: 4.59.34.66.
+
+Aggregate for [72.163.0.230]:
+173.37.213.24/30
+TTLs for 72.163.0.230: 9
+Found one peer for [72.163.0.230]: 72.163.0.13.
+
+Aggregate for [72.163.0.238]:
+72.163.0.40/30
+173.37.213.16/30
+173.37.215.0/28
+TTLs for 72.163.0.238: 9, 14
+Conducting alias resolution on 2 junction IPs72.163.0.17, 72.163.0.33...Done.
+IP entries:
+72.163.0.17 - 8: 255 - ECHO,rcdn9-sdfc-dmznet-gw2-ten1-1.cisco.com
+72.163.0.33 - 8: 255 - ECHO,rcdn9-sdfc-dmznet-gw2-ten2-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.0.238]:
+72.163.0.17
+72.163.0.33
+
+Aggregate for [72.163.0.242]:
+173.37.213.20/30
+173.37.213.28/30
+TTLs for 72.163.0.242: 9
+Found one peer for [72.163.0.242]: 72.163.0.17.
+
+Aggregate for [72.163.0.250, 1]:
+173.37.204.20/30
+TTLs for 72.163.0.250: 8
+Found one peer for [72.163.0.250, 1]: 72.163.0.5.
+
+Aggregate for [72.163.0.250]:
+72.163.1.20/30
+72.163.1.72/30
+TTLs for 72.163.0.250: 8
+Found one peer for [72.163.0.250]: 72.163.0.5.
+
+Aggregate for [72.163.0.254, 1]:
+72.163.1.48/28
+72.163.2.4/30
+72.163.3.28/30
+TTLs for 72.163.0.254: 8
+Found one peer for [72.163.0.254, 1]: 72.163.0.21.
+
+Aggregate for [72.163.0.254, 2]:
+173.37.200.192/26
+TTLs for 72.163.0.254: 8
+Found one peer for [72.163.0.254, 2]: 72.163.0.21.
+
+Aggregate for [72.163.0.254]:
+72.163.1.24/29
+TTLs for 72.163.0.254: 8
+Found one peer for [72.163.0.254]: 72.163.0.21.
+
+Aggregate for [72.163.0.29]:
+72.163.0.168/30
+72.163.0.232/30
+72.163.2.32/30
+TTLs for 72.163.0.29: 8
+Found one peer for [72.163.0.29]: 72.163.0.21.
+
+Aggregate for [72.163.0.33]:
+72.163.0.44/30
+72.163.0.112/30
+72.163.0.236/30
+72.163.0.240/30
+72.163.2.36/30
+72.163.2.44/30
+TTLs for 72.163.0.33: 8
+Found one peer for [72.163.0.33]: 72.163.0.21.
+
+Aggregate for [72.163.0.42]:
+72.163.0.192/29
+TTLs for 72.163.0.42: 10
+Found one peer for [72.163.0.42]: 72.163.0.230.
+
+Aggregate for [72.163.0.5]:
+72.163.0.0/30
+72.163.0.8/30
+72.163.0.12/30
+72.163.0.16/30
+72.163.0.176/30
+72.163.0.180/30
+72.163.0.248/30
+72.163.1.12/31
+72.163.2.124/30
+72.163.2.128/30
+72.163.2.192/30
+TTLs for 72.163.0.5: 7
+Found one peer for [72.163.0.5]: 4.59.34.66.
+
+Aggregate for [72.163.1.26, 1]:
+173.37.193.0/30
+173.37.193.24/29
+173.37.193.32/30
+173.37.193.48/30
+173.37.193.56/30
+173.37.193.64/26
+173.37.201.0/24
+TTLs for 72.163.1.26: 9
+Conducting alias resolution on 2 junction IPs72.163.0.250, 72.163.0.254...Done.
+IP entries:
+72.163.0.250 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-1.cisco.com
+72.163.0.254 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.1.26, 1]:
+72.163.0.250
+72.163.0.254
+
+Aggregate for [72.163.1.26, 2]:
+173.37.193.16/29
+TTLs for 72.163.1.26: 9
+Found one peer for [72.163.1.26, 2]: 72.163.0.254.
+
+Aggregate for [72.163.1.26]:
+72.163.1.32/28
+173.37.193.128/26
+173.37.200.136/30
+173.37.200.140/30
+173.37.200.152/30
+173.37.200.156/30
+TTLs for 72.163.1.26: 9
+Conducting alias resolution on 2 junction IPs72.163.0.250, 72.163.0.254...Done.
+IP entries:
+72.163.0.250 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-1.cisco.com
+72.163.0.254 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.1.26]:
+72.163.0.250
+72.163.0.254
+
+Aggregate for [72.163.1.30]:
+173.37.194.0/28
+TTLs for 72.163.1.30: 10
+Found one peer for [72.163.1.30]: [Offset=2] 72.163.0.254.
+
+Aggregate for [72.163.1.34]:
+173.37.192.64/28
+TTLs for 72.163.1.34: 10
+Found one peer for [72.163.1.34]: 72.163.1.26.
+
+Aggregate for [72.163.1.42]:
+173.37.192.96/29
+173.37.192.104/29
+173.37.192.144/28
+TTLs for 72.163.1.42: 10
+Conducting alias resolution on 2 junction IPs72.163.0.250, 72.163.0.254...Done.
+IP entries:
+72.163.0.250 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-1.cisco.com
+72.163.0.254 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.1.42]:
+[Offset=2] 72.163.0.250
+[Offset=2] 72.163.0.254
+
+Aggregate for [72.163.1.54]:
+173.37.192.0/27
+173.37.200.32/27
+173.37.207.0/29
+TTLs for 72.163.1.54: 10
+Found one peer for [72.163.1.54]: [Offset=2] 72.163.0.250.
+
+Aggregate for [72.163.1.62]:
+173.37.192.32/29
+TTLs for 72.163.1.62: 10
+Found one peer for [72.163.1.62]: [Offset=2] 72.163.0.250.
+
+Aggregate for [72.163.1.74]:
+72.163.1.84/30
+72.163.2.72/30
+TTLs for 72.163.1.74: 9
+Conducting alias resolution on 2 junction IPs72.163.0.250, 72.163.0.254...Done.
+IP entries:
+72.163.0.250 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-1.cisco.com
+72.163.0.254 - 8: 255 - ECHO,rcdn6-dmznet-gw1-gig5-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.1.74]:
+72.163.0.250
+72.163.0.254
+
+Aggregate for [72.163.1.86]:
+173.37.192.224/27
+TTLs for 72.163.1.86: 10
+Found one peer for [72.163.1.86]: 72.163.1.74.
+
+Aggregate for [72.163.2.102]:
+72.163.4.0/29
+72.163.4.24/29
+72.163.4.32/27
+72.163.4.96/29
+72.163.5.0/28
+72.163.5.32/29
+72.163.5.240/29
+72.163.6.0/29
+72.163.6.8/29
+72.163.6.34/31
+72.163.6.96/29
+72.163.6.112/29
+72.163.7.0/29
+72.163.7.32/28
+72.163.7.64/29
+72.163.7.144/28
+72.163.7.250/31
+72.163.8.96/29
+72.163.8.208/29
+72.163.8.240/28
+72.163.9.0/28
+72.163.10.0/27
+72.163.10.96/27
+72.163.11.0/28
+72.163.11.64/27
+72.163.11.208/28
+72.163.14.16/29
+TTLs for 72.163.2.102: 9
+Conducting alias resolution on 2 junction IPs72.163.0.178, 72.163.0.186...Done.
+IP entries:
+72.163.0.178 - 8: 255 - ECHO,rcdn9-cd1-dmzdcc-gw1-por1.cisco.com
+72.163.0.186 - 8: 255 - ECHO,rcdn9-cd1-dmzdcc-gw1-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.2.102]:
+72.163.0.178
+72.163.0.186
+
+Aggregate for [72.163.2.106]:
+72.163.1.144/28
+72.163.6.80/28
+72.163.6.128/26
+72.163.7.80/29
+72.163.8.160/29
+72.163.8.192/28
+72.163.9.16/28
+72.163.9.160/28
+72.163.11.16/29
+72.163.11.160/28
+72.163.11.224/28
+72.163.14.0/28
+TTLs for 72.163.2.106: 9
+Conducting alias resolution on 2 junction IPs72.163.0.182, 72.163.0.190...Done.
+IP entries:
+72.163.0.182 - 8: 255 - ECHO,rcdn9-cd2-dmzdcc-gw2-por1.cisco.com
+72.163.0.190 - 8: 255 - ECHO,rcdn9-cd2-dmzdcc-gw2-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.2.106]:
+72.163.0.182
+72.163.0.190
+
+Aggregate for [72.163.2.110]:
+72.163.0.244/30
+72.163.4.16/29
+72.163.4.112/29
+72.163.4.128/25
+72.163.5.16/29
+72.163.5.128/27
+72.163.5.192/28
+72.163.6.18/31
+72.163.6.48/28
+72.163.6.192/26
+72.163.7.48/28
+72.163.7.128/28
+72.163.7.160/27
+72.163.7.192/29
+72.163.8.64/28
+72.163.8.80/29
+72.163.8.112/29
+72.163.8.224/28
+72.163.9.112/28
+72.163.9.128/29
+72.163.10.64/28
+72.163.10.128/27
+72.163.11.112/29
+72.163.11.128/29
+72.163.11.192/28
+TTLs for 72.163.2.110: 9
+Conducting alias resolution on 2 junction IPs72.163.0.182, 72.163.0.190...Done.
+IP entries:
+72.163.0.182 - 8: 255 - ECHO,rcdn9-cd2-dmzdcc-gw2-por1.cisco.com
+72.163.0.190 - 8: 255 - ECHO,rcdn9-cd2-dmzdcc-gw2-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.2.110]:
+72.163.0.182
+72.163.0.190
+
+Aggregate for [72.163.2.126]:
+72.163.2.184/30
+72.163.3.136/30
+TTLs for 72.163.2.126: 8
+Found one peer for [72.163.2.126]: 72.163.0.5.
+
+Aggregate for [72.163.2.130]:
+72.163.2.188/30
+TTLs for 72.163.2.130: 8
+Found one peer for [72.163.2.130]: 72.163.0.5.
+
+Aggregate for [72.163.2.138]:
+72.163.3.140/30
+TTLs for 72.163.2.138: 8
+Found one peer for [72.163.2.138]: 72.163.0.21.
+
+Aggregate for [72.163.2.154]:
+173.37.207.128/25
+TTLs for 72.163.2.154: 10
+Found one peer for [72.163.2.154]: [Offset=2] 72.163.0.29.
+
+Aggregate for [72.163.2.38]:
+72.163.2.152/30
+TTLs for 72.163.2.38: 9
+Found one peer for [72.163.2.38]: 72.163.0.33.
+
+Aggregate for [72.163.2.42]:
+72.163.2.156/30
+TTLs for 72.163.2.42: 9
+Found one peer for [72.163.2.42]: 72.163.0.13.
+
+Aggregate for [72.163.2.46]:
+72.163.2.68/30
+TTLs for 72.163.2.46: 9
+Found one peer for [72.163.2.46]: 72.163.0.33.
+
+Aggregate for [72.163.2.70, 1]:
+72.163.3.120/29
+TTLs for 72.163.2.70: 10
+Found one peer for [72.163.2.70, 1]: 72.163.2.42.
+
+Aggregate for [72.163.2.70, 3]:
+72.163.3.72/29
+TTLs for 72.163.2.70: 10
+Found one peer for [72.163.2.70, 3]: 72.163.2.46.
+
+Aggregate for [72.163.2.70, 4]:
+72.163.3.68/30
+TTLs for 72.163.2.70: 10
+Found one peer for [72.163.2.70, 4]: 72.163.2.46.
+
+Aggregate for [72.163.2.74]:
+173.37.204.128/28
+173.37.204.224/27
+TTLs for 72.163.2.74: 10
+Found one peer for [72.163.2.74]: 72.163.1.74.
+
+Aggregate for [72.163.2.98]:
+72.163.3.160/28
+72.163.4.64/27
+72.163.5.64/29
+72.163.5.208/29
+72.163.6.64/29
+72.163.7.96/27
+72.163.7.208/28
+72.163.8.0/29
+72.163.8.32/28
+72.163.8.104/30
+72.163.8.144/28
+72.163.9.96/29
+72.163.9.144/28
+72.163.11.32/28
+72.163.11.176/28
+TTLs for 72.163.2.98: 9
+Conducting alias resolution on 2 junction IPs72.163.0.178, 72.163.0.186...Done.
+IP entries:
+72.163.0.178 - 8: 255 - ECHO,rcdn9-cd1-dmzdcc-gw1-por1.cisco.com
+72.163.0.186 - 8: 255 - ECHO,rcdn9-cd1-dmzdcc-gw1-por2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.2.98]:
+72.163.0.178
+72.163.0.186
+
+Aggregate for [72.163.216.110, 1]:
+173.39.14.136/29
+TTLs for 72.163.216.110: 8
+Found one peer for [72.163.216.110, 1]: 72.163.216.46.
+
+Aggregate for [72.163.216.110]:
+173.39.13.152/30
+173.39.88.152/30
+173.39.90.204/30
+TTLs for 72.163.216.110: 8
+Conducting alias resolution on 2 junction IPs72.163.216.46, 72.163.216.70...Done.
+IP entries:
+72.163.216.46 - 7: 255 - ECHO,bgl17-dmznet-gw1-ten3-1.cisco.com
+72.163.216.70 - 7: 255 - ECHO,bgl17-dmznet-gw1-gig3-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.216.110]:
+72.163.216.46
+72.163.216.70
+
+Aggregate for [72.163.216.122]:
+72.163.218.64/26
+72.163.218.240/30
+72.163.218.244/30
+72.163.218.252/30
+72.163.219.52/30
+173.39.80.112/28
+173.39.88.148/30
+TTLs for 72.163.216.122: 8, 14
+Conducting alias resolution on 2 junction IPs72.163.216.50, 72.163.216.66...Done.
+IP entries:
+72.163.216.50 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-2.cisco.com
+72.163.216.66 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Conducting alias resolution on 2 junction IPs72.163.216.50, 72.163.216.66...Done.
+IP entries:
+72.163.216.50 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-2.cisco.com
+72.163.216.66 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.216.122]:
+72.163.216.50
+72.163.216.66
+
+Aggregate for [72.163.216.126, 2]:
+72.163.218.192/27
+TTLs for 72.163.216.126: 14
+Found one peer for [72.163.216.126, 2]: 72.163.216.66.
+
+Aggregate for [72.163.216.126]:
+173.39.15.220/30
+173.39.88.156/30
+173.39.89.128/26
+TTLs for 72.163.216.126: 8
+Conducting alias resolution on 2 junction IPs72.163.216.50, 72.163.216.66...Done.
+IP entries:
+72.163.216.50 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-2.cisco.com
+72.163.216.66 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.216.126]:
+72.163.216.50
+72.163.216.66
+
+Aggregate for [72.163.216.142, 1]:
+173.39.14.0/27
+173.39.15.32/27
+173.39.80.0/26
+TTLs for 72.163.216.142: 8
+Found one peer for [72.163.216.142, 1]: 72.163.216.50.
+
+Aggregate for [72.163.216.142, 3]:
+72.163.217.128/25
+TTLs for 72.163.216.142: 14
+Found one peer for [72.163.216.142, 3]: 72.163.216.50.
+
+Aggregate for [72.163.216.142]:
+72.163.219.4/30
+173.39.13.144/30
+173.39.88.12/30
+173.39.88.48/30
+173.39.88.52/30
+173.39.90.220/30
+TTLs for 72.163.216.142: 8, 14
+Conducting alias resolution on 2 junction IPs72.163.216.50, 72.163.216.66...Done.
+IP entries:
+72.163.216.50 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-2.cisco.com
+72.163.216.66 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.216.142]:
+72.163.216.50
+72.163.216.66
+
+Aggregate for [72.163.216.146]:
+72.163.216.44/30
+72.163.216.48/30
+72.163.216.52/30
+72.163.216.56/30
+72.163.216.168/30
+72.163.216.180/30
+72.163.216.184/30
+173.39.92.0/26
+173.39.92.144/28
+TTLs for 72.163.216.146: 6, 12
+Found one peer for [72.163.216.146]: 202.56.248.34.
+
+Aggregate for [72.163.216.150]:
+72.163.216.64/30
+72.163.216.68/30
+72.163.216.72/30
+72.163.216.76/30
+72.163.216.152/30
+72.163.216.176/30
+72.163.216.188/30
+72.163.220.88/29
+TTLs for 72.163.216.150: 12
+Found one peer for [72.163.216.150]: 202.56.248.34.
+
+Aggregate for [72.163.216.162, 1]:
+173.39.90.64/26
+TTLs for 72.163.216.162: 8
+Found one peer for [72.163.216.162, 1]: 72.163.216.70.
+
+Aggregate for [72.163.216.162, 2]:
+72.163.222.192/27
+TTLs for 72.163.216.162: 14
+Found one peer for [72.163.216.162, 2]: 72.163.216.70.
+
+Aggregate for [72.163.216.173, 3]:
+173.39.88.56/29
+TTLs for 72.163.216.173: 8
+Found one peer for [72.163.216.173, 3]: 72.163.216.70.
+
+Aggregate for [72.163.216.177]:
+72.163.220.72/30
+72.163.220.80/30
+TTLs for 72.163.216.177: 13
+Found one peer for [72.163.216.177]: 72.163.216.150.
+
+Aggregate for [72.163.216.185]:
+72.163.220.76/30
+72.163.220.84/30
+TTLs for 72.163.216.185: 13
+Found one peer for [72.163.216.185]: 72.163.216.146.
+
+Aggregate for [72.163.216.189]:
+72.163.220.68/30
+TTLs for 72.163.216.189: 13
+Found one peer for [72.163.216.189]: 72.163.216.150.
+
+Aggregate for [72.163.216.46]:
+72.163.216.84/30
+72.163.216.88/30
+72.163.216.96/30
+72.163.216.160/30
+72.163.219.16/30
+173.39.15.112/28
+TTLs for 72.163.216.46: 7, 13
+Found one peer for [72.163.216.46]: 72.163.216.146.
+
+Aggregate for [72.163.216.50]:
+72.163.216.116/30
+72.163.216.120/30
+72.163.216.128/30
+72.163.216.140/30
+72.163.216.156/30
+72.163.216.164/30
+72.163.219.20/30
+72.163.219.32/30
+TTLs for 72.163.216.50: 13
+Found one peer for [72.163.216.50]: 72.163.216.146.
+
+Aggregate for [72.163.216.54]:
+72.163.216.36/30
+TTLs for 72.163.216.54: 13
+Found one peer for [72.163.216.54]: 72.163.216.146.
+
+Aggregate for [72.163.216.58]:
+173.39.92.64/29
+TTLs for 72.163.216.58: 7
+Found one peer for [72.163.216.58]: 72.163.216.146.
+
+Aggregate for [72.163.216.66]:
+72.163.216.124/30
+72.163.216.132/30
+72.163.217.0/25
+72.163.219.28/30
+TTLs for 72.163.216.66: 13
+Found one peer for [72.163.216.66]: 72.163.216.150.
+
+Aggregate for [72.163.216.70]:
+72.163.216.92/30
+72.163.216.100/30
+72.163.216.108/30
+72.163.216.172/30
+72.163.219.24/30
+173.39.14.96/27
+TTLs for 72.163.216.70: 7, 13
+Found one peer for [72.163.216.70]: 72.163.216.150.
+
+Aggregate for [72.163.216.78]:
+173.39.92.128/29
+173.39.92.160/29
+TTLs for 72.163.216.78: 7
+Found one peer for [72.163.216.78]: 72.163.216.150.
+
+Aggregate for [72.163.216.90]:
+72.163.218.24/30
+173.39.80.128/25
+TTLs for 72.163.216.90: 8, 14
+Found 2 peers for [72.163.216.90]:
+72.163.216.46
+72.163.216.70
+
+Aggregate for [72.163.216.94]:
+72.163.219.184/30
+173.39.90.216/30
+TTLs for 72.163.216.94: 8, 14
+Found 2 peers for [72.163.216.94]:
+72.163.216.46
+72.163.216.70
+
+Aggregate for [72.163.217.86]:
+72.163.220.128/25
+173.39.90.208/30
+TTLs for 72.163.217.86: 8, 14
+Found one peer for [72.163.217.86]: 72.163.216.50.
+
+Aggregate for [72.163.218.118]:
+72.163.218.128/27
+72.163.218.160/27
+TTLs for 72.163.218.118: 15
+Conducting alias resolution on 2 junction IPs72.163.216.46, 72.163.216.66...Done.
+IP entries:
+72.163.216.46 - 7: 255 - ECHO,bgl17-dmznet-gw1-ten3-1.cisco.com
+72.163.216.66 - 7: 255 - ECHO,bgl13-dmznet-gw1-ten3-1.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.218.118]:
+[Offset=2] 72.163.216.46
+[Offset=2] 72.163.216.66
+
+Aggregate for [72.163.219.186]:
+72.163.219.240/29
+TTLs for 72.163.219.186: 15
+Found one peer for [72.163.219.186]: 72.163.216.126.
+
+Aggregate for [72.163.219.33, 2]:
+72.163.219.64/26
+TTLs for 72.163.219.33: 14
+Found one peer for [72.163.219.33, 2]: 72.163.216.50.
+
+Aggregate for [72.163.219.33]:
+72.163.219.48/30
+173.39.13.156/30
+TTLs for 72.163.219.33: 8, 14
+Found 2 peers for [72.163.219.33]:
+72.163.216.50
+72.163.216.66
+
+Aggregate for [72.163.219.6]:
+173.39.89.192/28
+TTLs for 72.163.219.6: 9
+Found one peer for [72.163.219.6]: 72.163.216.110.
+
+Aggregate for [72.163.220.230]:
+72.163.222.128/29
+TTLs for 72.163.220.230: 15
+Found one peer for [72.163.220.230]: 72.163.216.90.
+
+Aggregate for [72.163.248.86]:
+72.163.249.0/26
+TTLs for 72.163.248.86: 12
+Found one peer for [72.163.248.86]: [Offset=2] 222.73.128.198.
+
+Aggregate for [72.163.248.90]:
+72.163.249.120/30
+TTLs for 72.163.248.90: 12
+Found one peer for [72.163.248.90]: [Offset=2] 222.73.128.198.
+
+Aggregate for [72.163.248.94]:
+72.163.249.88/30
+TTLs for 72.163.248.94: 12
+Found one peer for [72.163.248.94]: [Offset=2] 222.73.128.198.
+
+Aggregate for [72.163.249.130, 1]:
+72.163.251.224/28
+TTLs for 72.163.249.130: 14
+Found one peer for [72.163.249.130, 1]: [Offset=4] 222.73.128.198.
+
+Aggregate for [72.163.249.50]:
+72.163.249.140/30
+TTLs for 72.163.249.50: 13
+Found one peer for [72.163.249.50]: 72.163.248.86.
+
+Aggregate for [72.163.249.54]:
+72.163.249.144/30
+TTLs for 72.163.249.54: 13
+Found one peer for [72.163.249.54]: 72.163.248.90.
+
+Aggregate for [72.163.249.90, 2]:
+72.163.249.192/26
+72.163.250.128/25
+TTLs for 72.163.249.90: 13
+Conducting alias resolution on 2 junction IPs72.163.248.86, 72.163.248.94...Done.
+IP entries:
+72.163.248.86 - 12: 255 - ECHO,shnidc-dmznet-gw1-gig1-1.cisco.com
+72.163.248.94 - 12: 255 - ECHO,shnidc-dmznet-gw1-gig1-2.cisco.com
+No alias discovered. Will consider any junction IP as a peer.
+Found 2 peers for [72.163.249.90, 2]:
+72.163.248.86
+72.163.248.94
+
+Aggregate for [72.163.249.90, 3]:
+72.163.251.208/28
+TTLs for 72.163.249.90: 13
+Found one peer for [72.163.249.90, 3]: 72.163.248.86.
+
+Aggregate for [72.163.249.90]:
+72.163.249.128/30
+TTLs for 72.163.249.90: 13
+Found one peer for [72.163.249.90]: 72.163.248.86.
+
+Aggregate for [72.163.3.18]:
+173.37.213.128/27
+TTLs for 72.163.3.18: 9
+Found one peer for [72.163.3.18]: 72.163.0.190.
+
+Aggregate for [72.163.3.22]:
+173.37.214.64/29
+TTLs for 72.163.3.22: 9
+Found one peer for [72.163.3.22]: 72.163.0.178.
+
+Aggregate for [72.163.3.30]:
+72.163.3.32/29
+TTLs for 72.163.3.30: 10
+Found one peer for [72.163.3.30]: [Offset=2] 72.163.0.250.
+
+Terminus: [128.107.224.118]
+Terminus: [128.107.224.70]
+Terminus: [128.107.224.74]
+Terminus: [128.107.224.78]
+Terminus: [128.107.226.93]
+Terminus: [128.107.229.134]
+Terminus: [128.107.232.166]
+Terminus: [128.107.233.102, 2]
+Terminus: [128.107.233.122]
+Terminus: [128.107.233.132]
+Terminus: [128.107.233.42]
+Terminus: [128.107.233.98]
+Terminus: [128.107.234.142]
+Terminus: [128.107.234.4]
+Terminus: [128.107.235.142]
+Terminus: [128.107.235.34]
+Terminus: [128.107.235.42]
+Terminus: [128.107.235.6]
+Terminus: [128.107.236.142]
+Terminus: [128.107.236.34, 2]
+Terminus: [128.107.236.34]
+Terminus: [128.107.237.130]
+Terminus: [128.107.237.138]
+Terminus: [128.107.237.142]
+Terminus: [128.107.237.46]
+Terminus: [128.107.239.10]
+Terminus: [128.107.239.214]
+Terminus: [128.107.239.5, 4]
+Terminus: [128.107.239.89, 4]
+Terminus: [128.107.240.214]
+Terminus: [128.107.240.22]
+Terminus: [128.107.240.66]
+Terminus: [128.107.241.230]
+Terminus: [128.107.241.234]
+Terminus: [128.107.243.214]
+Terminus: [128.107.248.222, 1]
+Terminus: [128.107.248.222]
+Terminus: [128.107.250.106, 1]
+Terminus: [128.107.250.106]
+Terminus: [128.107.250.210]
+Terminus: [128.107.250.86]
+Terminus: [128.107.252.82]
+Terminus: [128.107.253.14]
+Terminus: [128.107.253.18]
+Terminus: [128.107.253.50, 2]
+Terminus: [128.107.253.50]
+Terminus: [128.107.253.54]
+Terminus: [128.107.74.170, 1]
+Terminus: [128.107.74.170]
+Terminus: [128.107.74.174, 1]
+Terminus: [128.107.74.178, 1]
+Terminus: [128.107.74.178, 2]
+Terminus: [128.107.74.178]
+Terminus: [128.107.74.18]
+Terminus: [128.107.74.194, 2]
+Terminus: [128.107.74.194]
+Terminus: [128.107.74.202]
+Terminus: [128.107.74.206]
+Terminus: [128.107.75.190]
+Terminus: [128.107.78.2]
+Terminus: [128.107.80.14, 1]
+Terminus: [128.107.80.14, 2]
+Terminus: [128.107.80.142]
+Terminus: [128.107.80.22]
+Terminus: [128.107.80.230, 1]
+Terminus: [128.107.80.242]
+Terminus: [128.107.80.34]
+Terminus: [128.107.81.194]
+Terminus: [128.107.81.82]
+Terminus: [128.107.82.70]
+Terminus: [128.107.85.50]
+Terminus: [128.107.85.54]
+Terminus: [128.107.86.202]
+Terminus: [128.107.86.226]
+Terminus: [144.254.51.242]
+Terminus: [152.179.122.46]
+Terminus: [173.243.5.57, 1]
+Terminus: [173.36.104.129]
+Terminus: [173.36.104.161]
+Terminus: [173.36.104.65]
+Terminus: [173.36.104.97]
+Terminus: [173.36.104.9]
+Terminus: [173.36.105.1]
+Terminus: [173.36.106.1]
+Terminus: [173.36.107.1]
+Terminus: [173.36.113.14]
+Terminus: [173.36.113.162]
+Terminus: [173.36.113.170, 1]
+Terminus: [173.36.113.18]
+Terminus: [173.36.113.210]
+Terminus: [173.36.113.22]
+Terminus: [173.36.113.26]
+Terminus: [173.36.113.2]
+Terminus: [173.36.113.6]
+Terminus: [173.36.113.70]
+Terminus: [173.36.116.100]
+Terminus: [173.36.116.2]
+Terminus: [173.36.116.6]
+Terminus: [173.36.116.90]
+Terminus: [173.36.118.37]
+Terminus: [173.36.124.1]
+Terminus: [173.36.126.1]
+Terminus: [173.36.197.158, 2]
+Terminus: [173.36.197.158]
+Terminus: [173.36.197.78, 3]
+Terminus: [173.36.197.78, 4]
+Terminus: [173.36.208.126]
+Terminus: [173.36.208.74]
+Terminus: [173.36.212.102]
+Terminus: [173.36.212.106]
+Terminus: [173.36.212.122]
+Terminus: [173.36.212.194]
+Terminus: [173.36.212.202]
+Terminus: [173.36.212.206]
+Terminus: [173.36.212.218]
+Terminus: [173.36.218.165]
+Terminus: [173.36.218.38]
+Terminus: [173.36.218.62]
+Terminus: [173.36.229.2]
+Terminus: [173.36.240.134]
+Terminus: [173.36.240.150]
+Terminus: [173.36.243.102]
+Terminus: [173.36.246.106]
+Terminus: [173.36.246.118]
+Terminus: [173.36.246.186]
+Terminus: [173.36.246.26]
+Terminus: [173.36.246.30]
+Terminus: [173.36.246.34]
+Terminus: [173.36.246.90]
+Terminus: [173.36.248.154]
+Terminus: [173.36.248.158]
+Terminus: [173.36.248.6]
+Terminus: [173.36.255.206]
+Terminus: [173.36.255.214, 1]
+Terminus: [173.36.255.214, 2]
+Terminus: [173.36.255.214]
+Terminus: [173.36.255.230, 1]
+Terminus: [173.36.255.230, 2]
+Terminus: [173.36.255.230, 3]
+Terminus: [173.36.255.230]
+Terminus: [173.36.255.242]
+Terminus: [173.37.193.14]
+Terminus: [173.37.194.11]
+Terminus: [173.37.200.138]
+Terminus: [173.37.200.142]
+Terminus: [173.37.200.150]
+Terminus: [173.37.200.154]
+Terminus: [173.37.200.158]
+Terminus: [173.37.204.22]
+Terminus: [173.37.213.22]
+Terminus: [173.37.213.30, 2]
+Terminus: [173.37.216.129]
+Terminus: [173.37.216.161]
+Terminus: [173.37.216.65]
+Terminus: [173.37.216.97]
+Terminus: [173.37.216.9]
+Terminus: [173.37.217.1]
+Terminus: [173.37.218.1]
+Terminus: [173.37.56.6]
+Terminus: [173.37.58.35]
+Terminus: [173.38.116.14]
+Terminus: [173.38.116.54]
+Terminus: [173.38.116.6]
+Terminus: [173.38.117.133]
+Terminus: [173.38.117.137]
+Terminus: [173.38.117.42]
+Terminus: [173.38.117.46]
+Terminus: [173.38.118.2]
+Terminus: [173.38.120.129]
+Terminus: [173.38.120.1]
+Terminus: [173.38.121.1]
+Terminus: [173.38.122.129]
+Terminus: [173.38.122.33]
+Terminus: [173.38.122.65]
+Terminus: [173.38.122.97]
+Terminus: [173.38.152.30]
+Terminus: [173.38.153.34]
+Terminus: [173.38.156.2]
+Terminus: [173.38.168.186]
+Terminus: [173.38.208.194]
+Terminus: [173.38.208.198]
+Terminus: [173.38.208.202]
+Terminus: [173.38.208.206]
+Terminus: [173.38.208.214, 2]
+Terminus: [173.38.209.102]
+Terminus: [173.38.209.106]
+Terminus: [173.38.209.134]
+Terminus: [173.38.209.138, 2]
+Terminus: [173.38.209.138, 3]
+Terminus: [173.38.209.138]
+Terminus: [173.38.209.161]
+Terminus: [173.38.209.174]
+Terminus: [173.38.209.186, 1]
+Terminus: [173.38.209.186, 2]
+Terminus: [173.38.209.190, 1]
+Terminus: [173.38.209.190, 2]
+Terminus: [173.38.209.206]
+Terminus: [173.38.209.246]
+Terminus: [173.38.209.250, 2]
+Terminus: [173.38.209.66]
+Terminus: [173.38.209.94]
+Terminus: [173.38.209.98]
+Terminus: [173.38.220.154]
+Terminus: [173.39.112.18]
+Terminus: [173.39.112.22]
+Terminus: [173.39.112.2]
+Terminus: [173.39.112.34]
+Terminus: [173.39.112.6]
+Terminus: [173.39.117.98]
+Terminus: [173.39.12.34]
+Terminus: [173.39.120.106]
+Terminus: [173.39.120.114]
+Terminus: [173.39.120.230]
+Terminus: [173.39.120.242]
+Terminus: [173.39.120.246]
+Terminus: [173.39.120.25]
+Terminus: [173.39.120.37]
+Terminus: [173.39.120.74, 1]
+Terminus: [173.39.120.74]
+Terminus: [173.39.120.82]
+Terminus: [173.39.120.90, 2]
+Terminus: [173.39.123.194]
+Terminus: [173.39.125.70]
+Terminus: [173.39.13.146, 2]
+Terminus: [173.39.13.146]
+Terminus: [173.39.13.154]
+Terminus: [173.39.13.158]
+Terminus: [173.39.14.10]
+Terminus: [173.39.145.138]
+Terminus: [173.39.15.126]
+Terminus: [173.39.15.222]
+Terminus: [173.39.15.75]
+Terminus: [173.39.80.50]
+Terminus: [173.39.88.14]
+Terminus: [173.39.88.154]
+Terminus: [173.39.88.50]
+Terminus: [173.39.88.54]
+Terminus: [173.39.90.206]
+Terminus: [173.39.90.218]
+Terminus: [173.39.90.222]
+Terminus: [173.39.90.225]
+Terminus: [192.118.76.110, 2]
+Terminus: [192.118.76.118]
+Terminus: [192.118.76.26, 1]
+Terminus: [192.118.76.30, 3]
+Terminus: [192.118.78.98]
+Terminus: [192.118.79.138]
+Terminus: [192.118.79.142]
+Terminus: [192.118.79.170]
+Terminus: [192.118.79.186, 4]
+Terminus: [192.133.195.254]
+Terminus: [192.133.195.26]
+Terminus: [192.133.232.34]
+Terminus: [198.135.0.26]
+Terminus: [198.135.0.30]
+Terminus: [198.135.2.10]
+Terminus: [198.135.2.22]
+Terminus: [198.135.2.2]
+Terminus: [198.135.2.54]
+Terminus: [198.135.3.71]
+Terminus: [213.248.103.51]
+Terminus: [62.40.98.116, 2]
+Terminus: [64.100.248.114]
+Terminus: [64.100.248.118]
+Terminus: [64.100.248.18]
+Terminus: [64.100.250.130, 2]
+Terminus: [64.100.250.130]
+Terminus: [64.100.250.154, 2]
+Terminus: [64.100.251.46]
+Terminus: [64.100.255.154]
+Terminus: [64.100.4.13]
+Terminus: [64.100.4.4]
+Terminus: [64.100.8.102]
+Terminus: [64.100.8.122]
+Terminus: [64.100.8.50]
+Terminus: [64.100.8.54, 1]
+Terminus: [64.100.8.54, 2]
+Terminus: [64.100.8.66]
+Terminus: [64.100.8.90]
+Terminus: [64.102.220.1]
+Terminus: [64.102.240.194]
+Terminus: [64.102.240.198]
+Terminus: [64.102.242.106]
+Terminus: [64.102.242.230]
+Terminus: [64.102.242.238]
+Terminus: [64.102.242.98]
+Terminus: [64.102.243.14]
+Terminus: [64.102.244.114]
+Terminus: [64.102.244.118]
+Terminus: [64.102.244.142, 1]
+Terminus: [64.102.244.142, 2]
+Terminus: [64.102.244.146, 1]
+Terminus: [64.102.244.146, 2]
+Terminus: [64.102.244.146]
+Terminus: [64.102.244.150, 1]
+Terminus: [64.102.244.150, 2]
+Terminus: [64.102.244.150]
+Terminus: [64.102.244.154, 1]
+Terminus: [64.102.244.154, 2]
+Terminus: [64.102.244.154, 3]
+Terminus: [64.102.244.154]
+Terminus: [64.102.244.194]
+Terminus: [64.102.244.206]
+Terminus: [64.102.244.218]
+Terminus: [64.102.246.22]
+Terminus: [64.102.246.50, 1]
+Terminus: [64.102.246.50, 2]
+Terminus: [64.102.246.58, 1]
+Terminus: [64.102.252.250]
+Terminus: [64.102.254.186]
+Terminus: [64.102.254.190, 1]
+Terminus: [64.102.254.202]
+Terminus: [64.102.254.46]
+Terminus: [64.102.254.58]
+Terminus: [64.102.254.62]
+Terminus: [64.103.25.166]
+Terminus: [64.103.25.170]
+Terminus: [64.103.38.130]
+Terminus: [64.103.38.26]
+Terminus: [64.103.39.238]
+Terminus: [64.103.39.242]
+Terminus: [64.104.125.154]
+Terminus: [64.104.125.158]
+Terminus: [64.104.126.246, 1]
+Terminus: [64.104.127.222, 1]
+Terminus: [64.104.127.222, 2]
+Terminus: [64.104.127.41]
+Terminus: [64.104.127.66]
+Terminus: [64.104.248.46]
+Terminus: [64.104.248.50]
+Terminus: [64.104.249.50]
+Terminus: [64.104.250.34]
+Terminus: [64.104.252.158, 2]
+Terminus: [64.104.252.230]
+Terminus: [64.104.252.238]
+Terminus: [64.104.252.78]
+Terminus: [64.104.252.94]
+Terminus: [64.104.255.5, 1]
+Terminus: [64.104.255.5, 2]
+Terminus: [64.104.46.110, 1]
+Terminus: [64.104.46.110]
+Terminus: [64.104.46.142, 1]
+Terminus: [64.104.46.170]
+Terminus: [64.104.46.186]
+Terminus: [64.104.47.210]
+Terminus: [64.104.62.18]
+Terminus: [64.68.114.133]
+Terminus: [64.68.115.69]
+Terminus: [64.68.116.145, 2]
+Terminus: [64.68.116.197]
+Terminus: [64.71.176.50, 1]
+Terminus: [64.71.176.50]
+Terminus: [66.163.37.37]
+Terminus: [72.163.0.238]
+Terminus: [72.163.0.250, 1]
+Terminus: [72.163.0.254, 1]
+Terminus: [72.163.0.254, 2]
+Terminus: [72.163.0.42]
+Terminus: [72.163.1.26, 1]
+Terminus: [72.163.1.26, 2]
+Terminus: [72.163.1.34]
+Terminus: [72.163.1.42]
+Terminus: [72.163.1.54]
+Terminus: [72.163.1.62]
+Terminus: [72.163.1.86]
+Terminus: [72.163.2.102]
+Terminus: [72.163.2.106]
+Terminus: [72.163.2.110]
+Terminus: [72.163.2.126]
+Terminus: [72.163.2.130]
+Terminus: [72.163.2.138]
+Terminus: [72.163.2.154]
+Terminus: [72.163.2.38]
+Terminus: [72.163.2.70, 1]
+Terminus: [72.163.2.70, 3]
+Terminus: [72.163.2.70, 4]
+Terminus: [72.163.2.74]
+Terminus: [72.163.2.98]
+Terminus: [72.163.216.110, 1]
+Terminus: [72.163.216.122]
+Terminus: [72.163.216.126, 2]
+Terminus: [72.163.216.142, 1]
+Terminus: [72.163.216.142, 3]
+Terminus: [72.163.216.162, 1]
+Terminus: [72.163.216.162, 2]
+Terminus: [72.163.216.173, 3]
+Terminus: [72.163.216.177]
+Terminus: [72.163.216.185]
+Terminus: [72.163.216.189]
+Terminus: [72.163.216.54]
+Terminus: [72.163.216.58]
+Terminus: [72.163.216.78]
+Terminus: [72.163.217.86]
+Terminus: [72.163.218.118]
+Terminus: [72.163.219.186]
+Terminus: [72.163.219.33, 2]
+Terminus: [72.163.219.6]
+Terminus: [72.163.220.230]
+Terminus: [72.163.249.130, 1]
+Terminus: [72.163.249.50]
+Terminus: [72.163.249.54]
+Terminus: [72.163.249.90, 2]
+Terminus: [72.163.249.90, 3]
+Terminus: [72.163.249.90]
+Terminus: [72.163.3.18]
+Terminus: [72.163.3.22]
+Terminus: [72.163.3.30]
+Gate: 152.179.122.46
+Gate: 173.243.5.57 [1]
+Gate: 213.248.103.51
+Gate: 62.40.98.116 [2]
+Gate: 64.104.127.41
+Gate: 64.68.114.133
+Gate: 64.68.115.69
+Gate: 64.68.116.145 [2]
+Gate: 64.68.116.197
+Gate: 64.71.176.50 [1]
+Gate: 64.71.176.50
+Gate: 66.163.37.37

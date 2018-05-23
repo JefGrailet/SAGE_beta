@@ -1,0 +1,58 @@
+Graph
+-----
+Maximum in degree: 15 (N6)
+Maximum out degree: 170 (N590)
+Minimum total degree (in + out): 0 (85 nodes)
+Maximum total degree (in + out): 171 (N590)
+Average in/out degree: 1.05827
+Graph density: 0.00110122
+
+Subnets
+-------
+Accurate subnets: 34825 (57.377%)
+Odd subnets: 16770 (27.63%)
+Shadow subnets: 9100 (14.993%)
+Credible subnets: 36644 (60.374%)
+Covered IPs: 1297066 (33.0334% w.r.t. targets)
+Covered IPs (credible subnets): 446952 (11.3829% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (673 nodes)
+Maximum amount of subnets per neighborhood: 3792 (N322)
+Average amount of subnets per neighborhood: 63.1582
+
+Aliases
+-------
+Fully aliased neighborhoods: 296 (30.8012%)
+Maximum size of an alias: 686
+Maximum amount of aliases: 2291 (N322)
+Average amount of aliases: 34.6441
+
+Links
+-----
+Direct links: 192 (18.8791%)
+Indirect links: 620 (60.9636%)
+Remote links: 205 (20.1573%)
+Links with a medium: 430 (42.2812%)
+
+Connected components
+--------------------
+Via gates N1, N855, N844, N801, N873: 876 (91.155%)
+Amount of islets: 85 (8.84495%)
+Detailed list: N877, N878, N879, N880, N881, N882, N883, N884, N885, N886, 
+N887, N888, N889, N890, N891, N892, N893, N894, N895, N896, 
+N897, N898, N899, N900, N901, N902, N903, N904, N905, N906, 
+N907, N908, N909, N910, N911, N912, N913, N914, N915, N916, 
+N917, N918, N919, N920, N921, N922, N923, N924, N925, N926, 
+N927, N928, N929, N930, N931, N932, N933, N934, N935, N936, 
+N937, N938, N939, N940, N941, N942, N943, N944, N945, N946, 
+N947, N948, N949, N950, N951, N952, N953, N954, N955, N956, 
+N957, N958, N959, N960, N961
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 44
+There are only super nodes.
+Super node list: N3, N5, N6, N9, N20, N38, N45, N60, N92, N99, 
+N103, N104, N123, N149, N183, N202, N215, N229, N269, N271, 
+N273, N276, N294, N298, N318, N322, N358, N385, N441, N459, 
+N478, N497, N528, N540, N794, N795, N804, N820, N821, N835, 
+N837, N863, N869, N872

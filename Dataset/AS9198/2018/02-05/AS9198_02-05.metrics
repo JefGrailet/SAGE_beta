@@ -1,0 +1,118 @@
+Graph
+-----
+Maximum in degree: 5 (N243, N678)
+Maximum out degree: 226 (N1146)
+Minimum total degree (in + out): 0 (288 nodes)
+Maximum total degree (in + out): 230 (N1146)
+Average in/out degree: 0.965163
+Graph density: 0.000320226
+
+Subnets
+-------
+Accurate subnets: 13385 (56.9453%)
+Odd subnets: 6081 (25.8711%)
+Shadow subnets: 4039 (17.1836%)
+Credible subnets: 15514 (66.003%)
+Covered IPs: 1282744 (80.5452% w.r.t. targets)
+Covered IPs (credible subnets): 939974 (59.0222% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (2310 nodes)
+Maximum amount of subnets per neighborhood: 1633 (N2226)
+Average amount of subnets per neighborhood: 7.79861
+
+Aliases
+-------
+Fully aliased neighborhoods: 574 (19.0445%)
+Maximum size of an alias: 182
+Maximum amount of aliases: 995 (N2226)
+Average amount of aliases: 3.30192
+
+Links
+-----
+Direct links: 340 (11.6919%)
+Indirect links: 1510 (51.9257%)
+Remote links: 1058 (36.3824%)
+Links with a medium: 1513 (52.0289%)
+
+Connected components
+--------------------
+Via gates N1, N20, N2603, N2558, N2600: 59 (1.95753%)
+Via gate N7: 5 (0.165892%)
+Via gate N12: 5 (0.165892%)
+Via gate N17: 3 (0.0995355%)
+Via gate N33: 3 (0.0995355%)
+Via gate N36: 18 (0.597213%)
+Via gate N54: 3 (0.0995355%)
+Via gate N57: 2 (0.066357%)
+Via gate N59: 7 (0.232249%)
+Via gate N66: 6 (0.199071%)
+Via gate N72: 3 (0.0995355%)
+Via gate N75: 2 (0.066357%)
+Via gate N77: 3 (0.0995355%)
+Via gate N80: 5 (0.165892%)
+Via gate N85: 2 (0.066357%)
+Via gate N87: 3 (0.0995355%)
+Via gate N90: 4 (0.132714%)
+Via gate N94: 2 (0.066357%)
+Via gate N96: 14 (0.464499%)
+Via gate N110: 4 (0.132714%)
+Via gate N114: 3 (0.0995355%)
+Via gate N117: 3 (0.0995355%)
+Via gates N120, N2718, N2672: 2484 (82.4154%)
+Via gate N2549: 2 (0.066357%)
+Via gate N2551: 4 (0.132714%)
+Via gate N2555: 3 (0.0995355%)
+Via gate N2581: 11 (0.364964%)
+Via gate N2592: 2 (0.066357%)
+Via gate N2594: 2 (0.066357%)
+Via gate N2596: 2 (0.066357%)
+Via gate N2598: 2 (0.066357%)
+Via gate N2617: 2 (0.066357%)
+Via gate N2619: 3 (0.0995355%)
+Via gate N2622: 2 (0.066357%)
+Via gate N2624: 6 (0.199071%)
+Via gate N2630: 6 (0.199071%)
+Via gate N2636: 14 (0.464499%)
+Via gate N2650: 2 (0.066357%)
+Via gate N2652: 3 (0.0995355%)
+Via gate N2655: 5 (0.165892%)
+Via gate N2660: 2 (0.066357%)
+Via gate N2662: 3 (0.0995355%)
+Via gate N2665: 4 (0.132714%)
+Via gate N2669: 3 (0.0995355%)
+Amount of islets: 288 (9.55541%)
+Detailed list: N2727, N2728, N2729, N2730, N2731, N2732, N2733, N2734, N2735, N2736, 
+N2737, N2738, N2739, N2740, N2741, N2742, N2743, N2744, N2745, N2746, 
+N2747, N2748, N2749, N2750, N2751, N2752, N2753, N2754, N2755, N2756, 
+N2757, N2758, N2759, N2760, N2761, N2762, N2763, N2764, N2765, N2766, 
+N2767, N2768, N2769, N2770, N2771, N2772, N2773, N2774, N2775, N2776, 
+N2777, N2778, N2779, N2780, N2781, N2782, N2783, N2784, N2785, N2786, 
+N2787, N2788, N2789, N2790, N2791, N2792, N2793, N2794, N2795, N2796, 
+N2797, N2798, N2799, N2800, N2801, N2802, N2803, N2804, N2805, N2806, 
+N2807, N2808, N2809, N2810, N2811, N2812, N2813, N2814, N2815, N2816, 
+N2817, N2818, N2819, N2820, N2821, N2822, N2823, N2824, N2825, N2826, 
+N2827, N2828, N2829, N2830, N2831, N2832, N2833, N2834, N2835, N2836, 
+N2837, N2838, N2839, N2840, N2841, N2842, N2843, N2844, N2845, N2846, 
+N2847, N2848, N2849, N2850, N2851, N2852, N2853, N2854, N2855, N2856, 
+N2857, N2858, N2859, N2860, N2861, N2862, N2863, N2864, N2865, N2866, 
+N2867, N2868, N2869, N2870, N2871, N2872, N2873, N2874, N2875, N2876, 
+N2877, N2878, N2879, N2880, N2881, N2882, N2883, N2884, N2885, N2886, 
+N2887, N2888, N2889, N2890, N2891, N2892, N2893, N2894, N2895, N2896, 
+N2897, N2898, N2899, N2900, N2901, N2902, N2903, N2904, N2905, N2906, 
+N2907, N2908, N2909, N2910, N2911, N2912, N2913, N2914, N2915, N2916, 
+N2917, N2918, N2919, N2920, N2921, N2922, N2923, N2924, N2925, N2926, 
+N2927, N2928, N2929, N2930, N2931, N2932, N2933, N2934, N2935, N2936, 
+N2937, N2938, N2939, N2940, N2941, N2942, N2943, N2944, N2945, N2946, 
+N2947, N2948, N2949, N2950, N2951, N2952, N2953, N2954, N2955, N2956, 
+N2957, N2958, N2959, N2960, N2961, N2962, N2963, N2964, N2965, N2966, 
+N2967, N2968, N2969, N2970, N2971, N2972, N2973, N2974, N2975, N2976, 
+N2977, N2978, N2979, N2980, N2981, N2982, N2983, N2984, N2985, N2986, 
+N2987, N2988, N2989, N2990, N2991, N2992, N2993, N2994, N2995, N2996, 
+N2997, N2998, N2999, N3000, N3001, N3002, N3003, N3004, N3005, N3006, 
+N3007, N3008, N3009, N3010, N3011, N3012, N3013, N3014
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 17
+There are only super nodes.
+Super node list: N158, N243, N309, N373, N375, N501, N514, N543, N808, N935, 
+N1111, N1113, N1940, N1946, N2068, N2226, N2673

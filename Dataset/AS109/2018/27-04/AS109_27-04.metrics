@@ -1,0 +1,52 @@
+Graph
+-----
+Maximum in degree: 2 (N8, N23, N24, N26, N27, N32, N35, N38, N39, N40, N42, N48, N49, N52, N53, N55, N59, N75, N83, N88, N90, N92, N95, N97, N106, N113, N114, N115, N120, N128, N140, N143, N147, N154, N159, N166, N189, N234, N238, N239, N245, N247, N256, N266, N269, N270, N287, N290, N297, N349, N350, N354, N355, N356, N359, N361, N384, N389, N399, N402, N409, N420, N427, N429, N430, N437, N438, N441, N442, N445, N480, N483, N484, N487, N488, N499, N500, N501, N502, N506, N508, N511, N513, N529, N531, N534, N535, N578)
+Maximum out degree: 15 (N544)
+Minimum total degree (in + out): 0 (10 nodes)
+Maximum total degree (in + out): 16 (N544)
+Average in/out degree: 1.10702
+Graph density: 0.00185121
+
+Subnets
+-------
+Accurate subnets: 1100 (69.6203%)
+Odd subnets: 341 (21.5823%)
+Shadow subnets: 139 (8.79747%)
+Credible subnets: 1290 (81.6456%)
+Covered IPs: 71456 (6.13057% w.r.t. targets)
+Covered IPs (credible subnets): 34160 (2.93076% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (326 nodes)
+Maximum amount of subnets per neighborhood: 27 (N437)
+Average amount of subnets per neighborhood: 2.64214
+
+Aliases
+-------
+Fully aliased neighborhoods: 459 (76.7559%)
+Maximum size of an alias: 48
+Maximum amount of aliases: 3 (N39, N405, N421, N500)
+Average amount of aliases: 1.0301
+
+Links
+-----
+Direct links: 391 (59.0634%)
+Indirect links: 201 (30.3625%)
+Remote links: 70 (10.574%)
+Links with a medium: 573 (86.5559%)
+
+Connected components
+--------------------
+Via gate N1: 19 (3.17726%)
+Via gate N20: 52 (8.69565%)
+Via gate N72: 159 (26.5886%)
+Via gate N231: 53 (8.86288%)
+Via gate N284: 32 (5.35117%)
+Via gate N316: 10 (1.67224%)
+Via gate N326: 18 (3.01003%)
+Via gates N344, N477: 137 (22.9097%)
+Via gate N385: 10 (1.67224%)
+Via gate N395: 20 (3.34448%)
+Via gate N415: 62 (10.3679%)
+Via gate N573: 14 (2.34114%)
+Via gate N587: 2 (0.334448%)
+Amount of islets: 10 (1.67224%)
+Detailed list: N589, N590, N591, N592, N593, N594, N595, N596, N597, N598

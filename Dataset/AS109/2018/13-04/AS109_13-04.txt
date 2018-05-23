@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 13-04-2018 08:50:34
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS109_13-04_pre-scanning.
+
+--- End of network pre-scanning (13-04-2018 20:26:11) ---
+Elapsed time: 11 hours 35 minutes 27 seconds
+Total amount of probes: 2319877
+Total amount of successful probes: 12236 (0.527442%)
+Total amount of discovered responsive IPs: 11278
+
+--- Start of network scanning (13-04-2018 20:26:25) ---
+Log of current phase is being written in Log_AS109_13-04_scanning.
+
+--- End of network scanning (13-04-2018 23:18:42) ---
+Elapsed time: 2 hours 52 minutes 17 seconds
+Total amount of probes: 100001
+Total amount of successful probes: 90185 (90.1841%)
+Total amount of discovered subnets: 1569
+
+Inferred subnets have been saved in an output file AS109_13-04.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS109_13-04_traceroute.
+
+--- End of traceroute (13-04-2018 23:31:56) ---
+Elapsed time: 13 minutes 14 seconds
+Total amount of probes: 19526
+Total amount of successful probes: 18459 (94.5355%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS109_13-04.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS109_13-04_graph.
+
+--- End of graph building (13-04-2018 23:41:38) ---
+Elapsed time: 9 minutes 42 seconds
+Total amount of probes (alias resolution): 1153
+Total amount of successful probes: 768 (66.6088%)
+
+Discovered neighborhoods have been written in a new output file AS109_13-04.neighborhoods.
+The graph has been written in a new output file AS109_13-04.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS109_13-04_alias_resolution.
+
+--- End of alias resolution (14-04-2018 00:56:00) ---
+Elapsed time: 1 hour 14 minutes 22 seconds
+Total amount of probes: 13912
+Total amount of successful probes: 9242 (66.4319%)
+
+Discovered aliases have been written in a new output file AS109_13-04.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS109_13-04.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS109_13-04.ips.
+Metrics on the graph have been written in a new output file AS109_13-04.metrics.

@@ -1,0 +1,29 @@
+--- Start of input files parsing ---
+--- End of input files parsing (24-04-2018 13:52:12) ---
+Elapsed time: 3 seconds
+
+Final set of subnets has been written in a new output file AS5483_20-04.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS5483_20-04_graph.
+
+--- End of graph building (24-04-2018 14:48:09) ---
+Elapsed time: 55 minutes 57 seconds
+Total amount of probes (alias resolution): 2526
+Total amount of successful probes: 11 (0.435471%)
+
+Discovered neighborhoods have been written in a new output file AS5483_20-04.neighborhoods.
+The graph has been written in a new output file AS5483_20-04.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS5483_20-04_alias_resolution.
+
+--- End of alias resolution (24-04-2018 19:14:10) ---
+Elapsed time: 4 hours 26 minutes 0 second
+Total amount of probes: 84915
+Total amount of successful probes: 66025 (77.7542%)
+
+Discovered aliases have been written in a new output file AS5483_20-04.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS5483_20-04.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS5483_20-04.ips.
+Metrics on the graph have been written in a new output file AS5483_20-04.metrics.

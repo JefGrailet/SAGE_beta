@@ -1,0 +1,63 @@
+Graph
+-----
+Maximum in degree: 3 (N243)
+Maximum out degree: 59 (N6)
+Minimum total degree (in + out): 0 (100 nodes)
+Maximum total degree (in + out): 60 (N6)
+Average in/out degree: 0.815009
+Graph density: 0.00142235
+
+Subnets
+-------
+Accurate subnets: 1130 (70.625%)
+Odd subnets: 268 (16.75%)
+Shadow subnets: 202 (12.625%)
+Credible subnets: 1228 (76.75%)
+Covered IPs: 154986 (16.7426% w.r.t. targets)
+Covered IPs (credible subnets): 65418 (7.0669% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (403 nodes)
+Maximum amount of subnets per neighborhood: 79 (N6)
+Average amount of subnets per neighborhood: 2.79232
+
+Aliases
+-------
+Fully aliased neighborhoods: 196 (34.2059%)
+Maximum size of an alias: 74
+Maximum amount of aliases: 9 (N6)
+Average amount of aliases: 1.32461
+
+Links
+-----
+Direct links: 224 (47.9657%)
+Indirect links: 164 (35.1178%)
+Remote links: 79 (16.9165%)
+Links with a medium: 343 (73.4475%)
+
+Connected components
+--------------------
+Via gate N1: 2 (0.34904%)
+Via gate N3: 439 (76.6143%)
+Via gate N442: 2 (0.34904%)
+Via gate N444: 2 (0.34904%)
+Via gate N446: 2 (0.34904%)
+Via gate N448: 2 (0.34904%)
+Via gate N450: 2 (0.34904%)
+Via gate N452: 2 (0.34904%)
+Via gate N454: 2 (0.34904%)
+Via gate N456: 2 (0.34904%)
+Via gate N458: 7 (1.22164%)
+Via gate N465: 2 (0.34904%)
+Via gate N467: 2 (0.34904%)
+Via gate N469: 3 (0.52356%)
+Via gate N472: 2 (0.34904%)
+Amount of islets: 100 (17.452%)
+Detailed list: N474, N475, N476, N477, N478, N479, N480, N481, N482, N483, 
+N484, N485, N486, N487, N488, N489, N490, N491, N492, N493, 
+N494, N495, N496, N497, N498, N499, N500, N501, N502, N503, 
+N504, N505, N506, N507, N508, N509, N510, N511, N512, N513, 
+N514, N515, N516, N517, N518, N519, N520, N521, N522, N523, 
+N524, N525, N526, N527, N528, N529, N530, N531, N532, N533, 
+N534, N535, N536, N537, N538, N539, N540, N541, N542, N543, 
+N544, N545, N546, N547, N548, N549, N550, N551, N552, N553, 
+N554, N555, N556, N557, N558, N559, N560, N561, N562, N563, 
+N564, N565, N566, N567, N568, N569, N570, N571, N572, N573

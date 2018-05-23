@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 08-05-2018 07:38:43
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS12956_08-05_pre-scanning.
+
+--- End of network pre-scanning (08-05-2018 08:44:29) ---
+Elapsed time: 1 hour 5 minutes 45 seconds
+Total amount of probes: 278282
+Total amount of successful probes: 111177 (39.9512%)
+Total amount of discovered responsive IPs: 104734
+
+--- Start of network scanning (08-05-2018 08:44:54) ---
+Log of current phase is being written in Log_AS12956_08-05_scanning.
+
+--- End of network scanning (09-05-2018 19:46:38) ---
+Elapsed time: 11 hours 1 minute 28 seconds
+Total amount of probes: 1059573
+Total amount of successful probes: 1026803 (96.9072%)
+Total amount of discovered subnets: 22745
+
+Inferred subnets have been saved in an output file AS12956_08-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS12956_08-05_traceroute.
+
+--- End of traceroute (09-05-2018 21:41:06) ---
+Elapsed time: 1 hour 54 minutes 27 seconds
+Total amount of probes: 224339
+Total amount of successful probes: 213049 (94.9674%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS12956_08-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS12956_08-05_graph.
+
+--- End of graph building (09-05-2018 22:13:05) ---
+Elapsed time: 31 minutes 58 seconds
+Total amount of probes (alias resolution): 8393
+Total amount of successful probes: 6469 (77.0761%)
+
+Discovered neighborhoods have been written in a new output file AS12956_08-05.neighborhoods.
+The graph has been written in a new output file AS12956_08-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS12956_08-05_alias_resolution.
+
+--- End of alias resolution (10-05-2018 01:30:35) ---
+Elapsed time: 3 hours 17 minutes 30 seconds
+Total amount of probes: 151989
+Total amount of successful probes: 125643 (82.6659%)
+
+Discovered aliases have been written in a new output file AS12956_08-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS12956_08-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS12956_08-05.ips.
+Metrics on the graph have been written in a new output file AS12956_08-05.metrics.

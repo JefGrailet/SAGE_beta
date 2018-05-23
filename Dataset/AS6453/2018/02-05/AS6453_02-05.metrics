@@ -1,0 +1,59 @@
+Graph
+-----
+Maximum in degree: 2 (N3, N8, N15, N30, N32, N33, N42, N47, N48, N49, N52, N70, N78, N98, N103, N128, N129, N132, N155, N178, N187, N192, N276, N328, N389, N422, N423, N436, N467, N594, N598, N632, N635, N637, N643, N702)
+Maximum out degree: 22 (N129)
+Minimum total degree (in + out): 0 (49 nodes)
+Maximum total degree (in + out): 24 (N129)
+Average in/out degree: 0.970297
+Graph density: 0.00120086
+
+Subnets
+-------
+Accurate subnets: 5264 (79.2175%)
+Odd subnets: 923 (13.8901%)
+Shadow subnets: 458 (6.8924%)
+Credible subnets: 5507 (82.8743%)
+Covered IPs: 170850 (30.5438% w.r.t. targets)
+Covered IPs (credible subnets): 100958 (18.0488% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (424 nodes)
+Maximum amount of subnets per neighborhood: 1013 (N343)
+Average amount of subnets per neighborhood: 8.22401
+
+Aliases
+-------
+Fully aliased neighborhoods: 448 (55.4455%)
+Maximum size of an alias: 101
+Maximum amount of aliases: 626 (N343)
+Average amount of aliases: 2.86015
+
+Links
+-----
+Direct links: 461 (58.801%)
+Indirect links: 263 (33.5459%)
+Remote links: 60 (7.65306%)
+Links with a medium: 677 (86.352%)
+
+Connected components
+--------------------
+Via gates N1, N184: 727 (89.9753%)
+Via gate N728: 2 (0.247525%)
+Via gate N730: 5 (0.618812%)
+Via gate N735: 5 (0.618812%)
+Via gate N740: 2 (0.247525%)
+Via gate N742: 3 (0.371287%)
+Via gate N745: 5 (0.618812%)
+Via gate N750: 6 (0.742574%)
+Via gate N756: 2 (0.247525%)
+Via gate N758: 2 (0.247525%)
+Amount of islets: 49 (6.06436%)
+Detailed list: N760, N761, N762, N763, N764, N765, N766, N767, N768, N769, 
+N770, N771, N772, N773, N774, N775, N776, N777, N778, N779, 
+N780, N781, N782, N783, N784, N785, N786, N787, N788, N789, 
+N790, N791, N792, N793, N794, N795, N796, N797, N798, N799, 
+N800, N801, N802, N803, N804, N805, N806, N807, N808
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 4
+There are only super nodes.
+Super node list: N343, N632, N635, N643

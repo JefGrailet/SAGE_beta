@@ -1,0 +1,62 @@
+Graph
+-----
+Maximum in degree: 2 (N25, N118, N178, N180, N230, N255, N375, N376, N377)
+Maximum out degree: 55 (N7)
+Minimum total degree (in + out): 0 (94 nodes)
+Maximum total degree (in + out): 56 (N7)
+Average in/out degree: 0.815642
+Graph density: 0.00151889
+
+Subnets
+-------
+Accurate subnets: 1212 (74.1738%)
+Odd subnets: 221 (13.5251%)
+Shadow subnets: 201 (12.3011%)
+Credible subnets: 1290 (78.9474%)
+Covered IPs: 173130 (18.7027% w.r.t. targets)
+Covered IPs (credible subnets): 50748 (5.48215% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (368 nodes)
+Maximum amount of subnets per neighborhood: 89 (N7)
+Average amount of subnets per neighborhood: 3.04283
+
+Aliases
+-------
+Fully aliased neighborhoods: 202 (37.6164%)
+Maximum size of an alias: 91
+Maximum amount of aliases: 5 (N141)
+Average amount of aliases: 1.32402
+
+Links
+-----
+Direct links: 242 (55.2511%)
+Indirect links: 135 (30.8219%)
+Remote links: 61 (13.9269%)
+Links with a medium: 319 (72.831%)
+
+Connected components
+--------------------
+Via gate N1: 3 (0.558659%)
+Via gate N4: 409 (76.1639%)
+Via gate N413: 2 (0.372439%)
+Via gate N415: 2 (0.372439%)
+Via gate N417: 2 (0.372439%)
+Via gate N419: 2 (0.372439%)
+Via gate N421: 2 (0.372439%)
+Via gate N423: 2 (0.372439%)
+Via gate N425: 2 (0.372439%)
+Via gate N427: 2 (0.372439%)
+Via gate N429: 8 (1.48976%)
+Via gate N437: 2 (0.372439%)
+Via gate N439: 2 (0.372439%)
+Via gate N441: 3 (0.558659%)
+Amount of islets: 94 (17.5047%)
+Detailed list: N444, N445, N446, N447, N448, N449, N450, N451, N452, N453, 
+N454, N455, N456, N457, N458, N459, N460, N461, N462, N463, 
+N464, N465, N466, N467, N468, N469, N470, N471, N472, N473, 
+N474, N475, N476, N477, N478, N479, N480, N481, N482, N483, 
+N484, N485, N486, N487, N488, N489, N490, N491, N492, N493, 
+N494, N495, N496, N497, N498, N499, N500, N501, N502, N503, 
+N504, N505, N506, N507, N508, N509, N510, N511, N512, N513, 
+N514, N515, N516, N517, N518, N519, N520, N521, N522, N523, 
+N524, N525, N526, N527, N528, N529, N530, N531, N532, N533, 
+N534, N535, N536, N537

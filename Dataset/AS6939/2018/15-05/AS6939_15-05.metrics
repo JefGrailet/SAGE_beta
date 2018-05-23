@@ -1,0 +1,49 @@
+Graph
+-----
+Maximum in degree: 2 (N2, N23, N34, N114, N529, N721, N728, N729, N732, N733, N734, N735, N736, N737, N738, N739, N740, N741, N742, N745, N751, N754, N756, N757, N758)
+Maximum out degree: 63 (N215)
+Minimum total degree (in + out): 0 (8 nodes)
+Maximum total degree (in + out): 64 (N215)
+Average in/out degree: 1.01781
+Graph density: 0.00129493
+
+Subnets
+-------
+Accurate subnets: 7385 (56.9215%)
+Odd subnets: 3461 (26.6764%)
+Shadow subnets: 2128 (16.402%)
+Credible subnets: 8202 (63.2187%)
+Covered IPs: 237810 (47.7116% w.r.t. targets)
+Covered IPs (credible subnets): 94576 (18.9747% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (358 nodes)
+Maximum amount of subnets per neighborhood: 2517 (N319)
+Average amount of subnets per neighborhood: 16.5064
+
+Aliases
+-------
+Fully aliased neighborhoods: 239 (30.4071%)
+Maximum size of an alias: 273
+Maximum amount of aliases: 1069 (N319)
+Average amount of aliases: 6.74046
+
+Links
+-----
+Direct links: 372 (46.5%)
+Indirect links: 319 (39.875%)
+Remote links: 109 (13.625%)
+Links with a medium: 614 (76.75%)
+
+Connected components
+--------------------
+Via gates N1, N759: 776 (98.7277%)
+Via gate N777: 2 (0.254453%)
+Amount of islets: 8 (1.01781%)
+Detailed list: N779, N780, N781, N782, N783, N784, N785, N786
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 9
+Super nodes: 8 (88.8889%)
+Super clusters: 1 (11.1111%)
+Super node list: N2, N301, N319, N370, N378, N408, N491, N531
+Super cluster list: N215

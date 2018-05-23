@@ -1,0 +1,60 @@
+Graph
+-----
+Maximum in degree: 2 (N3, N8, N15, N31, N34, N35, N36, N39, N43, N44, N48, N70, N79, N101, N106, N133, N134, N163, N177, N211, N258, N305, N446, N543, N552, N613, N617, N637, N640, N644, N647, N697)
+Maximum out degree: 27 (N547)
+Minimum total degree (in + out): 0 (59 nodes)
+Maximum total degree (in + out): 28 (N547)
+Average in/out degree: 0.95297
+Graph density: 0.00117942
+
+Subnets
+-------
+Accurate subnets: 5226 (78.3391%)
+Odd subnets: 894 (13.4013%)
+Shadow subnets: 551 (8.25963%)
+Credible subnets: 5467 (81.9517%)
+Covered IPs: 171740 (30.7029% w.r.t. targets)
+Covered IPs (credible subnets): 105898 (18.932% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (436 nodes)
+Maximum amount of subnets per neighborhood: 1026 (N327)
+Average amount of subnets per neighborhood: 8.25619
+
+Aliases
+-------
+Fully aliased neighborhoods: 467 (57.797%)
+Maximum size of an alias: 103
+Maximum amount of aliases: 652 (N327)
+Average amount of aliases: 2.78218
+
+Links
+-----
+Direct links: 462 (60%)
+Indirect links: 251 (32.5974%)
+Remote links: 57 (7.4026%)
+Links with a medium: 676 (87.7922%)
+
+Connected components
+--------------------
+Via gates N1, N169: 722 (89.3564%)
+Via gate N723: 2 (0.247525%)
+Via gate N725: 5 (0.618812%)
+Via gate N730: 2 (0.247525%)
+Via gate N732: 2 (0.247525%)
+Via gate N734: 3 (0.371287%)
+Via gate N737: 3 (0.371287%)
+Via gate N740: 6 (0.742574%)
+Via gate N746: 2 (0.247525%)
+Via gate N748: 2 (0.247525%)
+Amount of islets: 59 (7.30198%)
+Detailed list: N750, N751, N752, N753, N754, N755, N756, N757, N758, N759, 
+N760, N761, N762, N763, N764, N765, N766, N767, N768, N769, 
+N770, N771, N772, N773, N774, N775, N776, N777, N778, N779, 
+N780, N781, N782, N783, N784, N785, N786, N787, N788, N789, 
+N790, N791, N792, N793, N794, N795, N796, N797, N798, N799, 
+N800, N801, N802, N803, N804, N805, N806, N807, N808
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 4
+There are only super nodes.
+Super node list: N327, N637, N640, N644

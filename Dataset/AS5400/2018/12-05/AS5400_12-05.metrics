@@ -1,0 +1,61 @@
+Graph
+-----
+Maximum in degree: 2 (N27, N123, N168, N183, N185, N374, N375, N376)
+Maximum out degree: 56 (N8)
+Minimum total degree (in + out): 0 (89 nodes)
+Maximum total degree (in + out): 57 (N8)
+Average in/out degree: 0.819392
+Graph density: 0.00155778
+
+Subnets
+-------
+Accurate subnets: 1203 (75.5179%)
+Odd subnets: 222 (13.936%)
+Shadow subnets: 168 (10.5461%)
+Credible subnets: 1283 (80.5399%)
+Covered IPs: 168308 (18.1818% w.r.t. targets)
+Covered IPs (credible subnets): 59050 (6.37898% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (359 nodes)
+Maximum amount of subnets per neighborhood: 87 (N8)
+Average amount of subnets per neighborhood: 3.02852
+
+Aliases
+-------
+Fully aliased neighborhoods: 216 (41.0646%)
+Maximum size of an alias: 88
+Maximum amount of aliases: 5 (N32, N142)
+Average amount of aliases: 1.31369
+
+Links
+-----
+Direct links: 244 (56.6125%)
+Indirect links: 134 (31.0905%)
+Remote links: 53 (12.297%)
+Links with a medium: 325 (75.406%)
+
+Connected components
+--------------------
+Via gate N1: 2 (0.380228%)
+Via gate N3: 2 (0.380228%)
+Via gate N5: 404 (76.8061%)
+Via gate N409: 2 (0.380228%)
+Via gate N411: 2 (0.380228%)
+Via gate N413: 2 (0.380228%)
+Via gate N415: 2 (0.380228%)
+Via gate N417: 2 (0.380228%)
+Via gate N419: 2 (0.380228%)
+Via gate N421: 2 (0.380228%)
+Via gate N423: 8 (1.52091%)
+Via gate N431: 2 (0.380228%)
+Via gate N433: 2 (0.380228%)
+Via gate N435: 3 (0.570342%)
+Amount of islets: 89 (16.9202%)
+Detailed list: N438, N439, N440, N441, N442, N443, N444, N445, N446, N447, 
+N448, N449, N450, N451, N452, N453, N454, N455, N456, N457, 
+N458, N459, N460, N461, N462, N463, N464, N465, N466, N467, 
+N468, N469, N470, N471, N472, N473, N474, N475, N476, N477, 
+N478, N479, N480, N481, N482, N483, N484, N485, N486, N487, 
+N488, N489, N490, N491, N492, N493, N494, N495, N496, N497, 
+N498, N499, N500, N501, N502, N503, N504, N505, N506, N507, 
+N508, N509, N510, N511, N512, N513, N514, N515, N516, N517, 
+N518, N519, N520, N521, N522, N523, N524, N525, N526

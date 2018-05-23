@@ -1,6 +1,6 @@
 # SAGE (Subnet AGgrEgation)
 
-*By Jean-François Grailet (last updated: May 20, 2018)*
+*By Jean-François Grailet (last updated: May 23, 2018)*
 
 ## Overview
 
@@ -12,8 +12,6 @@ complete picture of the topology of a network.
 To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeNET` and `ExploreNET` and re-uses as well the alias resolution methodology of `TreeNET` to discover routers among the neighborhoods found in the final graph. As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4 as a 32-bit application written in C/C++.
 
 ## Content of this repository
-
-**N.B.: this repository is still under construction.**
 
 This repository consists of the following content:
 

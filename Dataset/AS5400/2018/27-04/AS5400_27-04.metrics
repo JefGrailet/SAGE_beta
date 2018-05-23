@@ -1,0 +1,61 @@
+Graph
+-----
+Maximum in degree: 2 (N32, N145, N175, N234, N255, N263)
+Maximum out degree: 31 (N20)
+Minimum total degree (in + out): 0 (175 nodes)
+Maximum total degree (in + out): 32 (N20)
+Average in/out degree: 0.646341
+Graph density: 0.0013137
+
+Subnets
+-------
+Accurate subnets: 1228 (71.2297%)
+Odd subnets: 225 (13.051%)
+Shadow subnets: 271 (15.7193%)
+Credible subnets: 1305 (75.6961%)
+Covered IPs: 154948 (16.7385% w.r.t. targets)
+Covered IPs (credible subnets): 54990 (5.9404% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (370 nodes)
+Maximum amount of subnets per neighborhood: 167 (N18)
+Average amount of subnets per neighborhood: 3.50407
+
+Aliases
+-------
+Fully aliased neighborhoods: 127 (25.813%)
+Maximum size of an alias: 53
+Maximum amount of aliases: 22 (N19)
+Average amount of aliases: 1.34553
+
+Links
+-----
+Direct links: 97 (30.5031%)
+Indirect links: 187 (58.805%)
+Remote links: 34 (10.6918%)
+Links with a medium: 233 (73.2704%)
+
+Connected components
+--------------------
+Via gate N1: 3 (0.609756%)
+Via gate N4: 3 (0.609756%)
+Via gate N7: 8 (1.62602%)
+Via gate N15: 301 (61.1789%)
+Via gate N316: 2 (0.406504%)
+Amount of islets: 175 (35.5691%)
+Detailed list: N318, N319, N320, N321, N322, N323, N324, N325, N326, N327, 
+N328, N329, N330, N331, N332, N333, N334, N335, N336, N337, 
+N338, N339, N340, N341, N342, N343, N344, N345, N346, N347, 
+N348, N349, N350, N351, N352, N353, N354, N355, N356, N357, 
+N358, N359, N360, N361, N362, N363, N364, N365, N366, N367, 
+N368, N369, N370, N371, N372, N373, N374, N375, N376, N377, 
+N378, N379, N380, N381, N382, N383, N384, N385, N386, N387, 
+N388, N389, N390, N391, N392, N393, N394, N395, N396, N397, 
+N398, N399, N400, N401, N402, N403, N404, N405, N406, N407, 
+N408, N409, N410, N411, N412, N413, N414, N415, N416, N417, 
+N418, N419, N420, N421, N422, N423, N424, N425, N426, N427, 
+N428, N429, N430, N431, N432, N433, N434, N435, N436, N437, 
+N438, N439, N440, N441, N442, N443, N444, N445, N446, N447, 
+N448, N449, N450, N451, N452, N453, N454, N455, N456, N457, 
+N458, N459, N460, N461, N462, N463, N464, N465, N466, N467, 
+N468, N469, N470, N471, N472, N473, N474, N475, N476, N477, 
+N478, N479, N480, N481, N482, N483, N484, N485, N486, N487, 
+N488, N489, N490, N491, N492

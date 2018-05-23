@@ -1,0 +1,29 @@
+--- Start of input files parsing ---
+--- End of input files parsing (03-04-2018 09:56:11) ---
+Elapsed time: less than one second
+
+Final set of subnets has been written in a new output file AS5400_01-04.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS5400_01-04_graph.
+
+--- End of graph building (03-04-2018 10:09:13) ---
+Elapsed time: 13 minutes 2 seconds
+Total amount of probes (alias resolution): 2816
+Total amount of successful probes: 1888 (67.0455%)
+
+Discovered neighborhoods have been written in a new output file AS5400_01-04.neighborhoods.
+The graph has been written in a new output file AS5400_01-04.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS5400_01-04_alias_resolution.
+
+--- End of alias resolution (03-04-2018 11:25:04) ---
+Elapsed time: 1 hour 15 minutes 51 seconds
+Total amount of probes: 13520
+Total amount of successful probes: 9461 (69.9778%)
+
+Discovered aliases have been written in a new output file AS5400_01-04.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS5400_01-04.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS5400_01-04.ips.
+Metrics on the graph have been written in a new output file AS5400_01-04.metrics.
