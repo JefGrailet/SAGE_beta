@@ -64,24 +64,24 @@ Electric along with sub-folders matching the year and date of measurement. Each 
 is matched with a sub-path /yyyy/dd-mm/. Then, for each dataset, you will find the following 
 files:
 
-* *.aliases* file: contains all the aliases discovered by `SAGE`, separated per neighborhood.
-* *.fingerprints* file: contains all the fingerprints for each IP involved in the alias 
+* **.aliases file:** contains all the aliases discovered by `SAGE`, separated per neighborhood.
+* **.fingerprints file:** contains all the fingerprints for each IP involved in the alias 
   resolution process, separated per neighborhood.
-* *.graph* file: describes the graph built by `SAGE`.
-* *.ips* file: lists all responsive IPs (including those found with `traceroute`) and their 
+* **.graph file:** describes the graph built by `SAGE`.
+* **.ips file:** lists all responsive IPs (including those found with `traceroute`) and their 
   associated data, i.e., IP dictionary.
-* *.metrics* file: gives a variety of metrics on the data collected by `SAGE` and the structure 
+* **.metrics file:** gives a variety of metrics on the data collected by `SAGE` and the structure 
   of the graph.
-* *.neighborhoods* file: lists all neighborhoods discovered by `SAGE` along the subnets which 
+* **.neighborhoods file:** lists all neighborhoods discovered by `SAGE` along the subnets which 
   border each of them.
-* *.subnets* file: lists, in order, all the subnets that were inferred along their responsive
+* **.subnets file:** lists, in order, all the subnets that were inferred along their responsive
   interfaces and respective route.
-* *.txt* file: gives the details about how the measurement went, i.e., it gives the detailed 
+* **.txt file:** gives the details about how the measurement went, i.e., it gives the detailed 
   amount of probes used by each phase along the time they took for completion.
-* *Log_\*_graph*: gives the detailed console output of the graph building phase. In particular,
+* **Log_\*_graph:** gives the detailed console output of the graph building phase. In particular,
   it describes the initial aggregates and their peers and gives all the details about alias
   resolution when it occurs.
-* *VP.txt*: gives the PlanetLab node (the **v**antage **p**oint) used to measure the AS. If the 
+* **VP.txt:** gives the PlanetLab node (the **v**antage **p**oint) used to measure the AS. If the 
   AS was measured using multiple nodes, then VP.txt gives the PlanetLab node used to merge the
   data and complete the last steps of `SAGE`.
 
