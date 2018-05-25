@@ -1,0 +1,21 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 16-05-2018 09:32:31
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS3209_16_16-05_pre-scanning.
+
+--- End of network pre-scanning (16-05-2018 14:05:07) ---
+Elapsed time: 4 hours 32 minutes 33 seconds
+Total amount of probes: 1048554
+Total amount of successful probes: 35 (0.00333793%)
+Total amount of discovered responsive IPs: 33
+
+--- Start of network scanning (16-05-2018 14:05:10) ---
+Log of current phase is being written in Log_AS3209_16_16-05_scanning.
+
+--- End of network scanning (16-05-2018 14:05:39) ---
+Elapsed time: 29 seconds
+Total amount of probes: 667
+Total amount of successful probes: 535 (80.2099%)
+Total amount of discovered subnets: 0
+
+Could not discover any subnet. Program will halt now.

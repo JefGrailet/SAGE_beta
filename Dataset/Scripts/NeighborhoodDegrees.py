@@ -129,7 +129,7 @@ if __name__ == "__main__":
     stubDegrees = []
     transitDegrees = []
     tier1Degrees = []
-    dataPath = "/home/jefgrailet/PhD/Campaigns/SAGE"
+    dataPath = "../" # TODO: change this if necessary
     year = "2018"
     maxi = 0
     for i in range(0, len(ASes)):
@@ -190,16 +190,17 @@ if __name__ == "__main__":
     # Plots result
     hfont = {'fontname':'serif',
              'fontweight':'bold',
-             'fontsize':21}
+             'fontsize':28}
 
     hfont2 = {'fontname':'serif',
-             'fontsize':17}
+             'fontsize':26}
 
     plt.figure(figsize=(13,9))
     
     plt.semilogx(stubValues, stubCDF, color='#000000', linewidth=3, label="Stub ASes")
     plt.semilogx(transitValues, transitCDF, color='#000000', linewidth=3, linestyle=':', label="Transit ASes")
     plt.semilogx(tier1Values, tier1CDF, color='#000000', linewidth=3, linestyle='--', label="Tier-1 ASes")
+    plt.rcParams.update({'font.size': 20})
     
     plt.ylim([0, 1.05])
     plt.xlim([0, nextPowerOfTen])
@@ -208,9 +209,20 @@ if __name__ == "__main__":
     yticks = ax.yaxis.get_major_ticks()
     yticks[0].label1.set_visible(False)
     ax.set_xscale('log')
-    ax.xaxis.set_major_formatter(ticker.FuncFormatter(lambda x, pos: ('{{:.{:1d}f}}'.format(int(np.maximum(-np.log10(x), 0)))).format(x)))
     
-    plt.ylabel('Cumulative density function (CDF)', **hfont)
+    # Ticks for the X axis
+    tickValues = []
+    tickDisplay = []
+    power = 1
+    exponent = 0
+    while power < maxDegree:
+        power *= 10
+        exponent +=1
+        tickValues.append(power)
+        tickDisplay.append(r"$10^{{ {:1d} }}$".format(exponent))
+    plt.xticks(tickValues, tickDisplay, **hfont2)
+    
+    plt.ylabel('Cumulative distribution function (CDF)', **hfont)
     plt.xlabel('Neighborhood degree', **hfont)
     
     plt.grid()

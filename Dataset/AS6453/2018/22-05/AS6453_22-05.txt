@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 22-05-2018 09:53:13
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS6453_22-05_pre-scanning.
+
+--- End of network pre-scanning (22-05-2018 14:25:08) ---
+Elapsed time: 4 hours 31 minutes 53 seconds
+Total amount of probes: 1045122
+Total amount of successful probes: 105290 (10.0744%)
+Total amount of discovered responsive IPs: 73703
+
+--- Start of network scanning (22-05-2018 14:25:17) ---
+Log of current phase is being written in Log_AS6453_22-05_scanning.
+
+--- End of network scanning (22-05-2018 20:37:40) ---
+Elapsed time: 6 hours 12 minutes 23 seconds
+Total amount of probes: 1032339
+Total amount of successful probes: 997865 (96.6606%)
+Total amount of discovered subnets: 6691
+
+Inferred subnets have been saved in an output file AS6453_22-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS6453_22-05_traceroute.
+
+--- End of traceroute (22-05-2018 21:15:38) ---
+Elapsed time: 37 minutes 58 seconds
+Total amount of probes: 119476
+Total amount of successful probes: 106395 (89.0514%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS6453_22-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS6453_22-05_graph.
+
+--- End of graph building (22-05-2018 21:27:16) ---
+Elapsed time: 11 minutes 38 seconds
+Total amount of probes (alias resolution): 1388
+Total amount of successful probes: 918 (66.1383%)
+
+Discovered neighborhoods have been written in a new output file AS6453_22-05.neighborhoods.
+The graph has been written in a new output file AS6453_22-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS6453_22-05_alias_resolution.
+
+--- End of alias resolution (23-05-2018 00:14:42) ---
+Elapsed time: 2 hours 47 minutes 26 seconds
+Total amount of probes: 46209
+Total amount of successful probes: 35570 (76.9763%)
+
+Discovered aliases have been written in a new output file AS6453_22-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS6453_22-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS6453_22-05.ips.
+Metrics on the graph have been written in a new output file AS6453_22-05.metrics.

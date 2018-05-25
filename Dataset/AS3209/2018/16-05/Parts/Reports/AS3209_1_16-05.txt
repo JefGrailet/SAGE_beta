@@ -1,0 +1,53 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 16-05-2018 09:32:15
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS3209_1_16-05_pre-scanning.
+
+--- End of network pre-scanning (16-05-2018 13:40:10) ---
+Elapsed time: 4 hours 7 minutes 54 seconds
+Total amount of probes: 1015750
+Total amount of successful probes: 62651 (6.16795%)
+Total amount of discovered responsive IPs: 62481
+
+--- Start of network scanning (16-05-2018 13:40:14) ---
+Log of current phase is being written in Log_AS3209_1_16-05_scanning.
+
+--- End of network scanning (17-05-2018 02:22:28) ---
+Elapsed time: 12 hours 42 minutes 14 seconds
+Total amount of probes: 933469
+Total amount of successful probes: 657401 (70.4256%)
+Total amount of discovered subnets: 3445
+
+Inferred subnets have been saved in an output file AS3209_1_16-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS3209_1_16-05_traceroute.
+
+--- End of traceroute (17-05-2018 03:23:15) ---
+Elapsed time: 1 hour 47 seconds
+Total amount of probes: 56584
+Total amount of successful probes: 38468 (67.9839%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS3209_1_16-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS3209_1_16-05_graph.
+
+--- End of graph building (17-05-2018 03:23:16) ---
+Elapsed time: 1 second
+There was no need for using additionnal probes (alias resolution).
+Discovered neighborhoods have been written in a new output file AS3209_1_16-05.neighborhoods.
+The graph has been written in a new output file AS3209_1_16-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS3209_1_16-05_alias_resolution.
+
+--- End of alias resolution (17-05-2018 04:04:11) ---
+Elapsed time: 40 minutes 55 seconds
+Total amount of probes: 30406
+Total amount of successful probes: 19548 (64.2899%)
+
+Discovered aliases have been written in a new output file AS3209_1_16-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS3209_1_16-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS3209_1_16-05.ips.
+Metrics on the graph have been written in a new output file AS3209_1_16-05.metrics.

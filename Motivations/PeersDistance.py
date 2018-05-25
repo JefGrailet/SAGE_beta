@@ -128,10 +128,10 @@ if __name__ == "__main__":
     # Plots result
     hfont = {'fontname':'serif',
              'fontweight':'bold',
-             'fontsize':21}
+             'fontsize':26}
 
     hfont2 = {'fontname':'serif',
-             'fontsize':17}
+             'fontsize':22}
 
     plt.figure(figsize=(13,9))
     
@@ -143,7 +143,7 @@ if __name__ == "__main__":
     ax = plt.axes()
     yticks = ax.yaxis.get_major_ticks()
     yticks[0].label1.set_visible(False)
-    plt.ylabel('Cumulative density function (CDF)', **hfont)
+    plt.ylabel('Cumulative distribution function (CDF)', **hfont)
     plt.xlabel('Distance in TTL between last hops and their peers', **hfont)
     plt.grid()
 

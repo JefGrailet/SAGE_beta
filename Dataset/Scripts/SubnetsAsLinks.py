@@ -41,7 +41,7 @@ if __name__ == "__main__":
     for i in range(0, 12):
         prefixLengthsPerAS.append(dict())
     
-    dataPath = "/home/jefgrailet/PhD/Campaigns/SAGE"
+    dataPath = "../" # TODO: change this if necessary
     year = "2018"
     for i in range(0, len(ASes)):
         dataFilePath = dataPath + "/" + ASes[i] + "/" + year + "/"
@@ -91,6 +91,16 @@ if __name__ == "__main__":
             print(AS + " => " + str(prefixLengthsPerAS[i][AS]))
     
     # Plots results (amount of subnets for each prefix length)
+    hfont = {'fontname':'serif',
+             'fontweight':'bold',
+             'fontsize':28}
+    
+    hfont2 = {'fontname':'serif',
+              'fontsize':22}
+    
+    hfont3 = {'fontname':'serif',
+              'fontsize':22}
+    
     plt.figure(figsize=(18, 12))
     
     ind = np.arange(12)
@@ -100,28 +110,31 @@ if __name__ == "__main__":
     ax = fig.add_subplot(111)
     ax.autoscale(tight=True)
     ax.set_yscale('log')
-    ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda y, pos: ('{{:.{:1d}f}}'.format(int(np.maximum(-np.log10(y), 0)))).format(y)))
     rects = ax.bar(ind + 0.05, prefixLengths, width, color='#AAAAAA')
     
-    hfont = {'fontname':'serif',
-             'fontweight':'bold',
-             'fontsize':22}
-    
-    hfont2 = {'fontname':'serif',
-                  'fontsize':20}
-    
-    hfont3 = {'fontname':'serif',
-              'fontsize':18}
-    
     plt.ylabel("Amount of subnets", **hfont)
-    plt.xlabel("Prefix length", **hfont)
+    plt.xlabel("Prefix", **hfont)
     
+    # Ticks for the X axis (always the same)
     positions = [0.5, 1.5, 2.5, 3.5, 4.5, 5.5, 6.5, 7.5, 8.5, 9.5, 10.5, 11.5]
-    labels = ["20", "21", "22", "23", "24", "25", 
-              "26", "27", "28", "29", "30", "31"]
+    labels = ["/20", "/21", "/22", "/23", "/24", "/25", 
+              "/26", "/27", "/28", "/29", "/30", "/31"]
     
     plt.subplots_adjust(bottom=0.13)
     
+    # Ticks for the Y axis
+    tickValues = []
+    tickDisplay = []
+    power = 100
+    exponent = 2
+    while power < maxValue:
+        tickValues.append(power)
+        tickDisplay.append(r"$10^{{ {:1d} }}$".format(exponent))
+        power *= 10
+        exponent +=1
+    
+    # Sets the ticks
+    plt.yticks(tickValues, tickDisplay, **hfont2)
     plt.xticks(positions, labels, **hfont3)
     plt.xlim([0, 12])
     
@@ -154,7 +167,7 @@ if __name__ == "__main__":
     rects = ax.bar(ind + 0.05, averages, width, color='#AAAAAA')
     
     plt.ylabel("Implemented links (avg)", **hfont)
-    plt.xlabel("Prefix length", **hfont)
+    plt.xlabel("Prefix", **hfont)
     
     plt.subplots_adjust(bottom=0.13)
     plt.yticks(np.arange(0, 21, 2), **hfont3)

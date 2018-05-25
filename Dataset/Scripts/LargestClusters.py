@@ -35,11 +35,11 @@ if __name__ == "__main__":
     # Analyses each AS when possible
     parsedASes = [] # To have a list of successfully parsed ASes
     
-    averages = dict()
     nbClusters = dict()
     maxima = dict()
+    averages = dict()
     trueMax = 0
-    dataPath = "/home/jefgrailet/PhD/Campaigns/SAGE"
+    dataPath = "../" # TODO: change this if necessary
     year = "2018"
     for i in range(0, len(ASes)):
         dataFilePath = dataPath + "/" + ASes[i] + "/" + year + "/"
@@ -102,9 +102,13 @@ if __name__ == "__main__":
         if ASTypes[ASes[i]] == 'Tier-1':
             sortedASes.append(ASes[i])
     
-    print(sortedASes)
+    # Displays in console the ASes in order
+    print("ASes on the figure:")
+    for i in range(0, len(sortedASes)):
+        ASType = ASTypes[sortedASes[i]]
+        print(str(i + 1) + " = " + sortedASes[i] + " (" + ASType + ")")
     
-    # Gets components according to AS types; masks are built for the bar chart
+    # Gets largest clusters per AS type
     sortedMax1 = []
     sortedNb1 = []
     sortedMax2 = []
@@ -135,11 +139,11 @@ if __name__ == "__main__":
             sortedMax3.append(0)
             sortedNb3.append(0)
     
-    # Plots in a bar chart (4 bars per AS) the ratios
+    # Plots largest cluster sizes in a bar chart
     ind = np.arange(len(sortedASes))
     width = 0.9
     
-    fig = plt.figure(figsize=(18,12))
+    fig = plt.figure(figsize=(20,12))
     ax = fig.add_subplot(111)
     rects1 = ax.bar(ind + 0.05, sortedMax1, width, color='#EEEEEE')
     rects2 = ax.bar(ind + 0.05, sortedMax2, width, color='#AAAAAA')
@@ -149,32 +153,35 @@ if __name__ == "__main__":
     
     hfont = {'fontname':'serif',
              'fontweight':'bold',
-             'fontsize':32}
+             'fontsize':46}
     
     hfont2 = {'fontname':'serif',
-              'fontsize':21}
+              'fontsize':32}
     
     hfont3 = {'fontname':'serif',
-              'fontsize':26}
+              'fontsize':30}
+    
+    hfont4 = {'fontname':'serif',
+              'fontsize':34}
     
     # Writes the total amount of clusters on top of each bar
     for rect, label in zip(rects1, sortedNb1):
         if label == 0:
             continue
         height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width() / 2, height + 0.5, label, ha='center', va='bottom', **hfont3)
+        ax.text(rect.get_x() + rect.get_width() / 2, height + 0.5, label, ha='center', va='bottom', **hfont4)
     
     for rect, label in zip(rects2, sortedNb2):
         if label == 0:
             continue
         height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width() / 2, height + 0.5, label, ha='center', va='bottom', **hfont3)
+        ax.text(rect.get_x() + rect.get_width() / 2, height + 0.5, label, ha='center', va='bottom', **hfont4)
     
     for rect, label in zip(rects3, sortedNb3):
         if label == 0:
             continue
         height = rect.get_height()
-        ax.text(rect.get_x() + rect.get_width() / 2, height + 0.5, label, ha='center', va='bottom', **hfont3)
+        ax.text(rect.get_x() + rect.get_width() / 2, height + 0.5, label, ha='center', va='bottom', **hfont4)
     
     plt.ylabel('Cluster size (#IPs)', **hfont)
     plt.xlabel('Autonomous System', **hfont)
@@ -183,7 +190,7 @@ if __name__ == "__main__":
     plt.xticks(ind + 0.5, np.arange(1, len(sortedASes) + 1, 1), **hfont2)
     plt.yticks(np.arange(0, int((float(trueMax) / 10) * 11) + 1, 10), **hfont3)
     
-    plt.rc('font', family='serif', size=26)
+    plt.rc('font', family='serif', size=34)
     plt.legend((rects1[0], rects2[0], rects3[0]), 
                ('Stub AS', 'Transit AS', 'Tier-1 AS'), 
                bbox_to_anchor=(0, 1.02, 1.0, .102), 

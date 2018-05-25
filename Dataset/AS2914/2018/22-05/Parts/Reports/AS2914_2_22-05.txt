@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 22-05-2018 08:14:56
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS2914_2_22-05_pre-scanning.
+
+--- End of network pre-scanning (22-05-2018 13:14:26) ---
+Elapsed time: 4 hours 59 minutes 27 seconds
+Total amount of probes: 1135510
+Total amount of successful probes: 100966 (8.89169%)
+Total amount of discovered responsive IPs: 84671
+
+--- Start of network scanning (22-05-2018 13:14:37) ---
+Log of current phase is being written in Log_AS2914_2_22-05_scanning.
+
+--- End of network scanning (23-05-2018 00:55:18) ---
+Elapsed time: 11 hours 40 minutes 41 seconds
+Total amount of probes: 1192779
+Total amount of successful probes: 1173678 (98.3986%)
+Total amount of discovered subnets: 2346
+
+Inferred subnets have been saved in an output file AS2914_2_22-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS2914_2_22-05_traceroute.
+
+--- End of traceroute (23-05-2018 01:26:49) ---
+Elapsed time: 31 minutes 31 seconds
+Total amount of probes: 43592
+Total amount of successful probes: 39959 (91.6659%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS2914_2_22-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS2914_2_22-05_graph.
+
+--- End of graph building (23-05-2018 01:31:46) ---
+Elapsed time: 4 minutes 57 seconds
+Total amount of probes (alias resolution): 646
+Total amount of successful probes: 424 (65.6347%)
+
+Discovered neighborhoods have been written in a new output file AS2914_2_22-05.neighborhoods.
+The graph has been written in a new output file AS2914_2_22-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS2914_2_22-05_alias_resolution.
+
+--- End of alias resolution (23-05-2018 02:49:20) ---
+Elapsed time: 1 hour 17 minutes 34 seconds
+Total amount of probes: 17547
+Total amount of successful probes: 13740 (78.304%)
+
+Discovered aliases have been written in a new output file AS2914_2_22-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS2914_2_22-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS2914_2_22-05.ips.
+Metrics on the graph have been written in a new output file AS2914_2_22-05.metrics.

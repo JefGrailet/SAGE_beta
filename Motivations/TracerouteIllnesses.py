@@ -129,12 +129,12 @@ if __name__ == "__main__":
         print("Ending with stretched IP: " + str(ratioEndStretched) + "%")
         print("")
         
-        parsedASes.append(ASes[i])
+        parsedASes.append(ASes[i][2:])
         ratiosAnonymous.append(ratioAnonymous)
         ratiosEndAnonymous.append(ratioEndAnonymous)
         ratiosEndStretched.append(ratioEndStretched)
     
-    # Plots in a bar chart (3 bars per AS) the ratios
+    # Plots in a bar chart (4 bars per AS) the ratios
     ind = np.arange(len(ASes))
     width = 0.3
     
@@ -148,24 +148,24 @@ if __name__ == "__main__":
     
     hfont = {'fontname':'serif',
              'fontweight':'bold',
-             'fontsize':32}
+             'fontsize':36}
     
     hfont2 = {'fontname':'serif',
-              'fontsize':21}
+              'fontsize':28}
     
     hfont3 = {'fontname':'serif',
-              'fontsize':26}
+              'fontsize':28}
     
     plt.ylabel('Ratio (%) of routes', **hfont)
-    plt.xlabel('Autonomous System', **hfont)
+    plt.xlabel('Autonomous System Number (ASN)', **hfont)
     plt.ylim([0,70])
     plt.xlim([0,len(ASes)])
-    plt.xticks(ind + 0.5, parsedASes, rotation=15, **hfont2)
+    plt.xticks(ind + 0.5, parsedASes, **hfont2)
     plt.yticks(np.arange(0, 71, 10), **hfont3)
     
-    plt.rc('font', family='serif', size=19)
+    plt.rc('font', family='serif', size=24)
     plt.legend((rects1[0], rects2[0], rects3[0]), 
-               ('Has anonymous hops', 'Last hop is anonymous', 'Last hop is stretched'), 
+               ('With anon. hops', 'Anon. last hop', 'Stretched last hop'), 
                bbox_to_anchor=(0, 1.02, 1.0, .102), 
                loc=3,
                ncol=4, 

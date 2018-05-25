@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 22-05-2018 09:53:16
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS6939_22-05_pre-scanning.
+
+--- End of network pre-scanning (22-05-2018 13:35:30) ---
+Elapsed time: 3 hours 42 minutes 12 seconds
+Total amount of probes: 889536
+Total amount of successful probes: 202774 (22.7955%)
+Total amount of discovered responsive IPs: 107635
+
+--- Start of network scanning (22-05-2018 13:35:48) ---
+Log of current phase is being written in Log_AS6939_22-05_scanning.
+
+--- End of network scanning (24-05-2018 01:23:53) ---
+Elapsed time: 11 hours 48 minutes 49 seconds
+Total amount of probes: 1429932
+Total amount of successful probes: 1393321 (97.4397%)
+Total amount of discovered subnets: 12450
+
+Inferred subnets have been saved in an output file AS6939_22-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS6939_22-05_traceroute.
+
+--- End of traceroute (24-05-2018 02:27:29) ---
+Elapsed time: 1 hour 3 minutes 35 seconds
+Total amount of probes: 163743
+Total amount of successful probes: 161344 (98.5349%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS6939_22-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS6939_22-05_graph.
+
+--- End of graph building (24-05-2018 02:37:41) ---
+Elapsed time: 10 minutes 11 seconds
+Total amount of probes (alias resolution): 776
+Total amount of successful probes: 370 (47.6804%)
+
+Discovered neighborhoods have been written in a new output file AS6939_22-05.neighborhoods.
+The graph has been written in a new output file AS6939_22-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS6939_22-05_alias_resolution.
+
+--- End of alias resolution (24-05-2018 05:50:55) ---
+Elapsed time: 3 hours 13 minutes 14 seconds
+Total amount of probes: 86465
+Total amount of successful probes: 70189 (81.1762%)
+
+Discovered aliases have been written in a new output file AS6939_22-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS6939_22-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS6939_22-05.ips.
+Metrics on the graph have been written in a new output file AS6939_22-05.metrics.

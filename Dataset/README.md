@@ -1,6 +1,6 @@
 # Dataset
 
-*By Jean-François Grailet (last updated: May 23, 2018)*
+*By Jean-François Grailet (last updated: May 25, 2018)*
 
 ## Measured Autonomous Systems (ASes)
 
@@ -27,6 +27,7 @@ The following ASes were measured once or twice, using several PlanetLab nodes.
 | AS1239  | Sprint                   | Tier-1  | 18,197,248         |
 | AS1241  | Forthnet                 | Transit | 677,888            |
 | AS2497  | Internet Initiative Jp.  | Transit | 3,802,368          |
+| AS2914  | NTT America, Inc.        | Transit | 7,280,640          |
 | AS3209  | Vodafone GmbH            | Transit | 8,450,048          |
 | AS3257  | Tinet Spa                | Tier-1  | 1,010,176          |
 | AS3549  | Level 3 Com. (GBLX)      | Transit | 6,708,992          |

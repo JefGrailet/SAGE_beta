@@ -1,0 +1,55 @@
+SAGE (Subnet AGgrEgation) "Discovery" v1.0  - Time at start: 22-05-2018 09:53:14
+
+--- Start of network pre-scanning ---
+Log of current phase is being written in Log_AS6762_22-05_pre-scanning.
+
+--- End of network pre-scanning (22-05-2018 10:30:03) ---
+Elapsed time: 36 minutes 49 seconds
+Total amount of probes: 180595
+Total amount of successful probes: 96952 (53.6848%)
+Total amount of discovered responsive IPs: 93902
+
+--- Start of network scanning (22-05-2018 10:30:14) ---
+Log of current phase is being written in Log_AS6762_22-05_scanning.
+
+--- End of network scanning (22-05-2018 19:24:08) ---
+Elapsed time: 8 hours 53 minutes 54 seconds
+Total amount of probes: 928275
+Total amount of successful probes: 883445 (95.1706%)
+Total amount of discovered subnets: 1705
+
+Inferred subnets have been saved in an output file AS6762_22-05.subnets.
+
+--- Start of traceroute ---
+Log of current phase is being written in Log_AS6762_22-05_traceroute.
+
+--- End of traceroute (22-05-2018 19:41:56) ---
+Elapsed time: 17 minutes 48 seconds
+Total amount of probes: 26451
+Total amount of successful probes: 22118 (83.6188%)
+
+Inferred subnets have been saved a second time (with traceroute measurements) in AS6762_22-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS6762_22-05_graph.
+
+--- End of graph building (22-05-2018 19:46:33) ---
+Elapsed time: 4 minutes 37 seconds
+Total amount of probes (alias resolution): 1146
+Total amount of successful probes: 1018 (88.8307%)
+
+Discovered neighborhoods have been written in a new output file AS6762_22-05.neighborhoods.
+The graph has been written in a new output file AS6762_22-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS6762_22-05_alias_resolution.
+
+--- End of alias resolution (22-05-2018 20:36:11) ---
+Elapsed time: 49 minutes 38 seconds
+Total amount of probes: 12391
+Total amount of successful probes: 10523 (84.9245%)
+
+Discovered aliases have been written in a new output file AS6762_22-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS6762_22-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS6762_22-05.ips.
+Metrics on the graph have been written in a new output file AS6762_22-05.metrics.

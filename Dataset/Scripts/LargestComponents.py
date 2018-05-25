@@ -35,7 +35,7 @@ if __name__ == "__main__":
     # Analyses each AS when possible
     parsedASes = [] # To have a list of successfully parsed ASes
     largestComponents = dict()
-    dataPath = "/home/jefgrailet/PhD/Campaigns/SAGE"
+    dataPath = "../" # TODO: change this if necessary
     year = "2018"
     for i in range(0, len(ASes)):
         dataFilePath = dataPath + "/" + ASes[i] + "/" + year + "/"
@@ -79,6 +79,12 @@ if __name__ == "__main__":
         if ASTypes[ASes[i]] == 'Tier-1':
             sortedASes.append(ASes[i])
     
+    # Displays in console the ASes in order
+    print("ASes on the figure:")
+    for i in range(0, len(sortedASes)):
+        ASType = ASTypes[sortedASes[i]]
+        print(str(i + 1) + " = " + sortedASes[i] + " (" + ASType + ")")
+    
     # Gets components according to AS types; masks are built for the bar chart
     sortedComps1 = []
     sortedComps2 = []
@@ -101,11 +107,11 @@ if __name__ == "__main__":
         else:
             sortedComps3.append(0.0)
     
-    # Plots in a bar chart (4 bars per AS) the ratios
+    # Plots the ratios in a bar chart
     ind = np.arange(len(sortedASes))
     width = 0.9
     
-    fig = plt.figure(figsize=(18,12))
+    fig = plt.figure(figsize=(20,12))
     ax = fig.add_subplot(111)
     rects1 = ax.bar(ind + 0.05, sortedComps1, width, color='#EEEEEE')
     rects2 = ax.bar(ind + 0.05, sortedComps2, width, color='#AAAAAA')
@@ -115,13 +121,13 @@ if __name__ == "__main__":
     
     hfont = {'fontname':'serif',
              'fontweight':'bold',
-             'fontsize':32}
+             'fontsize':46}
     
     hfont2 = {'fontname':'serif',
-              'fontsize':21}
+              'fontsize':32}
     
     hfont3 = {'fontname':'serif',
-              'fontsize':26}
+              'fontsize':30}
     
     plt.ylabel('Size w.r.t. complete graph (%)', **hfont)
     plt.xlabel('Autonomous System', **hfont)
@@ -130,7 +136,7 @@ if __name__ == "__main__":
     plt.xticks(ind + 0.5, np.arange(1, len(sortedASes) + 1, 1), **hfont2)
     plt.yticks(np.arange(0, 101, 10), **hfont3)
     
-    plt.rc('font', family='serif', size=26)
+    plt.rc('font', family='serif', size=34)
     plt.legend((rects1[0], rects2[0], rects3[0]), 
                ('Stub AS', 'Transit AS', 'Tier-1 AS'), 
                bbox_to_anchor=(0, 1.02, 1.0, .102), 

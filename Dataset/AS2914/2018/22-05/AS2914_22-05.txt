@@ -1,0 +1,31 @@
+--- Start of input files parsing ---
+Log of current phase is being written in Log_AS2914_22-05_parsing.
+
+--- End of input files parsing (24-05-2018 09:18:10) ---
+Elapsed time: 23 seconds
+
+Final set of subnets has been written in a new output file AS2914_22-05.subnets.
+
+--- Start of graph building ---
+Log of current phase is being written in Log_AS2914_22-05_graph.
+
+--- End of graph building (24-05-2018 09:40:45) ---
+Elapsed time: 22 minutes 35 seconds
+Total amount of probes (alias resolution): 2810
+Total amount of successful probes: 1862 (66.2633%)
+
+Discovered neighborhoods have been written in a new output file AS2914_22-05.neighborhoods.
+The graph has been written in a new output file AS2914_22-05.graph.
+
+--- Start of alias resolution ---
+Log of current phase is being written in Log_AS2914_22-05_alias_resolution.
+
+--- End of alias resolution (24-05-2018 14:14:10) ---
+Elapsed time: 4 hours 33 minutes 25 seconds
+Total amount of probes: 89128
+Total amount of successful probes: 66234 (74.3133%)
+
+Discovered aliases have been written in a new output file AS2914_22-05.aliases.
+Fingerprints of the IPs involved in alias resolution have been written in a new output file AS2914_22-05.fingerprints.
+IP dictionnary with alias resolution hints has been saved in an output file AS2914_22-05.ips.
+Metrics on the graph have been written in a new output file AS2914_22-05.metrics.

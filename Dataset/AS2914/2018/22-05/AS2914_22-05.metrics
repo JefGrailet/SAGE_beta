@@ -1,0 +1,90 @@
+Graph
+-----
+Maximum in degree: 9 (N56)
+Maximum out degree: 96 (N1451)
+Minimum total degree (in + out): 0 (195 nodes)
+Maximum total degree (in + out): 98 (N499, N1451)
+Average in/out degree: 1.10079
+Graph density: 0.000508916
+
+Subnets
+-------
+Accurate subnets: 8022 (71.7531%)
+Odd subnets: 1805 (16.1449%)
+Shadow subnets: 1353 (12.102%)
+Credible subnets: 8359 (74.7674%)
+Covered IPs: 827626 (11.3675% w.r.t. targets)
+Covered IPs (credible subnets): 194282 (2.66847% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (1229 nodes)
+Maximum amount of subnets per neighborhood: 905 (N147)
+Average amount of subnets per neighborhood: 5.16875
+
+Aliases
+-------
+Fully aliased neighborhoods: 866 (40.037%)
+Maximum size of an alias: 96
+Maximum amount of aliases: 557 (N147)
+Average amount of aliases: 1.87841
+
+Links
+-----
+Direct links: 926 (38.8912%)
+Indirect links: 503 (21.1256%)
+Remote links: 952 (39.9832%)
+Links with a medium: 1260 (52.9189%)
+
+Connected components
+--------------------
+Via gates N1, N1294, N498, N745, N378, N326, N620: 1873 (86.5927%)
+Via gate N605: 8 (0.369857%)
+Via gates N613, N619: 7 (0.323625%)
+Via gate N695: 3 (0.138696%)
+Via gate N698: 6 (0.277393%)
+Via gate N704: 4 (0.184928%)
+Via gate N708: 2 (0.0924642%)
+Via gate N710: 4 (0.184928%)
+Via gate N714: 2 (0.0924642%)
+Via gates N716, N740: 4 (0.184928%)
+Via gate N718: 2 (0.0924642%)
+Via gate N720: 13 (0.601017%)
+Via gate N733: 7 (0.323625%)
+Via gate N742: 3 (0.138696%)
+Via gate N1285: 2 (0.0924642%)
+Via gate N1287: 2 (0.0924642%)
+Via gate N1289: 2 (0.0924642%)
+Via gate N1291: 3 (0.138696%)
+Via gate N1948: 2 (0.0924642%)
+Via gate N1950: 9 (0.416089%)
+Via gate N1959: 2 (0.0924642%)
+Via gate N1961: 3 (0.138696%)
+Via gate N1964: 2 (0.0924642%)
+Via gates N1966, N1968: 3 (0.138696%)
+Amount of islets: 195 (9.01526%)
+Detailed list: N1969, N1970, N1971, N1972, N1973, N1974, N1975, N1976, N1977, N1978, 
+N1979, N1980, N1981, N1982, N1983, N1984, N1985, N1986, N1987, N1988, 
+N1989, N1990, N1991, N1992, N1993, N1994, N1995, N1996, N1997, N1998, 
+N1999, N2000, N2001, N2002, N2003, N2004, N2005, N2006, N2007, N2008, 
+N2009, N2010, N2011, N2012, N2013, N2014, N2015, N2016, N2017, N2018, 
+N2019, N2020, N2021, N2022, N2023, N2024, N2025, N2026, N2027, N2028, 
+N2029, N2030, N2031, N2032, N2033, N2034, N2035, N2036, N2037, N2038, 
+N2039, N2040, N2041, N2042, N2043, N2044, N2045, N2046, N2047, N2048, 
+N2049, N2050, N2051, N2052, N2053, N2054, N2055, N2056, N2057, N2058, 
+N2059, N2060, N2061, N2062, N2063, N2064, N2065, N2066, N2067, N2068, 
+N2069, N2070, N2071, N2072, N2073, N2074, N2075, N2076, N2077, N2078, 
+N2079, N2080, N2081, N2082, N2083, N2084, N2085, N2086, N2087, N2088, 
+N2089, N2090, N2091, N2092, N2093, N2094, N2095, N2096, N2097, N2098, 
+N2099, N2100, N2101, N2102, N2103, N2104, N2105, N2106, N2107, N2108, 
+N2109, N2110, N2111, N2112, N2113, N2114, N2115, N2116, N2117, N2118, 
+N2119, N2120, N2121, N2122, N2123, N2124, N2125, N2126, N2127, N2128, 
+N2129, N2130, N2131, N2132, N2133, N2134, N2135, N2136, N2137, N2138, 
+N2139, N2140, N2141, N2142, N2143, N2144, N2145, N2146, N2147, N2148, 
+N2149, N2150, N2151, N2152, N2153, N2154, N2155, N2156, N2157, N2158, 
+N2159, N2160, N2161, N2162, N2163
+
+Exceptional neighborhoods
+-------------------------
+Super neighborhoods (> 200 subnets): 3
+Super nodes: 1 (33.3333%)
+Super clusters: 2 (66.6667%)
+Super node list: N147
+Super cluster list: N499, N1451

@@ -1,0 +1,52 @@
+Graph
+-----
+Maximum in degree: 2 (N5, N8, N11, N13, N16, N17, N18, N20, N21, N24, N29, N34, N37, N38, N41, N60, N75, N86, N93, N95, N96, N108, N109, N111, N112, N113, N120, N123, N128, N133, N135, N149, N164, N168, N173, N181, N189, N204, N205, N241, N244, N247, N258, N259, N262, N265, N270, N272, N288, N324, N326, N331, N353, N354, N356, N357, N359, N362, N363, N365, N387, N404, N415, N417, N418, N425, N426, N429, N430, N433, N468, N473, N476, N477, N481, N492, N494, N495, N500, N515, N517, N519, N521)
+Maximum out degree: 15 (N530)
+Minimum total degree (in + out): 0 (17 nodes)
+Maximum total degree (in + out): 16 (N530)
+Average in/out degree: 1.08829
+Graph density: 0.00184768
+
+Subnets
+-------
+Accurate subnets: 1088 (69.0794%)
+Odd subnets: 344 (21.8413%)
+Shadow subnets: 143 (9.07937%)
+Credible subnets: 1265 (80.3175%)
+Covered IPs: 67140 (5.76028% w.r.t. targets)
+Covered IPs (credible subnets): 29120 (2.49835% w.r.t. targets)
+Minimum amount of subnets per neighborhood: 1 (324 nodes)
+Maximum amount of subnets per neighborhood: 26 (N425)
+Average amount of subnets per neighborhood: 2.67402
+
+Aliases
+-------
+Fully aliased neighborhoods: 432 (73.3447%)
+Maximum size of an alias: 45
+Maximum amount of aliases: 3 (N5, N21, N158, N326, N387, N390, N408)
+Average amount of aliases: 1.05263
+
+Links
+-----
+Direct links: 373 (58.1903%)
+Indirect links: 199 (31.0452%)
+Remote links: 69 (10.7644%)
+Links with a medium: 551 (85.9594%)
+
+Connected components
+--------------------
+Via gate N1: 54 (9.16808%)
+Via gate N55: 17 (2.88625%)
+Via gate N72: 165 (28.0136%)
+Via gate N237: 48 (8.14941%)
+Via gate N285: 32 (5.43294%)
+Via gates N317, N568: 13 (2.20713%)
+Via gate N327: 19 (3.22581%)
+Via gates N346, N465: 137 (23.2598%)
+Via gate N385: 15 (2.54669%)
+Via gate N400: 65 (11.0357%)
+Via gate N563: 5 (0.848896%)
+Via gate N571: 2 (0.339559%)
+Amount of islets: 17 (2.88625%)
+Detailed list: N573, N574, N575, N576, N577, N578, N579, N580, N581, N582, 
+N583, N584, N585, N586, N587, N588, N589
