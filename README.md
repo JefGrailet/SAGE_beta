@@ -1,6 +1,6 @@
 # SAGE (Subnet AGgrEgation)
 
-*By Jean-François Grailet (last updated: May 23, 2018)*
+*By Jean-François Grailet (last updated: Augustus 27, 2018)*
 
 ## Overview
 
@@ -9,7 +9,17 @@
 In the process, `SAGE` uses active probing in order to perform alias resolution on router interfaces discovered by `traceroute` when it discovers these interfaces are topologically close to each other. By only using a small part of the collected routes and performing alias resolution to discover routing convergence points, `SAGE` avoids many of the issues one can encounter while interpreting `traceroute` data. `SAGE` is also able to infer which subnet implements a point-to-point link between two neighborhoods that are one hop away from each other, and therefore provides a very 
 complete picture of the topology of a network.
 
-To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeNET` and `ExploreNET` and re-uses as well the alias resolution methodology of `TreeNET` to discover routers among the neighborhoods found in the final graph. As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4 as a 32-bit application written in C/C++.
+To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeNET` and `ExploreNET` and re-uses as well the alias resolution methodology of `TreeNET` to discover routers among the neighborhoods found in the final graph.
+
+As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4. It also comes as a 32-bit application (written in C/C++) to ensure compatibility with all PlanetLab computers (for now).
+
+## About development
+
+Future updates of `SAGE` could include:
+
+* Various updates of the probing library (*src/common/*).
+* 64-bit version.
+* Re-newed subnet inference/refinement module, perhaps with IPv6 support.
 
 ## Content of this repository
 
@@ -23,9 +33,7 @@ This repository consists of the following content:
 
 ## Disclaimer
 
-`SAGE` was written by Jean-François Grailet, currently Ph. D. student at the University of Liège (Belgium) in the Research Unit in Networking (RUN). Some parts of `SAGE` re-uses code from `TreeNET`, which itself re-uses code from `ExploreNET`. For more details on `TreeNET` and how it relates to previous software, check the `TreeNET` public repository:
-
-https://github.com/JefGrailet/treenet
+`SAGE` was written by Jean-François Grailet, currently Ph. D. student at the University of Liège (Belgium) in the Research Unit in Networking (RUN). Some parts of `SAGE` re-uses code from `TreeNET`, which itself re-uses code from `ExploreNET`. For more details on `TreeNET` and how it relates to previous software, check the [`TreeNET` public repository](https://github.com/JefGrailet/treenet).
 
 ## Contact
 
