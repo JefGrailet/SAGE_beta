@@ -1,6 +1,6 @@
 # About SAGE v1.0
 
-*By Jean-François Grailet (last updated: May 20, 2018)*
+*By Jean-François Grailet (last updated: August 28, 2018)*
 
 ## Content of this repository
 
@@ -12,9 +12,7 @@
 
 ## Disclaimer
 
-`SAGE` was written by Jean-François Grailet, currently Ph. D. student at the University of Liège (Belgium) in the Research Unit in Networking (RUN). Some parts of `SAGE` re-uses code from `TreeNET`, which itself re-uses code from `ExploreNET`. For more details on `TreeNET` and how it relates to previous software, check the `TreeNET` public repository:
-
-https://github.com/JefGrailet/treenet
+`SAGE` was written by Jean-François Grailet, currently Ph. D. student at the University of Liège (Belgium) in the Research Unit in Networking (RUN). Some parts of `SAGE` re-uses code from `TreeNET`, which itself re-uses code from `ExploreNET`. For more details on `TreeNET` and how it relates to previous software, check the check the [`TreeNET` public repository](https://github.com/JefGrailet/treenet).
 
 ## Contact
 

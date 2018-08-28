@@ -1,6 +1,6 @@
 # About SAGE v1.0 "Fusion" (sage_fusion)
 
-*By Jean-François Grailet (last updated: May 20, 2018)*
+*By Jean-François Grailet (last updated: August 28, 2018)*
 
 ## Compilation
 
@@ -25,7 +25,7 @@ If you intent to use `SAGE` from the PlanetLab testbed, here is some advice.
 
 * Of course, your executable should be compiled with an environement similar to that of the PlanetLab nodes. The oldest OS you should find on a PLC (PlanetLab Central) node is usually Fedora 8 (at the time this file was written). A safe (but slow) method to compile `SAGE` for Fedora 8 and onwards is to run Fedora 8 as a virtual machine, put the sources on it, compile `SAGE` and retrieve the executable file. Note that most if not all PLC nodes are 32-bit machines.
 
-* PLE (PlanetLab Europe) nodes uses 64-bit versions of much more recent releases of Fedora (e.g., Fedora 24). To run `SAGE` as compiled for PLC nodes one PLE nodes, if the PLE node cannot run `SAGE` yet, check what libraries it currently has and copy the 32-bit libraries from the PLC nodes on it (usually, these libraries are just missing). Thanks to this trick, you will be able to run `SAGE` as compiled for PLC nodes. Make sure, however, to double-check what 32-bit libraries are already available on the PLE nodes (just in case) to not overwrite existing libraries.
+* PLE (PlanetLab Europe) nodes uses 64-bit versions of much more recent releases of Fedora (e.g., Fedora 24). To run `SAGE` as compiled for PLC nodes one PLE nodes, if the PLE node cannot run `SAGE` yet, check what libraries it currently has and copy the 32-bit libraries from the PLC nodes on it (usually, these libraries are just missing). Thanks to this trick, you will be able to run `SAGE` as compiled for PLC nodes. Make sure, however, to double-check what 32-bit libraries are already available on the PLE nodes to not overwrite existing libraries.
 
 ## Usage
 
