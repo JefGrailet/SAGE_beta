@@ -14,8 +14,6 @@ using std::setw;
 using std::ifstream;
 using std::ofstream;
 using std::ios;
-#include <memory>
-using std::auto_ptr;
 #include <string>
 using std::string;
 #include <sstream>

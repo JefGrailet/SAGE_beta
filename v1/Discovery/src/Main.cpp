@@ -13,8 +13,6 @@ using std::setw;
 #include <fstream>
 using std::ofstream;
 using std::ios;
-#include <memory>
-using std::auto_ptr;
 #include <string>
 using std::string;
 #include <sstream>
@@ -555,6 +553,7 @@ int main(int argc, char *argv[])
                     break;
                 case 'j':
                     saveXNETRecords = true;
+                    break;
                 case 'v':
                     gotNb = std::atoi(optargSTR.c_str());
                     if(gotNb >= 0 && gotNb <= 3)
