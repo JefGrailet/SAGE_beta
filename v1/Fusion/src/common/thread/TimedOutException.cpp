@@ -7,13 +7,13 @@
 
 #include "TimedOutException.h"
 
-TimedOutException::TimedOutException(const string & msg):
-NTmapException(msg)
+TimedOutException::TimedOutException(const string & msg): NTmapException(msg)
 {
 	// TODO Auto-generated constructor stub
 
 }
 
-TimedOutException::~TimedOutException() throw(){
+TimedOutException::~TimedOutException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

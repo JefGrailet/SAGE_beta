@@ -17,11 +17,11 @@
 
 class ConditionVariable {
 public:
-	ConditionVariable(Mutex *conditionMutex=0)throw(ConditionVariableException, MutexException);
+	ConditionVariable(Mutex *conditionMutex=0);
 	virtual ~ConditionVariable();
-	void lock() throw(MutexException){condMutex->lock();}
-	bool trylock() throw(MutexException){return condMutex->trylock();}
-	void unlock() throw(MutexException){condMutex->unlock();}
+	void lock() {condMutex->lock();}
+	bool trylock() {return condMutex->trylock();}
+	void unlock() {condMutex->unlock();}
 	/**
 	 * wait() method causes the calling thread to be blocked (sleep) on the
 	 * condition variable object until some other thread wakes up it later
@@ -47,7 +47,7 @@ public:
 	 * 			was released by calling wait(). and resumes from the line after wait().
 	 * Line 7 explicitly releases the lock
 	 */
-	void wait()throw(ConditionVariableException);
+	void wait();
 	/**
 	 * Exactly same as the wait() as in the calling thread blocks until some other thread
 	 * calls signal() or broadcast() on the condition variable. However it differs from
@@ -72,7 +72,7 @@ public:
 	 *
 	 * @argument period is in terms of milliseconds
 	 */
-	void wait(unsigned long int period)throw(ConditionVariableException,TimedOutException);
+	void wait(unsigned long int period);
 	/**
 	 * signal() unblocks one thread among the threads that are already blocked
 	 * --i.e. called wait() function-- on the condition variable object. The one
@@ -100,12 +100,12 @@ public:
 	 * then that mutex shall be locked by the thread calling broadcast() or signal().
 	 *
 	 */
-	void signal()throw(ConditionVariableException);
+	void signal();
 	/**
 	 * Exactly same as signal() member-function except it unblocks all the threads that
 	 * are currently waiting on the condition variable object.
 	 */
-	void broadcast()throw(ConditionVariableException);
+	void broadcast();
 private:
 	Mutex *condMutex;
 	bool internalAccessMutex;

@@ -8,9 +8,6 @@
 #ifndef STRINGUTILS_H_
 #define STRINGUTILS_H_
 
-#include <memory>
-using std::auto_ptr;
-
 #include <string>
 using std::string;
 
@@ -53,9 +50,7 @@ public:
 	static string longlong2string(long long numeric);
 	static string Ulonglong2string(unsigned long long numeric);
 	static string double2string(double numeric);
-
-
-	static auto_ptr<string> toBinary(unsigned long number);
+	
 	StringUtils();
 	virtual ~StringUtils();
 };

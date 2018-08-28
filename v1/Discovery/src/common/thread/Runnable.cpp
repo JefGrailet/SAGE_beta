@@ -1,7 +1,6 @@
 #include "Runnable.h"
 
-Runnable::Runnable():
-enclosingThreadID(0)
+Runnable::Runnable(): enclosingThreadID(0)
 {
 }
 

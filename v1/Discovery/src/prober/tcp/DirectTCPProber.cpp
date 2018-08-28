@@ -32,7 +32,7 @@ DirectTCPProber::DirectTCPProber(string &attentionMessage,
                                  unsigned short upperBoundTCPsrcPort, 
                                  unsigned short lowerBoundTCPdstPort, 
                                  unsigned short upperBoundTCPdstPort, 
-                                 bool verbose) throw (SocketException):
+                                 bool verbose):
 DirectProber(attentionMessage, 
              IPPROTO_TCP, 
              tcpUdpRoundRobinSocketCount, 
@@ -57,7 +57,7 @@ ProbeRecord *DirectTCPProber::basic_probe(const InetAddress &src,
                                           unsigned char TTL, 
                                           bool usingFixedFlowID, 
                                           unsigned short srcPort, 
-                                          unsigned short dstPort) throw (SocketSendException, SocketReceiveException)
+                                          unsigned short dstPort)
 {
     uint32_t src_32 = (uint32_t) (src.getULongAddress());
     uint32_t dst_32 = (uint32_t) (dst.getULongAddress());
@@ -175,7 +175,7 @@ ProbeRecord *DirectTCPProber::basic_probe(const InetAddress &src,
 
     }
     while(totalBytesSent < totalPacketLength);
-    auto_ptr<TimeVal> REQTime = TimeVal::getCurrentSystemTime();
+    TimeVal REQTime = TimeVal::getCurrentSystemTime();
     updateLastProbingTime();
 
     // 3) receives the reply packet
@@ -191,9 +191,9 @@ ProbeRecord *DirectTCPProber::basic_probe(const InetAddress &src,
     TimeVal wait;
     while(1)
     {
-        wait = (*REQTime) + timeout;
-        auto_ptr<TimeVal> now = TimeVal::getCurrentSystemTime();
-        wait -= (*now);
+        wait = REQTime + timeout;
+        TimeVal now = TimeVal::getCurrentSystemTime();
+        wait -= now;
 
         if(wait.isUndefined())
         {
@@ -471,7 +471,7 @@ ProbeRecord *DirectTCPProber::basic_probe(const InetAddress &src,
     } // End of while(1){
 }
 
-ProbeRecord *DirectTCPProber::buildProbeRecord(const auto_ptr<TimeVal> &reqTime, 
+ProbeRecord *DirectTCPProber::buildProbeRecord(TimeVal reqTime, 
                                                const InetAddress &dstAddress, 
                                                const InetAddress &rplyAddress, 
                                                unsigned char reqTTL, 
@@ -486,8 +486,8 @@ ProbeRecord *DirectTCPProber::buildProbeRecord(const auto_ptr<TimeVal> &reqTime,
                                                bool usingFixedFlowID)
 {
     ProbeRecord *recordPtr = new ProbeRecord();
-    recordPtr->setReqTime(*reqTime);
-    recordPtr->setRplyTime(*(TimeVal::getCurrentSystemTime()));
+    recordPtr->setReqTime(reqTime);
+    recordPtr->setRplyTime(TimeVal::getCurrentSystemTime());
     recordPtr->setDstAddress(dstAddress);
     recordPtr->setRplyAddress(rplyAddress);
     recordPtr->setReqTTL(reqTTL);

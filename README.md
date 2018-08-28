@@ -11,15 +11,15 @@ complete picture of the topology of a network.
 
 To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeNET` and `ExploreNET` and re-uses as well the alias resolution methodology of `TreeNET` to discover routers among the neighborhoods found in the final graph.
 
-As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4. It also comes as a 32-bit application (written in C/C++) to ensure compatibility with all PlanetLab computers (for now).
+As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4. It also comes as a 32-bit application (written in C/C++) to ensure compatibility with all PlanetLab computers.
 
 ## About development
 
 Future updates of `SAGE` could include:
 
-* Various updates of the probing library (*src/common/*).
 * 64-bit version.
 * Re-newed subnet inference/refinement module, perhaps with IPv6 support.
+* Additional algorithmical steps during graph building to increase the graph accuracy.
 
 ## Content of this repository
 

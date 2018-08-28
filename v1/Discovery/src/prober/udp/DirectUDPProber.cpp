@@ -32,7 +32,7 @@ DirectUDPProber::DirectUDPProber(string &attentionMessage,
                                  unsigned short upperBoundUDPsrcPort, 
                                  unsigned short lowerBoundUDPdstPort, 
                                  unsigned short upperBoundUDPdstPort, 
-                                 bool verbose) throw(SocketException):
+                                 bool verbose):
 DirectProber(attentionMessage, 
              IPPROTO_UDP, 
              tcpUdpRoundRobinSocketCount, 
@@ -57,7 +57,7 @@ ProbeRecord *DirectUDPProber::basic_probe(const InetAddress &src,
                                           unsigned char TTL, 
                                           bool usingFixedFlowID, 
                                           unsigned short srcPort, 
-                                          unsigned short dstPort) throw(SocketSendException, SocketReceiveException)
+                                          unsigned short dstPort)
 {
     uint32_t src_32 = (uint32_t) (src.getULongAddress());
     uint32_t dst_32 = (uint32_t) (dst.getULongAddress());
@@ -180,7 +180,7 @@ ProbeRecord *DirectUDPProber::basic_probe(const InetAddress &src,
 
     }
     while(totalBytesSent < totalPacketLength);
-    auto_ptr<TimeVal> REQTime = TimeVal::getCurrentSystemTime();
+    TimeVal REQTime = TimeVal::getCurrentSystemTime();
     updateLastProbingTime();
 
     // 3) Receives the reply packet
@@ -196,9 +196,9 @@ ProbeRecord *DirectUDPProber::basic_probe(const InetAddress &src,
     TimeVal wait;
     while(1)
     {
-        wait = (*REQTime) + timeout;
-        auto_ptr<TimeVal> now = TimeVal::getCurrentSystemTime();
-        wait -= (*now);
+        wait = REQTime + timeout;
+        TimeVal now = TimeVal::getCurrentSystemTime();
+        wait -= now;
         // cout << "--------------------Wait " << (wait.isPositive() ? "POSITIVE " : "NEGATIVE or ZERO ") << wait << endl;
         if(wait.isUndefined())
         {
@@ -418,7 +418,7 @@ ProbeRecord *DirectUDPProber::basic_probe(const InetAddress &src,
     } // End of while(1){
 }
 
-ProbeRecord *DirectUDPProber::buildProbeRecord(const auto_ptr<TimeVal> &reqTime, 
+ProbeRecord *DirectUDPProber::buildProbeRecord(TimeVal reqTime, 
                                                const InetAddress &dstAddress, 
                                                const InetAddress &rplyAddress, 
                                                unsigned char reqTTL, 
@@ -433,8 +433,8 @@ ProbeRecord *DirectUDPProber::buildProbeRecord(const auto_ptr<TimeVal> &reqTime,
                                                bool usingFixedFlowID)
 {
     ProbeRecord *recordPtr = new ProbeRecord();
-    recordPtr->setReqTime(*reqTime);
-    recordPtr->setRplyTime(*(TimeVal::getCurrentSystemTime()));
+    recordPtr->setReqTime(reqTime);
+    recordPtr->setRplyTime(TimeVal::getCurrentSystemTime());
     recordPtr->setDstAddress(dstAddress);
     recordPtr->setRplyAddress(rplyAddress);
     recordPtr->setReqTTL(reqTTL);

@@ -44,7 +44,7 @@ public:
                                unsigned short upperBoundTCPsrcPort = DirectTCPProber::DEFAULT_UPPER_TCP_SRC_PORT, 
                                unsigned short lowerBoundTCPdstPort = DirectTCPProber::DEFAULT_LOWER_TCP_DST_PORT, 
                                unsigned short upperBoundTCPdstPort = DirectTCPProber::DEFAULT_UPPER_TCP_DST_PORT, 
-                               bool verbose = false) throw(SocketException);
+                               bool verbose = false);
     virtual ~DirectTCPWrappedICMPProber();
     virtual ProbeRecord *basic_probe(const InetAddress &src, 
                                      const InetAddress &dst, 
@@ -52,7 +52,7 @@ public:
                                      unsigned char TTL, 
                                      bool usingFixedFlowID, 
                                      unsigned short srcPort, 
-                                     unsigned short dstPort) throw(SocketSendException, SocketReceiveException);
+                                     unsigned short dstPort);
 };
 
 #endif /* DIRECTTCPWRAPPEDICMPPROBER_H_ */

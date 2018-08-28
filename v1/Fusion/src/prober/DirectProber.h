@@ -102,7 +102,7 @@ public:
                  unsigned short upperBoundSrcPortICMPid, 
                  unsigned short lowerBoundDstPortICMPseq, 
                  unsigned short upperBoundDstPortICMPseq, 
-                 bool verbose) throw (SocketException);
+                 bool verbose);
     virtual ~DirectProber();
     
     // Accessers and setters
@@ -137,7 +137,7 @@ public:
     ProbeRecord *singleProbe(const InetAddress &src, 
                              const InetAddress &dst, 
                              unsigned char TTL, 
-                             bool useFixedFlowID) throw (SocketSendException, SocketReceiveException)
+                             bool useFixedFlowID)
     {
         return singleProbe(src, 
                            dst, 
@@ -151,7 +151,7 @@ public:
     ProbeRecord *doubleProbe(const InetAddress &src, 
                 const InetAddress &dst, 
                 unsigned char TTL, 
-                bool useFixedFlowID) throw (SocketSendException, SocketReceiveException)
+                bool useFixedFlowID)
     {
         return doubleProbe(src,
                            dst,
@@ -204,7 +204,7 @@ protected:
             unsigned char TTL, 
             bool usingFixedFlowID, 
             unsigned short srcPortORICMPid, 
-            unsigned short dstPortORICMPseq) throw (SocketSendException, SocketReceiveException)
+            unsigned short dstPortORICMPseq)
     {
         fillRandomDataBuffer();
         ProbeRecord *result = basic_probe(src, 
@@ -230,7 +230,7 @@ protected:
                              unsigned char TTL, 
                              bool usingFixedFlowID, 
                              unsigned short srcPortORICMPid, 
-                             unsigned short dstPortORICMPseq) throw (SocketSendException, SocketReceiveException)
+                             unsigned short dstPortORICMPseq)
     {
         fillRandomDataBuffer();
         ProbeRecord *result = basic_probe(src, 
@@ -268,7 +268,7 @@ protected:
             unsigned char TTL, 
             bool usingFixedFlowID, 
             unsigned short srcPortORICMPid, 
-            unsigned short dstPortORICMPseq) throw (SocketSendException, SocketReceiveException) = 0;
+            unsigned short dstPortORICMPseq) = 0;
 
     void RESET_SELECT_SET();
     int GET_READY_SOCKET_DESCRIPTOR();
@@ -291,7 +291,7 @@ protected:
      * This method must be called by subclasses just after sending a probe message.
      */
     
-    inline void updateLastProbingTime() { this->lastProbeTime = *(TimeVal::getCurrentSystemTime()); }
+    inline void updateLastProbingTime() { this->lastProbeTime = TimeVal::getCurrentSystemTime(); }
     inline int getHighestSocketIdentifierForSelect()
     {
         // cout << "icmp desc: " << icmpReceiveSocketRAW << "     tcp udp desc: " << tcpudpReceiveSockets[activeTCPUDPReceiveSocketIndex] << endl;

@@ -14,6 +14,7 @@ NTmapException(msg)
 
 }
 
-MalformedNumberConversion::~MalformedNumberConversion() throw(){
+MalformedNumberConversion::~MalformedNumberConversion() throw()
+{
 	// TODO Auto-generated destructor stub
 }

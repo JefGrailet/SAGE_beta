@@ -16,7 +16,7 @@ using std::string;
 class InvalidParameterException: public NTmapException {
 public:
 	InvalidParameterException(const string & msg="The parameter given is invalid");
-	virtual ~InvalidParameterException()throw();
+	virtual ~InvalidParameterException() throw();
 };
 
 #endif /* INVALIDPARAMETEREXCEPTION_H_ */

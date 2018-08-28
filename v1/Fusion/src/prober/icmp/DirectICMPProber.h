@@ -7,12 +7,14 @@
  * Modifications brought by J.-F. Grailet since ExploreNET v2.1:
  * -December 2014: slight edit to improve coding style.
  * -March 4, 2016: slightly edited to comply to the (slightly) extended ProbeRecord class.
- * -Augustus 2016: updated the debug mode, to feature all details into a small log, and removed 
+ * -August 2016: updated the debug mode, to feature all details into a small log, and removed 
  *  an old test method (still in TreeNET v2.3). Also removed the loose source and record route 
  *  options, because they are unused by both TreeNET and ExploreNEt v2.1 and because the IETF (see 
  *  RFC 7126) reports that packets featuring these options are widely dropped, and that the 
  *  default policy of a router receiving such packets should be to drop them anyway due to 
  *  security concerns.
+ * -August 2018: updated the code to remove deprecated C++ features such as auto_ptr<> which 
+ *  prevent the compilation without warnings on more recent systems.
  */
 
 #ifndef DIRECTICMPPROBER_H_
@@ -20,8 +22,6 @@
 
 #define DEFAULT_DIRECT_ICMP_PROBER_BUFFER_SIZE 512
 
-#include <memory>
-using std::auto_ptr;
 #include <inttypes.h>
 
 #include "../DirectProber.h"
@@ -53,7 +53,7 @@ public:
                      unsigned short upperBoundICMPid = DirectICMPProber::DEFAULT_UPPER_ICMP_IDENTIFIER,
                      unsigned short lowerBoundICMPseq = DirectICMPProber::DEFAULT_LOWER_ICMP_SEQUENCE,
                      unsigned short upperBoundICMPseq = DirectICMPProber::DEFAULT_UPPER_ICMP_SEQUENCE,
-                     bool verbose = false) throw(SocketException);
+                     bool verbose = false);
     virtual ~DirectICMPProber();
     virtual ProbeRecord *basic_probe(const InetAddress &src, 
                                      const InetAddress &dst, 
@@ -61,7 +61,7 @@ public:
                                      unsigned char TTL, 
                                      bool usingFixedFlowID, 
                                      unsigned short ICMPidentifier, 
-                                     unsigned short ICMPsequence) throw (SocketSendException, SocketReceiveException);
+                                     unsigned short ICMPsequence);
     
     // Addition by J.-F. Grailet (up to "private:" part included) to implement Timestamp request
     inline void useTimestampRequests() { this->usingTimestampRequests = true; }
@@ -72,7 +72,7 @@ private:
 
 protected:
 
-    ProbeRecord *buildProbeRecord(const auto_ptr<TimeVal> &reqTime, 
+    ProbeRecord *buildProbeRecord(TimeVal reqTime, 
                                   const InetAddress &dstAddress, 
                                   const InetAddress &rplyAddress, 
                                   unsigned char reqTTL, 

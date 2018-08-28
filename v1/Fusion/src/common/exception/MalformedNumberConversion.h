@@ -13,7 +13,7 @@
 class MalformedNumberConversion: public NTmapException {
 public:
 	MalformedNumberConversion(const string &msg="Can NOT convert");
-	virtual ~MalformedNumberConversion()throw();
+	virtual ~MalformedNumberConversion() throw();
 };
 
 #endif /* MALFORMEDNUMBERCONVERSION_H_ */

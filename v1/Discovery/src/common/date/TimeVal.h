@@ -1,8 +1,6 @@
 #ifndef TIMEVAL_H_
 #define TIMEVAL_H_
 #include <sys/time.h>
-#include <memory>
-using std::auto_ptr;
 #include <string>
 using std::string;
 #include <iostream>
@@ -23,7 +21,7 @@ public:
 	static const long int HALF_A_SECOND;
 	friend ostream & operator<<(ostream & out, const TimeVal & time);
 	static void test();
-	static auto_ptr<TimeVal> getCurrentSystemTime();
+	static TimeVal getCurrentSystemTime(); // Formerly auto_ptr<> (removed in August 2018)
 	TimeVal(const struct timeval * t);
 	TimeVal(const TimeVal &t);
 	TimeVal(long int seconds=0, long int microSeconds=0);
@@ -49,7 +47,7 @@ public:
 	long int getSecondsPart()const{return time.tv_sec;}
 	long int getMicroSecondsPart()const{return time.tv_usec;}
 	void setMicroSecondsPart(long microSeconds);
-	auto_ptr<string> getHumanReadableTime()const;
+	string getHumanReadableTime() const; // Formerly auto_ptr<> (August 2018)
 	bool isUndefined()const{return time.tv_sec<0;}
 	bool isZero()const{return time.tv_sec==0 && time.tv_usec==0;}
 	bool isPositive()const{return (!isUndefined() && !isZero());}

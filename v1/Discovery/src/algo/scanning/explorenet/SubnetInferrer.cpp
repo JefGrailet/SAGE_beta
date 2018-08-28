@@ -403,24 +403,24 @@ bool SubnetInferrer::populateRecords(const InetAddress &dst,
         if(consecutiveAnonymousCount >= MAX_CONSECUTIVE_ANONYMOUS_COUNT)
         {
             msg = "Could not estimate the distance in TTL to reach ";
-            msg += *(dst.getHumanReadableRepresentation()) + ": too many consecutive anonymous replies.";
+            msg += dst.getHumanReadableRepresentation() + ": too many consecutive anonymous replies.";
             throw NoTTLEstimationException(dst, msg);
         }
         else if(redundancies >= MAX_REDUNDANT_IPS)
         {
             msg = "Could not estimate the distance in TTL to reach ";
-            msg += *(dst.getHumanReadableRepresentation()) + ": too many redundant responsive IPs.";
+            msg += dst.getHumanReadableRepresentation() + ": too many redundant responsive IPs.";
             throw NoTTLEstimationException(dst, msg);
         }
         else if(TTL > (unsigned char) CONJECTURED_GLOBAL_INTERNET_DIAMETER)
         {
             msg = "Could not estimate the distance in TTL to reach ";
-            msg += *(dst.getHumanReadableRepresentation()) + ": estimated TTL is too large.";
+            msg += dst.getHumanReadableRepresentation() + ": estimated TTL is too large.";
             throw NoTTLEstimationException(dst, msg);
         }
         else
         {
-            msg = "Target IP address " + *(dst.getHumanReadableRepresentation());
+            msg = "Target IP address " + dst.getHumanReadableRepresentation();
             msg += " is not responsive.";
             throw UnresponsiveIPException(dst, msg);
         }
@@ -452,12 +452,12 @@ bool SubnetInferrer::populateRecords(const InetAddress &dst,
             std::string msg = "";
             if(TTL == eTTL && TTL != (eTTL - 1))
             {
-                msg = "Estimated " + *(dst.getHumanReadableRepresentation());
+                msg = "Estimated " + dst.getHumanReadableRepresentation();
                 msg += " at the TTL value of an encompassing subnet.";
             }
             else
             {
-                msg = "Estimated " + *(dst.getHumanReadableRepresentation());
+                msg = "Estimated " + dst.getHumanReadableRepresentation();
                 msg += " at the TTL value different from the expected values";
                 msg += " in the encompassing subnet.";
             }
@@ -790,7 +790,7 @@ bool SubnetInferrer::populateRecords(const InetAddress &dst,
             delete (*siteRecord);
             (*siteRecord) = NULL;
             
-            std::string msg = "Pivot IP address \"" + *(dst.getHumanReadableRepresentation());
+            std::string msg = "Pivot IP address \"" + dst.getHumanReadableRepresentation();
             msg += "\" should at least be located at 2 hops distance away from the vantage point";
             throw ShortTTLException(dst, msg);
         }
@@ -839,7 +839,7 @@ bool SubnetInferrer::populateRecords(const InetAddress &dst,
         }
         
         std::string msg = "Undesignated pivot interface for the target site hosting IP address \"";
-        msg += *(dst.getHumanReadableRepresentation())+"\"";
+        msg += dst.getHumanReadableRepresentation() + "\"";
         throw UndesignatedPivotInterface(dst, dstTTL, msg);
     }
 
@@ -847,11 +847,11 @@ bool SubnetInferrer::populateRecords(const InetAddress &dst,
     {
         logStream << "Populated records (target is pivot IP, TTL is #hops to reach it):\n";
         logStream << "Replying IP at TTL:   ";
-        logStream << ((*siteRecord) == NULL ? "NULL" : *((*siteRecord)->getDstAddress().getHumanReadableRepresentation()));
+        logStream << ((*siteRecord) == NULL ? "NULL" : (*siteRecord)->getDstAddress().getHumanReadableRepresentation());
         logStream << "\nReplying IP at TTL-1: ";
-        logStream << ((*sitePrevRecord) == NULL ? "NULL" : *((*sitePrevRecord)->getRplyAddress().getHumanReadableRepresentation()));
+        logStream << ((*sitePrevRecord) == NULL ? "NULL" : (*sitePrevRecord)->getRplyAddress().getHumanReadableRepresentation());
         logStream << "\nReplying IP at TTL-2: ";
-        logStream << ((*sitePrevPrevRecord) == NULL ? "NULL": *((*sitePrevPrevRecord)->getRplyAddress().getHumanReadableRepresentation()));
+        logStream << ((*sitePrevPrevRecord) == NULL ? "NULL": (*sitePrevPrevRecord)->getRplyAddress().getHumanReadableRepresentation());
         logStream << endl << endl;
     }
 

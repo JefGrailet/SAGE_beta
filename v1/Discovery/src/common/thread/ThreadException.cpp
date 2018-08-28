@@ -7,11 +7,11 @@
 
 #include "ThreadException.h"
 
-ThreadException::ThreadException(const string & msg):
-	NTmapException(msg)
+ThreadException::ThreadException(const string & msg): NTmapException(msg)
 {
 
 }
 
-ThreadException::~ThreadException() throw() {
+ThreadException::~ThreadException() throw()
+{
 }

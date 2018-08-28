@@ -13,9 +13,7 @@ using std::endl;
 
 #include "ConditionVariable.h"
 
-ConditionVariable::ConditionVariable(Mutex *conditionMutex)throw(ConditionVariableException, MutexException):
-condMutex(conditionMutex),
-internalAccessMutex(false)
+ConditionVariable::ConditionVariable(Mutex *conditionMutex):condMutex(conditionMutex),internalAccessMutex(false)
 {
 	if(condMutex!=0){
 		if(condMutex->getType()==Mutex::RECURSIVE_MUTEX){
@@ -38,7 +36,7 @@ ConditionVariable::~ConditionVariable() {
 	}
 }
 
-void ConditionVariable::wait()throw(ConditionVariableException){
+void ConditionVariable::wait(){
 	int result=pthread_cond_wait(&condVar, &(condMutex->mutex));
 	if(result!=0){
 		if(result==EPERM){
@@ -49,7 +47,7 @@ void ConditionVariable::wait()throw(ConditionVariableException){
 	}
 }
 
-void ConditionVariable::wait(unsigned long int period)throw(ConditionVariableException,TimedOutException){
+void ConditionVariable::wait(unsigned long int period){
 	struct timeval now;
 	struct timespec abstimeout;
 	/************START DONT ADD EXTRA CODE IN BETWEEN ***************/
@@ -77,12 +75,12 @@ void ConditionVariable::wait(unsigned long int period)throw(ConditionVariableExc
 	}
 }
 
-void ConditionVariable::signal()throw(ConditionVariableException){
+void ConditionVariable::signal(){
 	if(pthread_cond_signal(&condVar)!=0){
 		throw ConditionVariableException("Can NOT signal() on the condition variable");
 	}
 }
-void ConditionVariable::broadcast()throw(ConditionVariableException){
+void ConditionVariable::broadcast(){
 	if(pthread_cond_broadcast(&condVar)!=0){
 		throw ConditionVariableException("Can NOT broadcast() on the condition variable");
 	}

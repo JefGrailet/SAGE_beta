@@ -19,7 +19,7 @@ AnonymousCheckUnit::AnonymousCheckUnit(Environment *e,
                                        unsigned short lbii, 
                                        unsigned short ubii, 
                                        unsigned short lbis, 
-                                       unsigned short ubis) throw(SocketException):
+                                       unsigned short ubis):
 env(e), 
 parent(aC), 
 toReprobe(tR)

@@ -7,11 +7,13 @@
  * Modifications brought by J.-F. Grailet since ExploreNET v2.1:
  * -September 2015: slight edit to improve coding style.
  * -March 4, 2016: slightly edited to comply to the (slightly) extended ProbeRecord class.
- * -Augustus 2016: removed an old test method and added the new debug mechanics of TreeNET v3.0. 
+ * -August 2016: removed an old test method and added the new debug mechanics of TreeNET v3.0. 
  *  Also removed the loose source and record route options, because they are unused by both 
  *  TreeNET and ExploreNEt v2.1 and because the IETF (see RFC 7126) reports that packets featuring 
  *  these options are widely dropped, and that the default policy of a router receiving such 
  *  packets should be to drop them anyway due to security concerns.
+ * -August 2018: updated the code to remove deprecated C++ features such as auto_ptr<> which 
+ *  prevent the compilation without warnings on more recent systems.
  */
 
 #ifndef DIRECTUDPPROBER_H_
@@ -19,9 +21,6 @@
 
 #define DEFAULT_DIRECT_UDP_PROBER_BUFFER_SIZE 512
 #define DEFAULT_UDP_PSEUDO_HEADER_LENGTH 512
-
-#include <memory>
-using std::auto_ptr;
 
 #include "../DirectProber.h"
 #include "../../common/inet/InetAddress.h"
@@ -55,7 +54,7 @@ public:
                     unsigned short upperBoundUDPsrcPort = DirectUDPProber::DEFAULT_UPPER_UDP_SRC_PORT, 
                     unsigned short lowerBoundUDPdstPort = DirectUDPProber::DEFAULT_LOWER_UDP_DST_PORT, 
                     unsigned short upperBoundUDPdstPort = DirectUDPProber::DEFAULT_UPPER_UDP_DST_PORT, 
-                    bool verbose = false) throw(SocketException);
+                    bool verbose = false);
     virtual ~DirectUDPProber();
     virtual ProbeRecord *basic_probe(const InetAddress &src, 
                                      const InetAddress &dst, 
@@ -63,11 +62,11 @@ public:
                                      unsigned char TTL, 
                                      bool usingFixedFlowID, 
                                      unsigned short srcPort, 
-                                     unsigned short dstPort) throw(SocketSendException, SocketReceiveException);
+                                     unsigned short dstPort);
 
 protected:
 
-    ProbeRecord *buildProbeRecord(const auto_ptr<TimeVal> &reqTime, 
+    ProbeRecord *buildProbeRecord(TimeVal reqTime, 
                                   const InetAddress &dstAddress, 
                                   const InetAddress &rplyAddress, 
                                   unsigned char reqTTL, 

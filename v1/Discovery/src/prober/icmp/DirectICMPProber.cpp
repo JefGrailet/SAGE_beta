@@ -28,7 +28,7 @@ DirectICMPProber::DirectICMPProber(string &attentionMessage,
                                    unsigned short upperBoundICMPid,
                                    unsigned short lowerBoundICMPseq,
                                    unsigned short upperBoundICMPseq,
-                                   bool verbose) throw(SocketException):
+                                   bool verbose):
 DirectProber(attentionMessage, 
              IPPROTO_ICMP, 
              DirectProber::DEFAULT_UPPER_SRC_PORT_ICMP_ID, 
@@ -53,7 +53,7 @@ ProbeRecord *DirectICMPProber::basic_probe(const InetAddress &src,
                                            unsigned char TTL, 
                                            bool usingFixedFlowID, 
                                            unsigned short ICMPidentifier, 
-                                           unsigned short ICMPsequence) throw (SocketSendException, SocketReceiveException)
+                                           unsigned short ICMPsequence)
 {
     bool timestampRequest = this->usingTimestampRequests;
     uint32_t src_32 = (uint32_t) (src.getULongAddress());
@@ -240,7 +240,7 @@ ProbeRecord *DirectICMPProber::basic_probe(const InetAddress &src,
         totalBytesSent += bytesSent;
     }
     while(totalBytesSent < totalPacketLength);
-    auto_ptr<TimeVal> REQTime = TimeVal::getCurrentSystemTime();
+    TimeVal REQTime = TimeVal::getCurrentSystemTime();
     updateLastProbingTime();
 
     // 3) Receives the reply packet
@@ -256,9 +256,9 @@ ProbeRecord *DirectICMPProber::basic_probe(const InetAddress &src,
     TimeVal wait;
     while(1)
     {
-        wait = (*REQTime) + timeout;
-        auto_ptr<TimeVal> now = TimeVal::getCurrentSystemTime();
-        wait -= (*now);
+        wait = REQTime + timeout;
+        TimeVal now = TimeVal::getCurrentSystemTime();
+        wait -= now;
         // cout << "--------------------Wait " << (wait.isPositive() ? "POSITIVE " : "NEGATIVE or ZERO ") << wait << endl;
         if(wait.isUndefined())
         {
@@ -564,7 +564,7 @@ ProbeRecord *DirectICMPProber::basic_probe(const InetAddress &src,
 }
 
 
-ProbeRecord *DirectICMPProber::buildProbeRecord(const auto_ptr<TimeVal> &reqTime, 
+ProbeRecord *DirectICMPProber::buildProbeRecord(TimeVal reqTime, 
                                                 const InetAddress &dstAddress, 
                                                 const InetAddress &rplyAddress, 
                                                 unsigned char reqTTL, 
@@ -582,8 +582,8 @@ ProbeRecord *DirectICMPProber::buildProbeRecord(const auto_ptr<TimeVal> &reqTime
                                                 bool usingFixedFlowID)
 {
     ProbeRecord *recordPtr = new ProbeRecord();
-    recordPtr->setReqTime(*reqTime);
-    recordPtr->setRplyTime(*(TimeVal::getCurrentSystemTime()));
+    recordPtr->setReqTime(reqTime);
+    recordPtr->setRplyTime(TimeVal::getCurrentSystemTime());
     recordPtr->setDstAddress(dstAddress);
     recordPtr->setRplyAddress(rplyAddress);
     recordPtr->setReqTTL(reqTTL);

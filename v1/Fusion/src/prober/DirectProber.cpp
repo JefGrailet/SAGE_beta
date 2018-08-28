@@ -84,7 +84,7 @@ DirectProber::DirectProber(string &attentionMessage,
                            unsigned short upBoundSrcPortICMPid, 
                            unsigned short lowBoundDstPortICMPseq, 
                            unsigned short upBoundDstPortICMPseq, 
-                           bool v) throw(SocketException):
+                           bool v):
 sendSocketRAW(-1),
 icmpReceiveSocketRAW(-1),
 tcpudpReceiveSocketCount(0),
@@ -596,7 +596,7 @@ void DirectProber::regulateProbingFrequency()
 {
     if(probeRegulatingPausePeriod.isPositive())
     {
-        TimeVal period = *(TimeVal::getCurrentSystemTime()) - lastProbeTime;
+        TimeVal period = TimeVal::getCurrentSystemTime() - lastProbeTime;
         if(period.compare(probeRegulatingPausePeriod) == -1)
         {
             Thread::invokeSleep(probeRegulatingPausePeriod - period);

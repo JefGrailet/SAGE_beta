@@ -35,11 +35,11 @@ public:
 	 *
 	 * Mutexes of type RECURSIVE_MUTEX must NOT be used with Condition Variables.
 	 */
-	Mutex(int mutexType, string mutexName="ANONYMOUS") throw (MutexException);
+	Mutex(int mutexType, string mutexName="ANONYMOUS");
 	virtual ~Mutex();
-	void lock() throw(MutexException);
-	bool trylock() throw(MutexException);
-	void unlock() throw(MutexException);
+	void lock();
+	bool trylock();
+	void unlock();
 	int getType()const{return type;}
 	string getName(){return mutexName;}
 private:

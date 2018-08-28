@@ -51,6 +51,8 @@ In order to simplify the parameters of `SAGE` and only allow the editing of the 
 
 * **May 20, 2018:** release of `SAGE` v1.0.
 
+* **August 28, 2018:** light changes in all folders (but especially *src/common* and *src/prober*) to remove deprecated C++ features (in particular, *auto_ptr*) that caused multiple warnings in recent environments. `SAGE` should now compile without warnings on most Linux distributions. Tested successfully on Ubuntu 18.04 LTS (64-bit, executable in 32-bit) and a virtual Fedora 8 (32-bit). The executable produced with the latter was also tested successfully on PlanetLab.
+
 ## Disclaimer
 
 `SAGE` was written by Jean-François Grailet, currently Ph. D. student at the University of Liège (Belgium) in the Research Unit in Networking (RUN). Some parts of `SAGE` re-uses code from `TreeNET`, which itself re-uses code from `ExploreNET`. For more details on `TreeNET` and how it relates to previous software, check the `TreeNET` public repository:

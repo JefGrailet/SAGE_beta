@@ -22,7 +22,8 @@ Distribution()
 
 Uniform::~Uniform() {}
 
-double Uniform::generateRandomValue(double lowerBound, double upperBound) throw(InvalidParameterException){
+double Uniform::generateRandomValue(double lowerBound, double upperBound)
+{
 	if(upperBound<=lowerBound){
 		throw InvalidParameterException("upper bound must be greater than lower bound");
 	}

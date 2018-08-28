@@ -13,6 +13,7 @@ NTmapException(msg)
 
 }
 
-EmptyCollectionException::~EmptyCollectionException() throw(){
+EmptyCollectionException::~EmptyCollectionException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

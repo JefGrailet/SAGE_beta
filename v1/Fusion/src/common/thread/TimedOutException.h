@@ -13,7 +13,8 @@ using std::string;
 
 #include "../exception/NTmapException.h"
 
-class TimedOutException : public NTmapException{
+class TimedOutException : public NTmapException
+{
 public:
 	TimedOutException(const string & msg="The wait(timeout) method has returned due to timeout");
 	virtual ~TimedOutException() throw();

@@ -12,7 +12,7 @@ NTmapException::NTmapException(const string & msg)
 {
 }
 
-NTmapException::~NTmapException()throw()
+NTmapException::~NTmapException() throw()
 {
 }
 

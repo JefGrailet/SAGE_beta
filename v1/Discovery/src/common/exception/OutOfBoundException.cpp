@@ -14,6 +14,7 @@ NTmapException(msg)
 
 }
 
-OutOfBoundException::~OutOfBoundException() throw() {
+OutOfBoundException::~OutOfBoundException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

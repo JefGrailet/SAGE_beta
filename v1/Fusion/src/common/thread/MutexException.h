@@ -13,7 +13,8 @@ using std::string;
 
 #include "../exception/NTmapException.h"
 
-class MutexException : public NTmapException{
+class MutexException : public NTmapException
+{
 public:
 	MutexException(const string & msg="Mutex Error Occurred");
 	virtual ~MutexException() throw();

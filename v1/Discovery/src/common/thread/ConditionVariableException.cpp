@@ -12,6 +12,6 @@ ConditionVariableException::ConditionVariableException(const string & msg):
 {
 }
 
-ConditionVariableException::~ConditionVariableException() throw(){
-
+ConditionVariableException::~ConditionVariableException() throw()
+{
 }

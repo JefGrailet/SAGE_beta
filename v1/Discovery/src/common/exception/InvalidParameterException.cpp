@@ -14,6 +14,7 @@ NTmapException(msg)
 
 }
 
-InvalidParameterException::~InvalidParameterException() throw() {
+InvalidParameterException::~InvalidParameterException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

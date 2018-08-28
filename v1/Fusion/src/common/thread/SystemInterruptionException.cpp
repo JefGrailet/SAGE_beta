@@ -7,13 +7,13 @@
 
 #include "SystemInterruptionException.h"
 
-SystemInterruptionException::SystemInterruptionException(const string &msg):
-NTmapException(msg)
+SystemInterruptionException::SystemInterruptionException(const string &msg): NTmapException(msg)
 {
 	// TODO Auto-generated constructor stub
 
 }
 
-SystemInterruptionException::~SystemInterruptionException() throw(){
+SystemInterruptionException::~SystemInterruptionException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

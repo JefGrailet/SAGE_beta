@@ -17,8 +17,11 @@ public:
 	Uniform();
 	virtual ~Uniform();
 	//returns random numbers between [lowerBound, upperBound] for non-negative lower and upper values valid when lower>=0
-	double generateRandomValue(double lowerBound, double upperBound) throw(InvalidParameterException);
-	unsigned long generateRandomValue(unsigned long lowerBound, unsigned long upperBound) throw(InvalidParameterException){return (unsigned long)generateRandomValue((double)lowerBound, (double)upperBound);};
+	double generateRandomValue(double lowerBound, double upperBound);
+	inline unsigned long generateRandomValue(unsigned long lowerBound, unsigned long upperBound)
+    {
+        return (unsigned long)generateRandomValue((double)lowerBound, (double)upperBound);
+    };
 };
 
 #endif /* UNIFORM_H_ */

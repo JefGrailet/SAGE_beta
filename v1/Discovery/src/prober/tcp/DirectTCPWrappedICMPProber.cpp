@@ -17,7 +17,7 @@ DirectTCPWrappedICMPProber::DirectTCPWrappedICMPProber(string &attentionMessage,
                                                        unsigned short upperBoundTCPsrcPort, 
                                                        unsigned short lowerBoundTCPdstPort, 
                                                        unsigned short upperBoundTCPdstPort, 
-                                                       bool verbose) throw(SocketException):
+                                                       bool verbose):
 DirectTCPProber(attentionMessage, 
                 tcpUdpRoundRobinSocketCount, 
                 timeoutPeriod, 
@@ -41,7 +41,7 @@ ProbeRecord *DirectTCPWrappedICMPProber::basic_probe(const InetAddress &src,
                                                      unsigned char TTL, 
                                                      bool usingFixedFlowID, 
                                                      unsigned short srcPort, 
-                                                     unsigned short dstPort) throw(SocketSendException, SocketReceiveException)
+                                                     unsigned short dstPort)
 {
     ProbeRecord *result = DirectTCPProber::basic_probe(src, 
                                                        dst, 

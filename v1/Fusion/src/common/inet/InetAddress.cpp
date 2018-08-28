@@ -24,7 +24,7 @@ using std::endl;
 const unsigned long int InetAddress::MAX_IP4 =~ ((unsigned long int) 0);
 const int InetAddress::ULONG_BIT_LENGTH = sizeof(unsigned long) * 8;
 
-InetAddress InetAddress::getFirstLocalAddress() throw(InetAddressException)
+InetAddress InetAddress::getFirstLocalAddress()
 {
     struct ifaddrs *interfaceIterator = 0, *interfaceList = 0;
     InetAddress add;
@@ -59,7 +59,7 @@ InetAddress InetAddress::getFirstLocalAddress() throw(InetAddressException)
     return add;
 }
 
-InetAddress InetAddress::getLocalAddressByInterfaceName(const string &iname) throw(InetAddressException)
+InetAddress InetAddress::getLocalAddressByInterfaceName(const string &iname)
 {
     struct ifaddrs *interfaceIterator = 0, *interfaceList = 0;
     InetAddress add;
@@ -92,10 +92,10 @@ InetAddress InetAddress::getLocalAddressByInterfaceName(const string &iname) thr
     return add;
 }
 
-auto_ptr<vector<InetAddress> > InetAddress::getLocalAddressList() throw(InetAddressException)
+vector<InetAddress>* InetAddress::getLocalAddressList()
 {
     struct ifaddrs *interfaceIterator = 0, *interfaceList = 0;
-    auto_ptr<vector<InetAddress> > vec(new vector<InetAddress>());
+    vector<InetAddress> *vec = new vector<InetAddress>();
     if(getifaddrs(&interfaceList) < 0)
     {
         throw InetAddressException("Could NOT get list of interfaces via \"getifaddrs\"");
@@ -123,7 +123,7 @@ auto_ptr<vector<InetAddress> > InetAddress::getLocalAddressList() throw(InetAddr
     return vec;
 }
 
-InetAddress InetAddress::getAddressByHostName(const string &hostName) throw(InetAddressException)
+InetAddress InetAddress::getAddressByHostName(const string &hostName)
 {
     struct hostent *he; // It is always in network byte order
     he = gethostbyname(hostName.c_str());
@@ -141,7 +141,7 @@ InetAddress InetAddress::getAddressByHostName(const string &hostName) throw(Inet
     return add;
 }
 
-InetAddress InetAddress::getAddressByIPString(const string &stringIP) throw(InetAddressException)
+InetAddress InetAddress::getAddressByIPString(const string &stringIP)
 {
     struct in_addr ip;
     if((inet_aton(stringIP.c_str(), &ip)) == 0)
@@ -194,13 +194,13 @@ InetAddress InetAddress::getUnicastRoutableRandomAddress()
     return ip;
 }
 
-InetAddress::InetAddress(unsigned long int address) throw(InetAddressException)
+InetAddress::InetAddress(unsigned long int address)
 {
     setInetAddress(address);
     
 }
 
-InetAddress::InetAddress(const string &address) throw(InetAddressException)
+InetAddress::InetAddress(const string &address)
 {
     setInetAddress(address);
 }
@@ -257,7 +257,7 @@ InetAddress &InetAddress::operator=(const InetAddress &other)
     return *this;
 }
 
-void InetAddress::operator+=(unsigned int n) throw(InetAddressException)
+void InetAddress::operator+=(unsigned int n)
 {
     if((InetAddress::MAX_IP4 - this->ip) <= n)
     {
@@ -266,19 +266,19 @@ void InetAddress::operator+=(unsigned int n) throw(InetAddressException)
     this->ip += n;
 }
 
-InetAddress &InetAddress::operator++() throw(InetAddressException)
+InetAddress &InetAddress::operator++()
 {
     (*this) += 1;
     return *this;
 }
 
-InetAddress InetAddress::operator++(int) throw(InetAddressException)
+InetAddress InetAddress::operator++(int)
 {
     (*this) += 1;
     return InetAddress(this->ip - 1);
 }
 
-InetAddress InetAddress::operator+(unsigned int n) throw(InetAddressException)
+InetAddress InetAddress::operator+(unsigned int n)
 {
     if((InetAddress::MAX_IP4 - this->ip) <= n)
     {
@@ -287,7 +287,7 @@ InetAddress InetAddress::operator+(unsigned int n) throw(InetAddressException)
     return InetAddress(this->ip + n);
 }
 
-void InetAddress::operator-=(unsigned int n)throw(InetAddressException)
+void InetAddress::operator-=(unsigned int n)
 {
     if((this->ip - n) < 0)
     {
@@ -296,19 +296,19 @@ void InetAddress::operator-=(unsigned int n)throw(InetAddressException)
     this->ip -= n;
 }
 
-InetAddress &InetAddress::operator--() throw(InetAddressException)
+InetAddress &InetAddress::operator--()
 {
     (*this) -= 1;
     return *this;
 }
 
-InetAddress InetAddress::operator--(int) throw(InetAddressException)
+InetAddress InetAddress::operator--(int)
 {
     (*this) -= 1;
     return InetAddress(this->ip + 1);
 }
 
-InetAddress InetAddress::operator-(unsigned int n)throw(InetAddressException)
+InetAddress InetAddress::operator-(unsigned int n)
 {
     if((this->ip - n) < 0)
     {
@@ -366,7 +366,7 @@ void InetAddress::reverseBits()
 }
 
 
-void InetAddress::setInetAddress(unsigned long int address) throw(InetAddressException)
+void InetAddress::setInetAddress(unsigned long int address)
 {
     if(address > InetAddress::MAX_IP4 || address < 0)
     {
@@ -378,7 +378,7 @@ void InetAddress::setInetAddress(unsigned long int address) throw(InetAddressExc
     }
 }
 
-void InetAddress::setInetAddress(const string &address) throw(InetAddressException)
+void InetAddress::setInetAddress(const string &address)
 {
     bool isHostName = false;
     for(unsigned int i = 0; i < address.length(); i++)
@@ -397,51 +397,41 @@ void InetAddress::setInetAddress(const string &address) throw(InetAddressExcepti
     this->ip = tmp.ip;
 }
 
-auto_ptr<string> InetAddress::getHumanReadableRepresentation() const
+string InetAddress::getHumanReadableRepresentation() const
 {
     struct in_addr addr;
     addr.s_addr = htonl(this->ip);
-    auto_ptr<string> str(new string(inet_ntoa(addr)));
-    return str;
+    return inet_ntoa(addr);
 }
 
-auto_ptr<string> InetAddress::getBinaryRepresentation() const
+string InetAddress::getBinaryRepresentation() const
 {
-    auto_ptr<string> str(new string());
-    
+    string str = "";
     for(long int i = 31; i >= 0; i--)
     {
         if((1 << i) & (this->ip))
-            str->push_back('1');
+            str.push_back('1');
         else
-            str->push_back('0');
+            str.push_back('0');
         
         if(i != 0 && i % 8 == 0)
-            str->push_back('.');
+            str.push_back('.');
     }
-    
     return str;
 }
 
-auto_ptr<string> InetAddress::getHostName() const
+string InetAddress::getHostName() const
 {
     struct hostent *he;
     struct in_addr addr;
-    addr.s_addr = inet_addr((*(getHumanReadableRepresentation())).c_str());
+    addr.s_addr = inet_addr(this->getHumanReadableRepresentation().c_str());
     he = gethostbyaddr((const char*) &addr.s_addr, sizeof(addr.s_addr), AF_INET);
     if(he != 0)
-    {
-        auto_ptr<string> str(new string(he->h_name));
-        return str;
-    }
-    else
-    {
-        auto_ptr<string> str(new string(""));
-        return str;
-    }
+        return he->h_name;
+    return "";
 }
 
-InetAddress InetAddress::get30Mate() const throw(InetAddressException)
+InetAddress InetAddress::get30Mate() const
 {
     unsigned long int three = 3; // 000...00011
     unsigned long int tmp = three & this->ip;

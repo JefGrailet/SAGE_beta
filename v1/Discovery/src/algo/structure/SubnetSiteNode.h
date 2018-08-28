@@ -23,9 +23,9 @@ public:
     friend ostream &operator<<(ostream &out, const SubnetSiteNode &ssn)
     {
         out << "{"
-        << *(ssn.ip.getBinaryRepresentation())
+        << ssn.ip.getBinaryRepresentation()
         << "   "
-        << *(ssn.ip.getHumanReadableRepresentation())
+        << ssn.ip.getHumanReadableRepresentation()
         << " - "
         << (int) ssn.TTL
         << " @ /"

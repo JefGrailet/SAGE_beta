@@ -151,18 +151,18 @@ TimeVal TimeVal::operator*( float factor)const{
 	return tmp;
 
 }
-auto_ptr<TimeVal> TimeVal::getCurrentSystemTime(){
+TimeVal TimeVal::getCurrentSystemTime(){
 	struct timeval t;
 	gettimeofday(&t,0);
-	auto_ptr<TimeVal> sysTime(new TimeVal(&t));
+	TimeVal sysTime(&t);
 	return sysTime;
 }
-auto_ptr<string> TimeVal::getHumanReadableTime()const{
+string TimeVal::getHumanReadableTime() const{
 	static char buff[24];
 	struct tm* ptm;
 	ptm = localtime (&(time.tv_sec));
 	int usedBytes = strftime(buff, 24, "%Y-%m-%d, %H:%M:%S",ptm);
-	auto_ptr<string> tmp(new string(buff, usedBytes));
+	string tmp(buff, usedBytes);
 	return tmp;
 }
 

@@ -14,6 +14,8 @@
  *  packets should be to drop them anyway due to security concerns.
  * -August 2017: drastically updated the class. SYN+ACK probe with payload is outdated. The 
  *  DirectTCPProber class now uses a SYN probe without payload.
+ * -August 2018: updated the code to remove deprecated C++ features such as auto_ptr<> which 
+ *  prevent the compilation without warnings on more recent systems.
  *
  * N.B.: as of August 2017, the dest port for TCP probes is always set to 80 by DirectProber 
  * (see getAvailableDstPortICMPseq(), singleProbe() and doubleProbe() methods). The port variables 
@@ -28,9 +30,6 @@
 
 #define DEFAULT_DIRECT_TCP_PROBER_BUFFER_SIZE 512
 #define DEFAULT_TCP_PSEUDO_HEADER_LENGTH 512
-
-#include <memory>
-using std::auto_ptr;
 
 #include <cstdio>
 #include <cstring>
@@ -63,7 +62,7 @@ public:
                     unsigned short upperBoundTCPsrcPort = DirectTCPProber::DEFAULT_UPPER_TCP_SRC_PORT, 
                     unsigned short lowerBoundTCPdstPort = DirectTCPProber::DEFAULT_LOWER_TCP_DST_PORT, 
                     unsigned short upperBoundTCPdstPort = DirectTCPProber::DEFAULT_UPPER_TCP_DST_PORT, 
-                    bool verbose = false) throw(SocketException);
+                    bool verbose = false);
     virtual ~DirectTCPProber();
     
     /**
@@ -77,11 +76,11 @@ public:
                                      unsigned char TTL, 
                                      bool usingFixedFlowID, 
                                      unsigned short srcPort, 
-                                     unsigned short dstPort) throw(SocketSendException, SocketReceiveException);
+                                     unsigned short dstPort);
 
 protected:
 
-    ProbeRecord *buildProbeRecord(const auto_ptr<TimeVal> &reqTime, 
+    ProbeRecord *buildProbeRecord(TimeVal reqTime, 
                                   const InetAddress &dstAddress, 
                                   const InetAddress &rplyAddress, 
                                   unsigned char reqTTL, 

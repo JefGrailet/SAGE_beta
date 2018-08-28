@@ -10,8 +10,8 @@
 FileOperationException::FileOperationException(const string &msg):
 NTmapException(msg)
 {
-
 }
 
-FileOperationException::~FileOperationException() throw() {
+FileOperationException::~FileOperationException() throw()
+{
 }

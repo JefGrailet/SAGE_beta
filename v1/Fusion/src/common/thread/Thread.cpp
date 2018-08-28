@@ -5,10 +5,7 @@
 using std::cout;
 using std::endl;
 
-
-
 #include "Thread.h"
-
 
 const Thread Thread::currentThread(){
 	const Thread self(pthread_self ());
@@ -58,7 +55,8 @@ Thread::~Thread()
         delete runnable;
 }
 
-void Thread::join() throw(ThreadException){
+void Thread::join()
+{
 	int rc=pthread_join(threadId, 0);
     if (rc!=0){
     	if(rc==EINVAL){
@@ -73,7 +71,9 @@ void Thread::join() throw(ThreadException){
 	}
 
 }
-void Thread::start() throw(ThreadException){
+
+void Thread::start()
+{
 	/*Define attributes to make thread joinable explicitly*/
 	int result = -1;
 
@@ -114,7 +114,9 @@ void Thread::start() throw(ThreadException){
 	}
 	pthread_attr_destroy(&attr);
 }
-void * Thread::concurrentEntry(void *runnableObj){
+
+void * Thread::concurrentEntry(void *runnableObj)
+{
 	if(runnableObj!=0){
 		Runnable *runnable=(Runnable *)(runnableObj);
 		runnable->run();

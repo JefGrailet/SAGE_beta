@@ -13,7 +13,8 @@ using std::string;
 
 #include "../exception/NTmapException.h"
 
-class SystemInterruptionException: public NTmapException {
+class SystemInterruptionException: public NTmapException
+{
 public:
 	SystemInterruptionException(const string & msg="The operation is interrupted because of a system signal");
 	virtual ~SystemInterruptionException() throw();

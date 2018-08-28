@@ -38,12 +38,14 @@ public:
  * The set is kept ordered in order to reduce the complexity of searching.
  */
 class InetAddressSet {
-	friend ostream & operator<<(ostream &out, const InetAddressSet &set){
+	friend ostream & operator<<(ostream &out, const InetAddressSet &set)
+    {
 		out<<"Size:"<<set.getSize();
 		InetAddressNode * currentNodePtr=set.headNodePtr;
-		while(currentNodePtr!=0){
-			out<<" "<<*(currentNodePtr->addrPtr->getHumanReadableRepresentation())
-			<<"("<<currentNodePtr->addrPtr->getULongAddress()<<")";
+		while(currentNodePtr != 0)
+        {
+			out << " " << currentNodePtr->addrPtr->getHumanReadableRepresentation()
+			<< "(" << currentNodePtr->addrPtr->getULongAddress() << ")";
 			currentNodePtr=currentNodePtr->nextNodePtr;
 		}
 		return out;
@@ -74,27 +76,28 @@ public:
 	//query methods
 	bool isEmpty()const{return size==0;}
 	long getSize()const{return size;}
-	bool contains(const InetAddress &addr)const;
+	bool contains(const InetAddress &addr) const;
 	/**
 	 * Returns the position index if the element is in this set
 	 * otherwise returns -1
 	 */
-	long getPositionIndex(const InetAddress &addr)const;
-	InetAddress & getElementAt(long position)const throw(OutOfBoundException);
+	long getPositionIndex(const InetAddress &addr) const;
+	InetAddress & getElementAt(long position) const;
 	//set methods
 	/**
 	 * Adds the @param newAddrPtr to the set and returns true if the set does not
 	 * already contains the lement otherwise it does not insert and returns false.
 	 * If the @param newAddrPtr is NULL throws InvalidParameterException.
 	 */
-	bool insert(InetAddress * newAddrPtr)throw(InvalidParameterException);
+	bool insert(InetAddress * newAddrPtr);
 	/**
 	 * Removes the element from the set. The ownership of the removed InetAddress
 	 * is returned to the caller as well.
 	 */
-	InetAddress * removeElementAt(long position)throw(OutOfBoundException);
+	InetAddress * removeElementAt(long position);
 	InetAddress * removeElement(const InetAddress &key);
-	InetAddress * removeRandomElement()throw(OutOfBoundException){
+	InetAddress * removeRandomElement()
+	{
 		return (size>0 ? removeElementAt(rand()%size) : throw OutOfBoundException("The set is empty"));
 	}
 

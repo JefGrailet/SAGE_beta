@@ -29,7 +29,7 @@ ExploreNETRunnable::ExploreNETRunnable(Environment *e,
                                        unsigned short lowerBoundSrcPortORICMPid, 
                                        unsigned short upperBoundSrcPortORICMPid, 
                                        unsigned short lowerBoundDstPortORICMPseq, 
-                                       unsigned short upperBoundDstPortICMPseq) throw (SocketException):
+                                       unsigned short upperBoundDstPortICMPseq):
 env(e), 
 target(t), 
 sinf(e, 

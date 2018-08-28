@@ -16,8 +16,8 @@ using std::string;
 class NTmapException : public runtime_error
 {
 public:
-	NTmapException(const string & msg="Exception Occurred");
-	virtual ~NTmapException()throw();
+	NTmapException(const string &msg="Exception Occurred");
+	virtual ~NTmapException() throw();
 };
 
 #endif /* NTMAPEXCEPTION_H_ */

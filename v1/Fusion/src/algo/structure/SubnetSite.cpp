@@ -56,12 +56,12 @@ string SubnetSite::getInferredNetworkAddressString()
     }
     else if(inferredSubnetPrefix == 32)
     {
-        return (*(inferredSubnetBaseIP.getHumanReadableRepresentation())) + "/32";
+        return inferredSubnetBaseIP.getHumanReadableRepresentation() + "/32";
     }
     else
     {
         NetworkAddress na(inferredSubnetBaseIP, inferredSubnetPrefix);
-        return (*(na.getHumanReadableRepresentation()));
+        return na.getHumanReadableRepresentation();
     }
 }
 

@@ -15,7 +15,7 @@ using std::string;
 class OutOfBoundException : NTmapException{
 public:
 	OutOfBoundException(const string & msg="The element subscript(position) is NOT in the boundary of the collection");
-	virtual ~OutOfBoundException()throw();
+	virtual ~OutOfBoundException() throw();
 };
 
 #endif /* OUTOFBOUNDEXCEPTION_H_ */

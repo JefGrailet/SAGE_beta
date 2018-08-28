@@ -15,8 +15,6 @@ using std::ostream;
 #include <ifaddrs.h>
 #include <string>
 using std::string;
-#include <memory>
-using std::auto_ptr;
 #include <vector>
 using std::vector;
 
@@ -32,14 +30,14 @@ public:
 	static const int ULONG_BIT_LENGTH;
 	friend ostream &operator<<(ostream &out, const InetAddress &ip)
 	{
-		out << *(ip.getHumanReadableRepresentation()); /* +string("(")+StringUtils::Ulong2string(ip.getULongAddress())+string(")") */
+		out << ip.getHumanReadableRepresentation(); /* +string("(")+StringUtils::Ulong2string(ip.getULongAddress())+string(")") */
 		return out;
 	}
-	static auto_ptr<vector<InetAddress> > getLocalAddressList() throw(InetAddressException);
-	static InetAddress getFirstLocalAddress() throw(InetAddressException);
-	static InetAddress getLocalAddressByInterfaceName(const string &iname) throw(InetAddressException);
-	static InetAddress getAddressByHostName(const string &hostName) throw(InetAddressException);
-	static InetAddress getAddressByIPString(const string &stringIP) throw(InetAddressException);
+	static vector<InetAddress> *getLocalAddressList(); // Formerly auto_ptr<>, removed due to cross-compatibility issues (August 2018)
+	static InetAddress getFirstLocalAddress();
+	static InetAddress getLocalAddressByInterfaceName(const string &iname);
+	static InetAddress getAddressByHostName(const string &hostName);
+	static InetAddress getAddressByIPString(const string &stringIP);
 
 	/**
 	 * You need to call srand(time(NULL)) before using those two random functions if you want 
@@ -48,16 +46,16 @@ public:
 	
 	static InetAddress getRandomAddress();
 	static InetAddress getUnicastRoutableRandomAddress();
-	InetAddress(unsigned long int ip = 0) throw(InetAddressException);
-	InetAddress(const string &address) throw(InetAddressException);
+	InetAddress(unsigned long int ip = 0);
+	InetAddress(const string &address);
 	InetAddress(const InetAddress &address);
 	virtual ~InetAddress();
 	bool isUnicastRoutableAddress(); // Returns true if the IP address is a unicast routable address
 	InetAddress &operator=(const InetAddress &other);
-	void operator+=(unsigned int n) throw(InetAddressException);
-	InetAddress &operator++() throw(InetAddressException);
-	InetAddress operator++(int) throw(InetAddressException);
-	InetAddress operator+(unsigned int n) throw(InetAddressException);
+	void operator+=(unsigned int n);
+	InetAddress &operator++();
+	InetAddress operator++(int);
+	InetAddress operator+(unsigned int n);
 	
 	inline bool operator==(const InetAddress &other) const { return this->ip == other.ip; }
 	inline bool operator!=(const InetAddress &other) const { return this->ip != other.ip; }
@@ -66,18 +64,25 @@ public:
 	inline bool operator>(const InetAddress &other) const { return this->ip > other.ip; }
 	inline bool operator>=(const InetAddress &other) const { return this->ip >= other.ip; }
 	
-	void operator-=(unsigned int n) throw(InetAddressException);
-	InetAddress &operator--() throw(InetAddressException);
-	InetAddress operator--(int) throw(InetAddressException);
-	InetAddress operator-(unsigned int n) throw(InetAddressException);
+	void operator-=(unsigned int n);
+	InetAddress &operator--();
+	InetAddress operator--(int);
+	InetAddress operator-(unsigned int n);
 	void setBit(int position, int value); // 0 <= position <= 31
 	int getBit(int position) const; // 0 <= position <= 31
 	void inverseBits(); // Inverses each bit of the IP address e.g.  1011...11 will be 0100...00
 	void reverseBits(); // Reverses the bit sequence of the IP address e.g. 1011...11 will be 11...1101
-	auto_ptr<string> getHumanReadableRepresentation() const;
-	auto_ptr<string> getBinaryRepresentation() const;
-	auto_ptr<string> getHostName() const;
 	unsigned long int getULongAddress() const;
+
+    /*
+     * (August 2018) N.B.: in former versions, the next 3 methods were using auto_ptr<>, removed 
+     * due to cross-compatibility issues (i.e. warnings with more recent environments but none 
+     * with Fedora 8, which is the environment of many PlanetLab computers).
+     */
+
+    string getHumanReadableRepresentation() const;
+	string getBinaryRepresentation() const;
+	string getHostName() const;
 	
 	inline InetAddress get31Mate() const { return InetAddress(1 ^ this->ip); }
 	inline bool is31Mate(const InetAddress &addr) const { return ((this->ip ^ addr.ip) == 1); }
@@ -86,9 +91,9 @@ public:
 	 * Throws InetAddressException if the IP ends with 00 or 11 binary
 	 */
 	
-	InetAddress get30Mate() const throw(InetAddressException);
-	void setInetAddress(unsigned long int address) throw(InetAddressException);
-	void setInetAddress(const string &address) throw(InetAddressException);
+	InetAddress get30Mate() const;
+	void setInetAddress(unsigned long int address);
+	void setInetAddress(const string &address);
 	
 	inline bool is30Mate(const InetAddress &addr) const { return ((this->ip ^ addr.ip) == 3); }
 	inline bool isEnding00() const { return ((this->ip & 3) == 0); }

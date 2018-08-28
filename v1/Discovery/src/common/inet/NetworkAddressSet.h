@@ -68,7 +68,7 @@ public:
 	//query methods
 	bool isEmpty()const{return this->size==0;}
 	NetworkAddressSet * clone();
-	NetworkAddressSet * extract(int low, int subSize=-1)throw(OutOfBoundException);
+	NetworkAddressSet * extract(int low, int subSize=-1);
 	//set methods
 	/**
 	 * Inserts the @param subnet into the set, if the set already
@@ -76,14 +76,14 @@ public:
 	 * it does not add it and returns false. If the subnet is NULL
 	 * throws invalid parameter exception
 	 */
-	bool insert(NetworkAddress * subnet)throw(InvalidParameterException);
+	bool insert(NetworkAddress * subnet);
 
 	//get methods
 	int getSize()const{return this->size;}
 
-	NetworkAddress * getNetworkAddressAt(int position)throw (OutOfBoundException);
+	NetworkAddress * getNetworkAddressAt(int position);
 
-	InetAddress getRandomAddress()throw(EmptyCollectionException);
+	InetAddress getRandomAddress();
 	NetworkAddressSetOrder getOrder()const {return order;}
 	void sort(NetworkAddressSetOrder newOrder);
 
@@ -102,7 +102,7 @@ public:
 	 * of the pointer is returned as well. Hence the caller must explicitly
 	 * release the memory of the object.
 	 */
-	NetworkAddress * removeNetworkAddressAt(int position)throw(OutOfBoundException);
+	NetworkAddress * removeNetworkAddressAt(int position);
 	/**
 	 * Removes NetworkAddresses based on pointer (physical memory address of @toRemove)
 	 * */
@@ -153,8 +153,8 @@ private:
 	bool swapNodes(NetworkAddressNode *n1, NetworkAddressNode *n2);
 
 
-	NetworkAddressNode * getNodeAt(int position)const throw (OutOfBoundException);
-	NetworkAddressNode * removeNodeAt(int position)throw (OutOfBoundException);
+	NetworkAddressNode * getNodeAt(int position) const;
+	NetworkAddressNode * removeNodeAt(int position);
 
 
 	int size;

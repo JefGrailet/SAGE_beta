@@ -60,8 +60,8 @@ public:
     // Setters
     void setDstAddress(const InetAddress &addr) { (this->dstAddress).setInetAddress(addr.getULongAddress()); }
     void setRplyAddress(const InetAddress &addr) { (this->rplyAddress).setInetAddress(addr.getULongAddress()); }
-    void setReqTime(TimeVal &reqTime) { this->reqTime = reqTime; }
-    void setRplyTime(TimeVal &rplyTime) { this->rplyTime = rplyTime; }
+    void setReqTime(TimeVal reqTime) { this->reqTime = reqTime; }
+    void setRplyTime(TimeVal rplyTime) { this->rplyTime = rplyTime; }
     void setReqTTL(unsigned char reqTTL) { this->reqTTL = reqTTL; }
     void setRplyTTL(unsigned char rplyTTL) { this->rplyTTL = rplyTTL; }
     void setRplyICMPtype(unsigned char rplyICMPtype) { this->rplyICMPtype = rplyICMPtype; }

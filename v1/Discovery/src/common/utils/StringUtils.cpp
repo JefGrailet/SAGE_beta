@@ -198,20 +198,6 @@ void StringUtils::test(){
 
 }
 
-
-auto_ptr<string> StringUtils::toBinary(unsigned long number){
-	int bitSize=sizeof(unsigned long)*8;
-	unsigned long tmp=1;
-	tmp=tmp<<(bitSize-1);
-	std::stringstream out;
-	while(tmp>0){
-		out<<((number&tmp)>0?"1":"0");
-		tmp=tmp>>1;
-	}
-	auto_ptr<string> str(new string(out.str()));
-	return str;
-}
-
 StringUtils::StringUtils() {
 	// TODO Auto-generated constructor stub
 

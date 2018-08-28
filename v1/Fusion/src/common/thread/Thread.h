@@ -27,8 +27,8 @@ public:
 	static void invokeSleep(const TimeVal &time);
 	Thread(Runnable *runnable);
 	virtual ~Thread();
-	void join() throw(ThreadException);
-	void start() throw(ThreadException);
+	void join();
+	void start();
 	Runnable *getRunnable() { return runnable; }
 	unsigned long getThreadID() const { return (unsigned long) threadId; }
 private:

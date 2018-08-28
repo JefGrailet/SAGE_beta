@@ -11,7 +11,8 @@
 #include "../exception/NTmapException.h"
 
 
-class InetAddressException : public NTmapException{
+class InetAddressException : public NTmapException
+{
 public:
 	InetAddressException(const string & msg="IP Address Error Occured...");
 	virtual ~InetAddressException() throw();

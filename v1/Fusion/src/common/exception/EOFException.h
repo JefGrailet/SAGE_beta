@@ -13,7 +13,7 @@
 class EOFException : public NTmapException {
 public:
 	EOFException(const string & msg="End of file is reached");
-	virtual ~EOFException()throw();
+	virtual ~EOFException() throw();
 };
 
 #endif /* EOFEXCEPTION_H_ */

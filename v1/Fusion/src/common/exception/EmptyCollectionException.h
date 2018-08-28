@@ -13,7 +13,7 @@
 class EmptyCollectionException: public NTmapException {
 public:
 	EmptyCollectionException(const string & msg="The collection queried is empty");
-	virtual ~EmptyCollectionException()throw();
+	virtual ~EmptyCollectionException() throw();
 };
 
 #endif /* EMPTYCOLLECTIONEXCEPTION_H_ */

@@ -13,9 +13,7 @@ const int Mutex::ERROR_CHECKING_MUTEX=3;
 const int Mutex::RECURSIVE_MUTEX=4;
 
 
-Mutex::Mutex(int mutexType, string name)throw (MutexException):
-type(mutexType),
-mutexName(name)
+Mutex::Mutex(int mutexType, string name): type(mutexType), mutexName(name)
 {
 	pthread_mutexattr_t attr;
 	try{
@@ -61,7 +59,8 @@ Mutex::~Mutex() {
 	pthread_mutex_destroy(&mutex);
 }
 
-void Mutex::lock() throw(MutexException){
+void Mutex::lock()
+{
 	int result=pthread_mutex_lock(&mutex);
 	if(result!=0){//error
 		if(result==EINVAL){
@@ -75,7 +74,8 @@ void Mutex::lock() throw(MutexException){
 		}
 	}
 }
-bool Mutex::trylock() throw(MutexException){
+bool Mutex::trylock()
+{
 	bool acquired=false;
 	int result=pthread_mutex_trylock(&mutex);
 	if(result==0){//successful
@@ -93,7 +93,8 @@ bool Mutex::trylock() throw(MutexException){
 	}
 	return acquired;
 }
-void Mutex::unlock() throw(MutexException){
+void Mutex::unlock()
+{
 	int result=pthread_mutex_unlock(&mutex);
 	if(result!=0){//error
 		if(result==EINVAL){

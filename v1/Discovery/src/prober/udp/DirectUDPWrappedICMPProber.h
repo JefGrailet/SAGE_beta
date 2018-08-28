@@ -42,7 +42,7 @@ public:
                                unsigned short upperBoundUDPsrcPort = DirectUDPProber::DEFAULT_UPPER_UDP_SRC_PORT, 
                                unsigned short lowerBoundUDPdstPort = DirectUDPProber::DEFAULT_LOWER_UDP_DST_PORT, 
                                unsigned short upperBoundUDPdstPort = DirectUDPProber::DEFAULT_UPPER_UDP_DST_PORT, 
-                               bool verbose = false) throw(SocketException);
+                               bool verbose = false);
     virtual ~DirectUDPWrappedICMPProber();
     virtual ProbeRecord *basic_probe(const InetAddress &src, 
                                      const InetAddress &dst, 
@@ -50,7 +50,7 @@ public:
                                      unsigned char TTL, 
                                      bool usingFixedFlowID, 
                                      unsigned short srcPort, 
-                                     unsigned short dstPort) throw(SocketSendException, SocketReceiveException);
+                                     unsigned short dstPort);
    
     // Next lines are additions by J.-F. Grailet to implement some alias resolution method
     inline void useHighPortNumber() { this->usingHighPortNumber = true; }

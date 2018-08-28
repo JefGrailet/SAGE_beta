@@ -13,7 +13,8 @@ using std::string;
 
 #include "../exception/NTmapException.h"
 
-class ThreadException: public NTmapException {
+class ThreadException: public NTmapException
+{
 public:
 	ThreadException(const string & msg="Thread Error Occurred");
 	virtual ~ThreadException() throw();

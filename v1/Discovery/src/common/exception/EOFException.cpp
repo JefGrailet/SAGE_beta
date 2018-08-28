@@ -10,8 +10,9 @@
 EOFException::EOFException(const string &msg):
 NTmapException(msg)
 {
-
 }
 
-EOFException::~EOFException()  throw() {}
+EOFException::~EOFException() throw()
+{
+}
 

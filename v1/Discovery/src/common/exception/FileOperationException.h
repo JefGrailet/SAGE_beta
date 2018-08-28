@@ -13,7 +13,7 @@
 class FileOperationException: public NTmapException {
 public:
 	FileOperationException(const string & msg="File Operation Error occurred");
-	virtual ~FileOperationException()throw();
+	virtual ~FileOperationException() throw();
 };
 
 #endif /* FILEOPERATIONEXCEPTION_H_ */

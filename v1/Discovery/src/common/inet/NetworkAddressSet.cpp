@@ -27,7 +27,7 @@ ostream & operator<<(ostream &out, const NetworkAddressSet &set){
 		return out;
 	}
 
-NetworkAddressNode::NetworkAddressNode(NetworkAddress *subnet, NetworkAddressNode * nextNode):
+NetworkAddressNode::NetworkAddressNode(NetworkAddress *subnet, NetworkAddressNode *nextNode):
 subnetPtr(subnet),
 nextNodePtr(nextNode)
 {
@@ -63,7 +63,8 @@ NetworkAddressSet * NetworkAddressSet::clone(){
 	return set;
 }
 
-NetworkAddressSet * NetworkAddressSet::extract(int low, int subSize)throw(OutOfBoundException){
+NetworkAddressSet * NetworkAddressSet::extract(int low, int subSize)
+{
 	if(low<0 || low>=size){
 		throw OutOfBoundException("\"low\" argument to the extract() method is out of bounds");
 	}
@@ -78,7 +79,8 @@ NetworkAddressSet * NetworkAddressSet::extract(int low, int subSize)throw(OutOfB
 	return set;
 }
 
-InetAddress NetworkAddressSet::getRandomAddress() throw(EmptyCollectionException){
+InetAddress NetworkAddressSet::getRandomAddress()
+{
 	if(size<=0){
 		throw EmptyCollectionException("NetworkAddsessSet object has no subnet addresses");
 	}
@@ -87,7 +89,8 @@ InetAddress NetworkAddressSet::getRandomAddress() throw(EmptyCollectionException
 	return tmp->getRandomAddress();
 }
 
-bool NetworkAddressSet::insert(NetworkAddress * subnet)throw(InvalidParameterException){
+bool NetworkAddressSet::insert(NetworkAddress * subnet)
+{
 	bool inserted=false;
 	if(subnet==0){
 		throw InvalidParameterException("NetworkAddress pointer given to the insert method of NetworkAddressSet  is null");
@@ -136,7 +139,8 @@ bool NetworkAddressSet::insert(NetworkAddress * subnet)throw(InvalidParameterExc
 
 }
 
-NetworkAddress * NetworkAddressSet::removeNetworkAddressAt(int position)throw(OutOfBoundException){
+NetworkAddress * NetworkAddressSet::removeNetworkAddressAt(int position)
+{
 	NetworkAddressNode *nodePtr=removeNodeAt(position);
 	NetworkAddress * subnetPtr=nodePtr->subnetPtr;
 	delete nodePtr;
@@ -177,12 +181,14 @@ NetworkAddress * NetworkAddressSet::removeNetworkAddress(NetworkAddress &toRemov
 	}
 }
 
-NetworkAddress * NetworkAddressSet::getNetworkAddressAt(int position)throw (OutOfBoundException){
+NetworkAddress * NetworkAddressSet::getNetworkAddressAt(int position)
+{
 	NetworkAddressNode *node=getNodeAt(position);
 	return node->subnetPtr;
 }
 
-NetworkAddressNode * NetworkAddressSet::getNodeAt(int position)const throw (OutOfBoundException){
+NetworkAddressNode * NetworkAddressSet::getNodeAt(int position) const
+{
 	if(position<0 || position>(size-1)){
 		throw OutOfBoundException("NetworkAddressSet getElement() OutOfBoundException");
 	}
@@ -193,7 +199,8 @@ NetworkAddressNode * NetworkAddressSet::getNodeAt(int position)const throw (OutO
 	return currentNodePtr;
 }
 
-NetworkAddressNode * NetworkAddressSet::removeNodeAt(int position)throw (OutOfBoundException){
+NetworkAddressNode * NetworkAddressSet::removeNodeAt(int position)
+{
 	if(position<0 || position>(size-1)){
 		throw OutOfBoundException("NetworkAddressSet getElement() OutOfBoundException");
 	}
@@ -214,7 +221,8 @@ NetworkAddressNode * NetworkAddressSet::removeNodeAt(int position)throw (OutOfBo
 	return currentNodePtr;
 }
 
-void NetworkAddressSet::sort(NetworkAddressSetOrder newOrder){
+void NetworkAddressSet::sort(NetworkAddressSetOrder newOrder)
+{
 	if(newOrder!=order && size>1){
 		NetworkAddressNode *currentNodePtr=0;
 		NetworkAddressNode *tmp;
@@ -258,7 +266,8 @@ void NetworkAddressSet::sort(NetworkAddressSetOrder newOrder){
 	}
 }
 
-int * NetworkAddressSet::getPrefixFrequencyDistribution(){
+int * NetworkAddressSet::getPrefixFrequencyDistribution()
+{
 	int arraySize=1 + (int)NetworkAddress::MAX_PREFIX_LENGTH;
 	int * frequencyArray=new int[arraySize];
 	for(int i=0; i<arraySize; i++){
@@ -272,7 +281,8 @@ int * NetworkAddressSet::getPrefixFrequencyDistribution(){
 	return frequencyArray;
 }
 
-bool NetworkAddressSet::swapNodes(NetworkAddressNode *n1, NetworkAddressNode *n2){
+bool NetworkAddressSet::swapNodes(NetworkAddressNode *n1, NetworkAddressNode *n2)
+{
 	bool swapped=false;
 	if(n1!=0 && n2!=0){
 		if(n1!=n2){
@@ -336,7 +346,8 @@ bool NetworkAddressSet::swapNodes(NetworkAddressNode *n1, NetworkAddressNode *n2
 	return swapped;
 }
 
-bool NetworkAddressSet::contains(const NetworkAddress &subnet){
+bool NetworkAddressSet::contains(const NetworkAddress &subnet)
+{
 	if(order!=ASCENDING_PREFIX_ORDER){
 		return containsLinear(subnet)>-1;
 	}else{
@@ -344,7 +355,8 @@ bool NetworkAddressSet::contains(const NetworkAddress &subnet){
 	}
 }
 
-int NetworkAddressSet::containsBinary(const NetworkAddress &subnet){
+int NetworkAddressSet::containsBinary(const NetworkAddress &subnet)
+{
 	int loc=-1;
 	if(order!=ASCENDING_PREFIX_ORDER){
 		loc=containsLinear(subnet);
@@ -370,7 +382,8 @@ int NetworkAddressSet::containsBinary(const NetworkAddress &subnet){
 	}
 	return loc;
 }
-int NetworkAddressSet::containsLinear(const NetworkAddress &subnet){
+int NetworkAddressSet::containsLinear(const NetworkAddress &subnet)
+{
 	int loc=-1;
 	if(size>0){
 		NetworkAddressNode *currentNodePtr=headNodePtr;
@@ -384,12 +397,14 @@ int NetworkAddressSet::containsLinear(const NetworkAddress &subnet){
 	return loc;
 }
 
-bool NetworkAddressSet::subsumes(const InetAddress &ip)const{
+bool NetworkAddressSet::subsumes(const InetAddress &ip) const
+{
 	NetworkAddress na(ip,NetworkAddress::MAX_PREFIX_LENGTH);//we treat an IP as a /32 subnet
 	return this->subsumes(na);
 }
 
-bool NetworkAddressSet::subsumes(const NetworkAddress &subnet)const{
+bool NetworkAddressSet::subsumes(const NetworkAddress &subnet) const
+{
 	if(order!=ASCENDING_PREFIX_ORDER){
 		return subsumesLinear(subnet)>-1;
 	}else{
@@ -397,7 +412,8 @@ bool NetworkAddressSet::subsumes(const NetworkAddress &subnet)const{
 	}
 }
 
-int NetworkAddressSet::subsumesBinary(const InetAddress &ip)const{
+int NetworkAddressSet::subsumesBinary(const InetAddress &ip) const
+{
 	NetworkAddress na(ip,NetworkAddress::MAX_PREFIX_LENGTH);//we treat an IP as a /32 subnet
 	int loc=-1;
 	if(order!=ASCENDING_PREFIX_ORDER){
@@ -407,11 +423,15 @@ int NetworkAddressSet::subsumesBinary(const InetAddress &ip)const{
 	}
 	return loc;
 }
-int NetworkAddressSet::subsumesLinear(const InetAddress &ip)const{
+
+int NetworkAddressSet::subsumesLinear(const InetAddress &ip) const
+{
 	NetworkAddress na(ip,NetworkAddress::MAX_PREFIX_LENGTH);//we treat an IP as a /32 subnet
 	return subsumesLinear(na);
 }
-int NetworkAddressSet::subsumesBinary(const NetworkAddress &subnet)const{
+
+int NetworkAddressSet::subsumesBinary(const NetworkAddress &subnet) const
+{
 	int loc=-1;
 	if(order!=ASCENDING_PREFIX_ORDER){
 		loc=subsumesLinear(subnet);
@@ -437,7 +457,9 @@ int NetworkAddressSet::subsumesBinary(const NetworkAddress &subnet)const{
 	}
 	return loc;
 }
-int NetworkAddressSet::subsumesLinear(const NetworkAddress &subnet)const{
+
+int NetworkAddressSet::subsumesLinear(const NetworkAddress &subnet) const
+{
 	int loc=-1;
 	if(size>0){
 		NetworkAddressNode *currentNodePtr=headNodePtr;
@@ -451,7 +473,8 @@ int NetworkAddressSet::subsumesLinear(const NetworkAddress &subnet)const{
 	return loc;
 }
 
-void NetworkAddressSet::aggregate(){
+void NetworkAddressSet::aggregate()
+{
 	NetworkAddressSetOrder previousSetOrder=getOrder();
 	sort(DESCENDING_PREFIX_LENGTH_ORDER);
 
@@ -488,7 +511,8 @@ void NetworkAddressSet::aggregate(){
 	sort(previousSetOrder);
 }
 
-void NetworkAddressSet::clear(NetworkAddressSet &customerSet, bool verbose){
+void NetworkAddressSet::clear(NetworkAddressSet &customerSet, bool verbose)
+{
 	NetworkAddressSetOrder previousSetOrder=getOrder();
 	NetworkAddressSetOrder previousCustomerSetOrder=customerSet.getOrder();
 	this->sort(DESCENDING_PREFIX_LENGTH_ORDER);
@@ -545,8 +569,9 @@ void NetworkAddressSet::clear(NetworkAddressSet &customerSet, bool verbose){
 			}
 			currenNodePtr=currenNodePtr->nextNodePtr;
 		}
-		if(deleted==false){
-			cout<<"ITOM Warning: Can NOT clear subnet"<<*(customerCurrentNodePtr->subnetPtr->getHumanReadableRepresentation())<<endl;
+		if(deleted==false)
+        {
+			cout<<"ITOM Warning: Can NOT clear subnet" << customerCurrentNodePtr->subnetPtr->getHumanReadableRepresentation() << endl;
 		}
 		if(verbose){
 			cout<<(++i/customerSet.size)*100<<" % of customer set has been processed"<<endl;
@@ -557,12 +582,15 @@ void NetworkAddressSet::clear(NetworkAddressSet &customerSet, bool verbose){
 	this->sort(previousSetOrder);
 }
 
-void NetworkAddressSet::hardReleaseMemory(){
+void NetworkAddressSet::hardReleaseMemory()
+{
 	while(size>0){
 		delete removeNetworkAddressAt(0);
 	}
 }
-void NetworkAddressSet::softReleaseMemory(){
+
+void NetworkAddressSet::softReleaseMemory()
+{
 	while(size>0){
 		removeNetworkAddressAt(0);
 	}

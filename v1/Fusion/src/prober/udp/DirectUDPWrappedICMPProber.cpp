@@ -18,7 +18,7 @@ DirectUDPWrappedICMPProber::DirectUDPWrappedICMPProber(string &attentionMessage,
                                                        unsigned short upperBoundUDPsrcPort, 
                                                        unsigned short lowerBoundUDPdstPort, 
                                                        unsigned short upperBoundUDPdstPort, 
-                                                       bool verbose) throw(SocketException):
+                                                       bool verbose):
 DirectUDPProber(attentionMessage, 
                 tcpUdpRoundRobinSocketCount, 
                 timeoutPeriod, 
@@ -43,7 +43,7 @@ ProbeRecord *DirectUDPWrappedICMPProber::basic_probe(const InetAddress &src,
                                                      unsigned char TTL, 
                                                      bool usingFixedFlowID, 
                                                      unsigned short srcPort, 
-                                                     unsigned short dstPort) throw(SocketSendException, SocketReceiveException)
+                                                     unsigned short dstPort)
 {
     unsigned short dstPortBis = dstPort;
     if(this->usingHighPortNumber)

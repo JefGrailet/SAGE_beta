@@ -13,7 +13,8 @@ using std::endl;
 
 const unsigned char NetworkAddress::MAX_PREFIX_LENGTH=31;
 
-unsigned char NetworkAddress::getLocalSubnetPrefixLengthByLocalAddress(const InetAddress & localInetAddress)throw (InetAddressException){
+unsigned char NetworkAddress::getLocalSubnetPrefixLengthByLocalAddress(const InetAddress & localInetAddress)
+{
 	struct ifaddrs *interfaceIterator = 0, *interfaceList = 0;
 	unsigned char prefixLength = 0;
 	 if (getifaddrs (&interfaceList) < 0){
@@ -50,24 +51,25 @@ unsigned char NetworkAddress::getLocalSubnetPrefixLengthByLocalAddress(const Ine
 	 return prefixLength;
 }
 
-NetworkAddress * NetworkAddress::getLocalNetworkAddress(const InetAddress & localInetAddress)throw (InetAddressException){
+NetworkAddress *NetworkAddress::getLocalNetworkAddress(const InetAddress & localInetAddress)
+{
 	unsigned char localPrefixLength = NetworkAddress::getLocalSubnetPrefixLengthByLocalAddress(localInetAddress);
 	NetworkAddress *na = new NetworkAddress(localInetAddress, localPrefixLength);
 	return na;
 }
 
-NetworkAddress::NetworkAddress(const InetAddress & subnet, unsigned char prefixLen)throw (InetAddressException):
+NetworkAddress::NetworkAddress(const InetAddress & subnet, unsigned char prefixLen):
 prefix(subnet),
 prefixLength(prefixLen)
 {
 	if(prefixLen>NetworkAddress::MAX_PREFIX_LENGTH){
-		throw InetAddressException("Invalid subnet prefix in NetworkAddress("+(*(subnet.getHumanReadableRepresentation()))+", "+StringUtils::Uchar2string(prefixLen)+")");
+		throw InetAddressException("Invalid subnet prefix in NetworkAddress(" + subnet.getHumanReadableRepresentation() + ", " + StringUtils::Uchar2string(prefixLen) + ")");
 	}
 	resetSubnetPrefix();
 	srand(time(0));
 }
-NetworkAddress::NetworkAddress(const string & subnet)throw (InetAddressException):
-prefixLength(31)
+
+NetworkAddress::NetworkAddress(const string & subnet):prefixLength(31)
 {
 	if(subnet.length()>18){//18 comes from aaa.bbb.ccc.ddd/mn
 		throw InetAddressException("Invalid subnet prefix in NetworkAddress(const string & subnet)");
@@ -81,19 +83,25 @@ prefixLength(31)
 	srand(time(0));
 }
 
-NetworkAddress::NetworkAddress(const NetworkAddress &subnet){
+NetworkAddress::NetworkAddress(const NetworkAddress &subnet)
+{
 	this->prefix=subnet.prefix;
 	this->prefixLength=subnet.prefixLength;
 }
 
-NetworkAddress::~NetworkAddress() {
+NetworkAddress::~NetworkAddress()
+{
 	// TODO Auto-generated destructor stub
 }
-void NetworkAddress::setSubnetPrefix(const InetAddress & subnet){
+
+void NetworkAddress::setSubnetPrefix(const InetAddress & subnet)
+{
 	this->prefix=subnet;
 	resetSubnetPrefix();
 }
-void NetworkAddress::setSubnetPrefixLength(unsigned char prefixLength)throw (InetAddressException){
+
+void NetworkAddress::setSubnetPrefixLength(unsigned char prefixLength)
+{
 	if(prefixLength>NetworkAddress::MAX_PREFIX_LENGTH){
 		throw InetAddressException("Invalid subnet prefix length ");
 	}
@@ -105,32 +113,36 @@ void NetworkAddress::setSubnetPrefixLength(unsigned char prefixLength)throw (Ine
 	resetSubnetPrefix();
 
 }
-void NetworkAddress::resetSubnetPrefix(){
+
+void NetworkAddress::resetSubnetPrefix()
+{
 	//make the host portion all zeros
 	unsigned long int tmpAddr=prefix.getULongAddress();
 	tmpAddr=tmpAddr>>(32-prefixLength);
 	tmpAddr=tmpAddr<<(32-prefixLength);
 	prefix.setInetAddress(tmpAddr);
 }
-auto_ptr<string> NetworkAddress::getHumanReadableRepresentation()const{
-	auto_ptr<string> tmp=this->prefix.getHumanReadableRepresentation();
-	auto_ptr<string> rep(new string(*tmp+string("/")+StringUtils::Uchar2string(prefixLength)));
-	return rep;
+
+string NetworkAddress::getHumanReadableRepresentation() const
+{
+	return this->prefix.getHumanReadableRepresentation() + "/" + StringUtils::Uchar2string(prefixLength);
 }
 
-auto_ptr<string> NetworkAddress::getBinaryRepresentation()const{
-	auto_ptr<string> tmp=this->prefix.getBinaryRepresentation();
-	auto_ptr<string> rep(new string(*tmp+" "+*(this->getHumanReadableRepresentation())));
-	return rep;
-
+string NetworkAddress::getBinaryRepresentation() const
+{
+	string tmp = this->prefix.getBinaryRepresentation();
+	return tmp + " " + this->getHumanReadableRepresentation();
 }
 
-bool NetworkAddress::subsumes(const InetAddress & ip)const{
+bool NetworkAddress::subsumes(const InetAddress & ip) const
+{
 	unsigned long int tmpThis=this->prefix.getULongAddress()>>(32-prefixLength);
 	unsigned long int tmpIP=ip.getULongAddress()>>(32-prefixLength);
 	return (tmpThis ^ tmpIP)==0;
 }
-bool NetworkAddress::subsumes(const NetworkAddress &subnet)const{
+
+bool NetworkAddress::subsumes(const NetworkAddress &subnet) const
+{
 	if(subnet.prefixLength < this->prefixLength){
 		return false;
 	}else if(subnet.prefixLength==this->prefixLength){
@@ -141,7 +153,9 @@ bool NetworkAddress::subsumes(const NetworkAddress &subnet)const{
 		return (tmpThis ^ tmpSubnet)==0;
 	}
 }
-InetAddress NetworkAddress::getRandomAddress()const{
+
+InetAddress NetworkAddress::getRandomAddress() const
+{
 	unsigned long int randomAddr;
 	unsigned char * randomAddrPtr=(unsigned char *) &randomAddr;
 	int randomPortionLength=((31-prefixLength)/8) +1;
@@ -153,16 +167,21 @@ InetAddress NetworkAddress::getRandomAddress()const{
 	randomAddr=randomAddr>>prefixLength;
 	return InetAddress(prefix.getULongAddress() | randomAddr);
 }
-InetAddress NetworkAddress::getLowerBorderAddress()const{
+
+InetAddress NetworkAddress::getLowerBorderAddress() const
+{
 	return prefix;
 }
-InetAddress NetworkAddress::getUpperBorderAddress()const{
+
+InetAddress NetworkAddress::getUpperBorderAddress() const
+{
 	unsigned long int addr=~0;
 	addr=addr>>prefixLength;
 	return InetAddress(prefix.getULongAddress() ^ addr);
 }
 
-int NetworkAddress::isBorder(const InetAddress & ip)const{
+int NetworkAddress::isBorder(const InetAddress & ip) const
+{
 	//check lower border
 	if(ip==prefix){
 		return 1;
@@ -176,7 +195,8 @@ int NetworkAddress::isBorder(const InetAddress & ip)const{
 	//if both borders are false return false
 	return 0;
 }
-bool NetworkAddress::isAdjacent(const NetworkAddress &subnet)const{
+bool NetworkAddress::isAdjacent(const NetworkAddress &subnet) const
+{
 	if(this->prefixLength!=subnet.prefixLength){
 		return false;
 	}
@@ -186,12 +206,14 @@ bool NetworkAddress::isAdjacent(const NetworkAddress &subnet)const{
 	return (tmpThis ^ tmpSubnet)==1;
 
 }
-NetworkAddress NetworkAddress::getAdjacent()const{
+NetworkAddress NetworkAddress::getAdjacent() const
+{
 	unsigned long int mask=1<<(32-prefixLength);
 	unsigned long int tmpPrefix=prefix.getULongAddress() ^ mask;
 	return NetworkAddress(InetAddress(tmpPrefix),prefixLength);
 }
-bool NetworkAddress::mergeAdjacent(const NetworkAddress &subnet){
+bool NetworkAddress::mergeAdjacent(const NetworkAddress &subnet)
+{
 	if(!(this->isAdjacent(subnet))){
 		return false;
 	}else{
@@ -201,7 +223,8 @@ bool NetworkAddress::mergeAdjacent(const NetworkAddress &subnet){
 	}
 }
 
-NetworkAddressSet * NetworkAddress::split(unsigned char splitPrefixLength) throw(InvalidParameterException){
+NetworkAddressSet * NetworkAddress::split(unsigned char splitPrefixLength)
+{
 	if(this->prefixLength>=splitPrefixLength || splitPrefixLength>NetworkAddress::MAX_PREFIX_LENGTH){
 		throw InvalidParameterException("Can NOT split a subnet to a prefixLength less than or equal to itself");
 	}

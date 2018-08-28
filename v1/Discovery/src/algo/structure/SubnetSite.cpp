@@ -517,12 +517,12 @@ string SubnetSite::getInferredNetworkAddressString()
     }
     else if(inferredSubnetPrefix == 32)
     {
-        return (*(pivotIPaddress.getHumanReadableRepresentation())) + "/32";
+        return pivotIPaddress.getHumanReadableRepresentation() + "/32";
     }
     else
     {
         NetworkAddress na(pivotIPaddress, inferredSubnetPrefix);
-        return (*(na.getHumanReadableRepresentation()));
+        return na.getHumanReadableRepresentation();
     }
 }
 
@@ -534,12 +534,12 @@ string SubnetSite::getAlternativeNetworkAddressString()
     }
     else if(alternativeSubnetPrefix == 32)
     {
-        return (*(pivotIPaddress.getHumanReadableRepresentation())) + "/32";
+        return pivotIPaddress.getHumanReadableRepresentation() + "/32";
     }
     else
     {
         NetworkAddress na(pivotIPaddress, alternativeSubnetPrefix);
-        return (*(na.getHumanReadableRepresentation()));
+        return na.getHumanReadableRepresentation();
     }
 }
 

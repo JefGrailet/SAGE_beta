@@ -7,11 +7,12 @@
 
 #include "MutexException.h"
 
-MutexException::MutexException(const string & msg):
-	NTmapException(msg) {
+MutexException::MutexException(const string & msg):NTmapException(msg)
+{
 
 }
 
-MutexException::~MutexException()  throw(){
+MutexException::~MutexException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

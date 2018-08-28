@@ -13,6 +13,7 @@ InetAddressException::InetAddressException(const string &msg)
 
 }
 
-InetAddressException::~InetAddressException() throw(){
+InetAddressException::~InetAddressException() throw()
+{
 	// TODO Auto-generated destructor stub
 }

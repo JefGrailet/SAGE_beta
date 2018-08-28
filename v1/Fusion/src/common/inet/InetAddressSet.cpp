@@ -5,8 +5,6 @@
  *      Author: root
  */
 
-
-
 #include "InetAddressSet.h"
 
 InetAddressNode::InetAddressNode(InetAddress *addr, InetAddressNode *nextNode):
@@ -15,7 +13,9 @@ nextNodePtr(nextNode)
 {
 	srand(time(0));
 }
-InetAddressNode::~InetAddressNode(){
+
+InetAddressNode::~InetAddressNode()
+{
 	//do nothing
 }
 
@@ -31,19 +31,23 @@ InetAddressSet::~InetAddressSet() {
 	headNodePtr=0;
 }
 
-void InetAddressSet::softReleaseMemory(){
+void InetAddressSet::softReleaseMemory()
+{
 	while(size>0){
 		removeElementAt(0);
 	}
 
 }
-void InetAddressSet::hardReleaseMemory(){
+
+void InetAddressSet::hardReleaseMemory()
+{
 	while(size>0){
 		delete removeElementAt(0);
 	}
 }
 
-bool InetAddressSet::insert(InetAddress * newAddrPtr)throw(InvalidParameterException){
+bool InetAddressSet::insert(InetAddress * newAddrPtr)
+{
 	if(newAddrPtr==0){
 		throw InvalidParameterException("InetAddress given to insert method of InetAddressSet is NULL");
 	}
@@ -78,11 +82,14 @@ bool InetAddressSet::insert(InetAddress * newAddrPtr)throw(InvalidParameterExcep
 	return true;
 
 }
-bool InetAddressSet::contains(const InetAddress &keyAddr)const{
+
+bool InetAddressSet::contains(const InetAddress &keyAddr) const
+{
 	return getPositionIndex(keyAddr)!=-1;
 }
 
-long InetAddressSet::getPositionIndex(const InetAddress &addr)const{
+long InetAddressSet::getPositionIndex(const InetAddress &addr) const
+{
 	long low=0;
 	long high=size-1;
 	long mid;
@@ -101,7 +108,8 @@ long InetAddressSet::getPositionIndex(const InetAddress &addr)const{
 
 }
 
-InetAddress & InetAddressSet::getElementAt(long position)const throw(OutOfBoundException){
+InetAddress & InetAddressSet::getElementAt(long position) const
+{
 	if(position<0 || position>(size-1)){
 		throw OutOfBoundException("The postion requested is NOT within the boundaries of the InetAddressSet collection");
 	}
@@ -113,7 +121,8 @@ InetAddress & InetAddressSet::getElementAt(long position)const throw(OutOfBoundE
 	return *(currentNodePtr->addrPtr);
 }
 
-InetAddress * InetAddressSet::removeElementAt(long position)throw(OutOfBoundException){
+InetAddress * InetAddressSet::removeElementAt(long position)
+{
 	if(position<0 || position>(size-1)){
 		throw OutOfBoundException("The postion requested is NOT within the boundaries of the InetAddressSet collection");
 	}
@@ -137,7 +146,8 @@ InetAddress * InetAddressSet::removeElementAt(long position)throw(OutOfBoundExce
 	return tmp;
 }
 
-InetAddress * InetAddressSet::removeElement(const InetAddress &key){
+InetAddress * InetAddressSet::removeElement(const InetAddress &key)
+{
 	long position=getPositionIndex(key);
 	if(position==-1){
 		return 0;
@@ -145,6 +155,4 @@ InetAddress * InetAddressSet::removeElement(const InetAddress &key){
 		return removeElementAt(position);
 	}
 }
-
-
 
