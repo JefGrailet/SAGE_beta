@@ -17,9 +17,10 @@ As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` 
 
 Future updates of `SAGE` could include:
 
-* 64-bit version.
-* Re-newed subnet inference/refinement module, perhaps with IPv6 support.
-* Additional algorithmical steps during graph building to increase the graph accuracy.
+* Re-newed subnet inference/refinement module.
+* Additional algorithmical steps during graph building and graph analysis.
+
+Since it needs to be compatible with old environments (e.g. 32-bit machines from the [PlanetLab testbed](https://planet-lab.eu/) running with Fedora 8), `SAGE` is written in an _old-fashioned_ C++, i.e., it doesn't take advantage of the changes brought by C++11 and onwards. This said, after its numerous campaigns run from PlanetLab towards all kinds of target networks, it is safe to assume `SAGE` is unlikely to crash or mismanage memory. It has been, on top of that, been extensively tested with `valgrind` on a local network.
 
 ## Content of this repository
 
