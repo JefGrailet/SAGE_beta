@@ -1,6 +1,6 @@
 # SAGE (Subnet AGgrEgation)
 
-*By Jean-François Grailet (last updated: August 28, 2018)*
+*By Jean-François Grailet (last updated: October 14, 2019)*
 
 ## Overview
 
