@@ -1,6 +1,18 @@
-# SAGE (Subnet AGgrEgation)
+# SAGE (Subnet AGgrEgation) - β version
 
-*By Jean-François Grailet (last updated: October 14, 2019)*
+*By Jean-François Grailet (last updated: January 7, 2020)*
+
+## Important remark - Read before going any further
+
+**This specific repository provides resources (source code, measurements, additional Python scripts) only for the very first version of `SAGE`, written in fall 2017 and published online in early 2018.**
+
+This early version of `SAGE` uses roughly the same ideas as the current tool, but is built on top of `TreeNET` ( https://github.com/JefGrailet/treenet ) rather than on top of `WISE` ( https://github.com/JefGrailet/WISE ), and features a less advanced graph building methodology. To avoid any confusion, it is now considered a β version of the current `SAGE`, as advertised by the repository name.
+
+This repository is left available for curious researchers and for state-of-the-art reasons: `SAGE` being built on top of `TreeNET`, its subnet inference can be considered as the most up-to-date version of `TreeNET`.
+
+**To get the up-to-date `SAGE`, please go check the public repository of the same name. The (early) version of `SAGE` provided here will no longer be updated, and no new dataset will be published here.**
+
+https://github.com/JefGrailet/SAGE
 
 ## Overview
 
@@ -13,12 +25,7 @@ To discover subnets, `SAGE` re-uses state-of-the-art algorithms from both `TreeN
 
 As the subnet inference algorithms used in `SAGE` are designed for IPv4, `SAGE` is currently only available for IPv4. It also comes as a 32-bit application (written in C/C++) to ensure compatibility with all PlanetLab computers.
 
-## About development
-
-Future updates of `SAGE` could include:
-
-* Re-newed subnet inference/refinement module.
-* Additional algorithmical steps during graph building and graph analysis.
+## About the code
 
 Since it needs to be compatible with old environments (e.g. 32-bit machines from the [PlanetLab testbed](https://planet-lab.eu/) running with Fedora 8), `SAGE` is written in an _old-fashioned_ C++, i.e., it doesn't take advantage of the changes brought by C++11 and onwards. This said, after its numerous campaigns run from PlanetLab towards all kinds of target networks, it is safe to assume `SAGE` is unlikely to crash or mismanage memory. It has been, on top of that, been extensively tested with `valgrind` on a local network.
 
